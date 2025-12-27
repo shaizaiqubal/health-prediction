@@ -1,0 +1,1001 @@
+patient_id,age,gender,height_cm,weight_kg,BMI,blood_type,smoking_status,systolic_bp,diastolic_bp,heart_rate,temperature_celsius,respiratory_rate,cholesterol_total,cholesterol_ldl,cholesterol_hdl,blood_glucose,hemoglobin,white_blood_cells,chronic_conditions,medications,allergies,last_checkup,exercise_frequency,sleep_hours,stress_level,diet_type,insurance_type,annual_healthcare_cost,hospital_visits_last_year,family_history_heart_disease,family_history_diabetes,family_history_cancer,health_score
+P0001,37,Other,164,63,23.4,AB+,Never,155,60,66,36.7,15,174,176,43,147,11,10450,Anxiety,None,Eggs,2022-03-22,0,4,2,Vegetarian,Private,4938,4,Yes,No,Yes,60
+P0002,48,Female,163,51,19.2,B-,Former,134,102,89,37.4,19,199,77,74,161,12.4,7971,None,None,Penicillin,2021-06-18,6,4,1,Vegan,Medicare,6445,2,No,No,No,75
+P0003,23,Other,162,88,33.5,AB+,Never,179,113,90,37.5,15,179,142,49,173,14.5,6621,None,None,Dairy,2021-12-20,0,9,8,Mediterranean,Medicare,6324,3,No,No,No,55
+P0004,50,Other,176,113,36.5,O+,Never,149,90,85,37.1,17,255,90,40,107,16.6,6564,None,Albuterol; Omeprazole,Nuts,2024-04-14,3,8,7,Vegan,Medicare,7054,2,No,No,No,75
+P0005,28,Other,155,102,42.5,AB+,Current,173,87,75,37.3,12,162,112,49,109,11.2,6142,Hypertension,Aspirin,Penicillin,2020-05-07,5,6,7,Mediterranean,Medicaid,14331,0,Yes,Yes,Yes,45
+P0006,58,Male,166,102,37,A-,Former,117,72,77,37.8,13,202,95,66,138,12.7,5340,None,Lisinopril,Penicillin,2024-04-15,4,5,1,Keto,Private,5365,2,No,No,No,80
+P0007,25,Female,171,56,19.2,A+,Never,151,94,64,36.6,19,212,174,79,125,15.7,4844,None,Ibuprofen,None,2022-04-21,0,7,1,Mediterranean,Uninsured,9503,1,Yes,No,Yes,75
+P0008,26,Male,180,108,33.3,B-,Never,93,78,91,36.6,12,158,80,48,198,11.1,4525,None,Aspirin,Dairy,2022-02-20,2,5,1,Vegetarian,Medicaid,8624,4,Yes,Yes,No,85
+P0009,25,Female,174,78,25.8,A+,Former,146,108,95,36.3,12,269,131,66,99,11.1,6512,Arthritis,Albuterol; Aspirin,Pollen,2023-04-15,3,9,8,Vegan,Uninsured,1522,2,No,Yes,No,55
+P0010,51,Other,198,50,12.8,O+,Current,118,88,89,36.7,16,297,120,41,104,15.3,5589,Hypertension,Albuterol,Nuts,2020-01-20,4,4,4,Mediterranean,Medicare,11634,3,No,No,Yes,50
+P0011,30,Male,174,59,19.5,O+,Never,170,94,76,37.1,16,237,158,54,159,16.3,10138,Asthma,Albuterol,Eggs,2020-10-22,2,8,1,Keto,Uninsured,10674,1,Yes,No,Yes,75
+P0012,39,Male,193,88,23.6,O-,Never,97,102,80,36.3,14,194,77,33,128,16.8,4403,Asthma,None,None,2022-10-19,4,10,4,Paleo,Uninsured,4525,2,No,No,Yes,70
+P0013,64,Other,193,62,16.6,AB+,Current,94,86,75,36.9,12,266,156,45,142,12.6,10184,None,None,Eggs,2020-06-20,4,5,8,Vegan,Medicaid,14654,4,No,No,Yes,50
+P0014,69,Female,159,97,38.4,O-,Former,151,79,94,36.5,14,258,107,45,136,14.6,4567,Diabetes,Ibuprofen,None,2021-02-25,5,5,2,Vegan,Medicaid,9120,0,No,Yes,No,55
+P0015,43,Female,159,68,26.9,A-,Current,120,113,83,36.2,14,247,74,42,101,11.2,10863,None,Atorvastatin,Pollen,2021-03-19,5,10,2,Keto,Uninsured,3134,4,No,No,Yes,55
+P0016,59,Other,177,80,25.5,B-,Current,127,108,76,37.4,16,193,96,34,101,16.8,10251,None,Lisinopril,Nuts,2022-08-07,5,10,2,Keto,Medicaid,2255,4,Yes,No,No,55
+P0017,26,Male,199,89,22.5,B-,Never,151,110,94,37.8,14,221,144,41,195,16.2,4065,Arthritis,None,None,2020-05-10,0,6,9,Vegetarian,Medicaid,13083,2,No,Yes,No,55
+P0018,70,Male,162,118,45,B+,Current,178,100,66,37.5,18,256,70,58,185,15.1,10419,Diabetes,Aspirin; Albuterol,Pollen,2020-12-27,0,10,2,Keto,Medicare,1198,2,No,No,No,30
+P0019,76,Male,199,70,17.7,AB+,Never,135,89,67,37.3,15,155,117,51,72,15.4,10436,Heart Disease,Albuterol,Nuts,2021-09-11,0,9,8,Keto,Uninsured,5695,4,No,No,Yes,55
+P0020,28,Other,172,109,36.8,O-,Never,138,107,85,37,14,268,79,48,167,12.3,9525,None,Atorvastatin,Shellfish,2021-07-12,0,8,9,Mediterranean,Medicaid,9084,2,No,Yes,No,55
+P0021,56,Other,190,113,31.3,AB+,Current,108,116,68,37.4,19,210,144,34,132,14.4,6593,Diabetes,None,Nuts,2020-10-04,5,10,9,Vegan,Uninsured,9809,2,No,No,No,30
+P0022,72,Female,188,86,24.3,B-,Never,103,94,97,36.7,14,251,110,37,100,13.3,7830,None,Lisinopril,Shellfish,2020-12-17,0,6,3,Vegetarian,Private,7670,0,Yes,Yes,No,75
+P0023,42,Male,186,113,32.7,B+,Never,94,77,63,36.2,16,190,152,55,131,12.6,10689,Diabetes,None,Eggs,2020-01-28,5,4,4,Vegan,Medicaid,3168,4,Yes,No,Yes,75
+P0024,28,Male,176,114,36.8,O+,Former,124,119,64,36.3,19,189,102,67,106,14.2,4967,Anxiety,Aspirin,Nuts,2024-10-06,3,6,9,Keto,Private,6550,1,No,No,No,50
+P0025,40,Female,164,69,25.7,B-,Current,123,115,78,37.2,19,155,136,76,158,11.2,7558,Anxiety,Lisinopril,Eggs,2021-03-02,1,9,4,Paleo,Private,1148,1,No,Yes,No,40
+P0026,26,Female,194,74,19.7,O-,Current,133,110,97,36.4,19,293,70,41,121,16.6,9100,None,Albuterol,Penicillin,2020-03-23,4,6,5,Paleo,Medicare,10133,0,No,No,No,65
+P0027,48,Female,177,66,21.1,B-,Former,100,101,87,37.7,16,170,184,52,103,15.1,7403,Hypertension,None,None,2023-12-05,4,7,9,Paleo,Medicare,9273,3,Yes,Yes,No,60
+P0028,56,Female,156,89,36.6,O-,Former,128,62,74,36.9,16,193,80,58,145,14.3,6374,Anxiety,Aspirin; Omeprazole,Nuts,2023-07-23,1,7,9,Vegan,Uninsured,14864,1,No,No,No,55
+P0029,24,Male,152,67,29,AB-,Never,158,67,60,37.7,13,178,74,30,185,17,6721,Hypertension,Ibuprofen,Eggs,2020-07-06,1,6,9,Paleo,Medicaid,8468,0,No,No,Yes,50
+P0030,79,Male,160,84,32.8,B-,Never,119,103,72,37.3,14,296,76,51,185,16.8,10435,None,None,Pollen,2022-10-21,1,10,5,Omnivore,Private,7509,0,Yes,No,Yes,60
+P0031,33,Other,182,109,32.9,B+,Former,140,97,80,37.1,18,197,154,41,95,16.2,5476,None,None,Eggs,2021-07-03,1,5,9,Keto,Medicare,4453,4,Yes,Yes,No,45
+P0032,27,Female,172,112,37.9,A-,Current,176,115,83,37.6,17,188,189,32,106,11.6,9854,Arthritis,Metformin,None,2023-10-26,3,5,1,Omnivore,Private,1297,1,Yes,No,Yes,40
+P0033,36,Female,188,65,18.4,A-,Current,174,67,94,36.1,18,155,118,79,193,16.2,6603,Hypertension,Atorvastatin,Penicillin,2020-09-14,5,9,6,Keto,Private,5022,4,No,No,Yes,45
+P0034,65,Other,167,52,18.6,O-,Never,91,102,74,36.5,15,154,152,55,191,11.3,5731,Asthma,Metformin,Shellfish,2023-06-30,2,9,7,Vegan,Medicaid,3776,1,No,No,Yes,75
+P0035,83,Other,152,91,39.4,B-,Former,160,99,92,36.9,12,160,88,41,149,15,6626,Depression,Metformin,Eggs,2022-01-10,5,4,7,Vegetarian,Medicaid,2072,2,Yes,Yes,Yes,55
+P0036,31,Female,175,50,16.3,O-,Current,121,104,67,36.5,17,272,121,55,109,15.6,4223,None,None,Shellfish,2020-10-26,6,4,5,Paleo,Uninsured,9775,3,No,Yes,No,50
+P0037,52,Female,166,116,42.1,AB+,Never,129,63,94,36.7,13,163,139,35,105,16.1,7048,Hypertension,Metformin; Lisinopril,Nuts,2022-07-04,6,4,7,Vegan,Private,10263,2,No,No,No,75
+P0038,63,Female,186,70,20.2,A+,Current,96,110,87,37.2,15,158,105,31,119,16.5,8899,None,Lisinopril,Shellfish,2020-05-19,0,4,2,Vegetarian,Medicare,13881,1,Yes,Yes,Yes,50
+P0039,40,Male,157,95,38.5,A-,Former,161,98,73,37.7,13,265,114,42,179,12.8,10985,Asthma,Aspirin,Pollen,2024-05-06,2,8,5,Keto,Private,4049,2,No,No,No,60
+P0040,24,Other,196,59,15.4,B-,Never,163,74,80,36.7,15,180,135,59,181,12.9,4452,Anxiety,None,Pollen,2021-02-24,2,6,3,Vegetarian,Private,13880,3,No,No,No,65
+P0041,30,Male,189,70,19.6,A+,Current,131,81,64,37.3,18,172,114,57,86,16.4,5182,Asthma,Ibuprofen,Nuts,2021-03-28,6,6,6,Keto,Private,9193,0,No,Yes,Yes,65
+P0042,52,Male,192,68,18.4,AB+,Current,145,117,91,36.3,19,223,129,61,164,12.2,7132,Hypertension,Atorvastatin; Metformin,Pollen,2024-09-06,1,10,5,Paleo,Uninsured,3917,3,No,No,No,30
+P0043,80,Female,174,74,24.4,B-,Former,141,93,98,36.5,15,223,157,34,186,12.3,10661,Anxiety; Hypertension,Albuterol,Penicillin,2022-11-10,4,10,5,Omnivore,Medicare,11230,2,No,No,No,55
+P0044,84,Female,170,104,36,AB-,Current,91,117,72,37.3,18,234,134,64,163,12.9,5999,Diabetes,Lisinopril,Shellfish,2023-10-20,5,5,3,Keto,Private,3467,4,Yes,Yes,Yes,40
+P0045,41,Other,197,98,25.3,A-,Former,136,89,76,37.2,14,177,177,68,175,14.2,7993,None,Atorvastatin,Penicillin,2024-06-06,1,10,1,Vegan,Private,4401,2,Yes,Yes,Yes,70
+P0046,57,Female,195,117,30.8,AB+,Former,149,117,94,36.8,16,163,189,41,166,11.6,6918,Diabetes,Albuterol; Lisinopril,Nuts,2020-04-30,3,5,8,Omnivore,Medicare,10109,2,Yes,No,No,45
+P0047,79,Female,199,79,19.9,AB+,Former,104,67,80,37.1,14,224,184,76,90,15.1,5135,Hypertension; Anxiety,Ibuprofen,Eggs,2022-01-09,5,8,9,Vegetarian,Medicaid,3454,3,No,Yes,Yes,65
+P0048,37,Other,198,78,19.9,A+,Current,122,116,91,37.4,12,266,184,37,190,13.1,4008,Anxiety,Aspirin,Pollen,2022-06-26,0,6,8,Keto,Uninsured,7263,3,No,Yes,Yes,35
+P0049,48,Female,176,104,33.6,B-,Current,96,97,62,36.6,13,259,111,63,172,14.4,6790,None,None,Shellfish,2022-07-05,2,6,5,Vegan,Uninsured,9717,1,No,No,Yes,55
+P0050,32,Female,179,79,24.7,A-,Former,135,118,99,37.4,17,173,142,32,76,14.6,7803,Asthma; Heart Disease,Lisinopril,Pollen,2024-12-12,4,5,3,Mediterranean,Private,9153,0,No,No,No,55
+P0051,72,Other,186,104,30.1,AB-,Never,110,91,79,36.2,17,271,146,79,135,15.8,7670,None,None,None,2020-01-22,3,9,8,Paleo,Uninsured,8634,2,No,No,Yes,65
+P0052,35,Male,175,77,25.1,B+,Current,162,73,88,36.2,19,240,148,62,167,12.3,5088,Anxiety,Lisinopril,Pollen,2022-03-16,4,5,3,Vegan,Uninsured,14152,0,No,No,No,45
+P0053,21,Other,160,61,23.8,O+,Never,103,119,88,36.9,15,288,175,61,141,11.4,8157,None,Atorvastatin; Metformin,Nuts,2024-04-14,5,5,3,Mediterranean,Medicaid,10438,2,No,No,Yes,80
+P0054,69,Other,187,88,25.2,O+,Never,99,95,82,36.5,13,230,147,30,98,12.3,6612,None,Metformin; Omeprazole,Dairy,2020-08-24,6,10,1,Mediterranean,Medicare,5466,1,Yes,No,Yes,75
+P0055,74,Female,190,64,17.7,B+,Current,159,80,99,37.7,19,254,167,60,112,12.9,9961,None,Atorvastatin,Pollen,2022-05-23,1,10,7,Vegetarian,Private,11529,1,Yes,No,Yes,40
+P0056,57,Male,170,111,38.4,O-,Current,169,63,82,37.1,12,280,99,52,151,15.1,4231,None,Omeprazole,Eggs,2022-12-31,0,8,2,Vegan,Medicaid,6612,4,No,No,Yes,45
+P0057,21,Male,179,88,27.5,AB-,Former,179,94,86,36.5,14,283,188,36,121,11.6,5612,Depression,Atorvastatin,Eggs,2022-06-21,2,9,6,Keto,Private,6083,3,No,Yes,No,65
+P0058,41,Female,182,76,22.9,A-,Current,100,105,67,37.5,19,284,159,62,198,13.3,5307,Depression,Lisinopril; Atorvastatin,Shellfish,2022-04-15,4,9,8,Mediterranean,Medicaid,7546,4,No,No,No,45
+P0059,45,Other,199,112,28.3,AB+,Current,126,99,85,36.9,16,221,175,53,141,13.5,4642,Hypertension,Aspirin,Pollen,2022-10-21,5,6,9,Mediterranean,Medicare,9838,1,No,Yes,No,40
+P0060,79,Female,195,59,15.5,B+,Former,105,115,90,37,16,289,152,65,176,12.9,7110,Depression; Hypertension,Omeprazole,Dairy,2020-06-20,1,8,4,Mediterranean,Private,11059,4,Yes,Yes,No,40
+P0061,25,Male,189,93,26,O+,Current,159,63,64,36.4,13,153,158,32,165,17,10112,None,None,Dairy,2022-08-06,1,6,4,Paleo,Private,3789,3,No,No,No,50
+P0062,30,Other,180,111,34.3,AB+,Current,119,61,86,37.2,18,161,94,66,149,14.7,8987,Heart Disease,Ibuprofen,Nuts,2020-01-31,6,8,6,Paleo,Uninsured,8256,2,No,Yes,Yes,60
+P0063,29,Female,163,64,24.1,A+,Never,103,96,65,37.3,17,252,154,74,176,12.8,7383,None,None,Shellfish,2020-08-21,3,7,3,Paleo,Medicaid,5383,0,No,No,No,85
+P0064,84,Female,195,81,21.3,AB-,Former,111,100,80,37.7,17,273,115,79,92,12.5,6759,Depression,None,Pollen,2022-01-16,4,10,1,Keto,Private,8622,2,Yes,No,No,65
+P0065,43,Female,177,54,17.2,A+,Never,102,115,76,37.3,15,205,99,48,84,15.2,4397,None,None,Penicillin,2022-05-28,2,8,3,Paleo,Medicaid,7604,4,No,No,Yes,75
+P0066,48,Male,179,94,29.3,AB+,Former,130,70,85,37.1,13,242,116,40,110,13.6,9322,None,None,Penicillin,2020-11-20,4,9,7,Vegan,Medicare,3590,2,No,No,Yes,90
+P0067,49,Male,195,96,25.2,A+,Current,142,108,84,37.6,15,153,70,70,84,11.3,10405,None,Aspirin,Dairy,2023-05-10,1,5,7,Vegan,Uninsured,13538,0,No,Yes,No,45
+P0068,32,Other,173,72,24.1,O+,Current,139,71,94,37.5,14,276,76,77,146,14,9672,Heart Disease,None,Eggs,2022-07-29,6,6,7,Vegetarian,Uninsured,12487,2,No,No,No,65
+P0069,76,Male,192,54,14.6,AB+,Current,135,87,88,37.6,12,273,129,40,120,15.7,8071,Asthma,Ibuprofen,Dairy,2023-11-30,1,8,2,Paleo,Uninsured,4579,1,Yes,No,No,45
+P0070,79,Female,187,108,30.9,O-,Former,140,104,74,36.6,19,234,182,42,139,16.3,7347,Asthma,None,Nuts,2021-11-03,6,7,9,Mediterranean,Medicaid,10281,0,No,No,Yes,50
+P0071,38,Male,190,90,24.9,O+,Former,142,105,74,37.3,12,288,167,66,181,13.5,8022,Asthma,Lisinopril,Shellfish,2022-11-01,5,8,8,Paleo,Medicaid,10019,2,Yes,No,No,60
+P0072,41,Other,182,118,35.6,A-,Former,111,89,77,37.2,12,191,110,74,193,11.7,7624,None,Atorvastatin; Lisinopril,Shellfish,2023-05-26,3,9,9,Omnivore,Medicare,9995,3,No,No,Yes,70
+P0073,51,Male,167,93,33.3,O+,Former,109,60,67,37.3,14,242,143,33,110,12.1,8168,Heart Disease,Omeprazole,None,2022-11-16,6,5,5,Keto,Private,3373,1,No,No,Yes,70
+P0074,77,Other,153,109,46.6,O-,Former,121,117,86,37.8,17,167,161,56,71,16.8,10142,Arthritis,Albuterol,Penicillin,2022-04-05,3,10,1,Paleo,Medicare,9756,4,Yes,No,No,55
+P0075,70,Other,155,51,21.2,O-,Never,104,77,70,36.8,12,279,112,58,73,13.4,10531,None,Omeprazole,Eggs,2024-05-11,1,7,9,Keto,Uninsured,8775,3,No,No,No,80
+P0076,19,Male,198,99,25.3,A+,Current,110,94,97,36.3,18,208,143,41,102,16.4,7090,Anxiety,Ibuprofen,None,2020-11-02,3,6,6,Vegetarian,Uninsured,11875,1,No,No,Yes,50
+P0077,19,Male,174,74,24.4,O-,Current,117,75,88,36.5,12,243,145,64,152,16.7,5263,Asthma,Atorvastatin,Pollen,2022-08-14,1,10,3,Omnivore,Medicare,10435,4,Yes,No,Yes,55
+P0078,58,Male,191,66,18.1,O+,Former,178,64,63,36.9,16,223,138,75,85,14.2,8414,None,Lisinopril; Metformin,Pollen,2022-07-24,1,8,9,Vegan,Private,5534,1,Yes,No,No,50
+P0079,33,Other,176,99,32,O-,Former,163,60,84,37.3,12,179,141,44,183,11.8,5052,Asthma; Arthritis,Aspirin,Penicillin,2020-08-18,3,5,9,Vegetarian,Medicaid,11446,2,No,No,Yes,35
+P0080,37,Male,155,85,35.4,A-,Never,123,108,94,36.6,18,203,159,59,127,13.9,8980,None,Metformin,Shellfish,2023-09-16,4,6,8,Keto,Private,14386,1,No,No,No,65
+P0081,47,Female,167,82,29.4,O-,Former,118,87,93,36.9,18,208,161,50,142,12,9232,Hypertension,Albuterol; Ibuprofen,Shellfish,2021-12-08,5,8,2,Mediterranean,Private,5677,1,No,No,No,75
+P0082,71,Male,173,94,31.4,B+,Current,144,67,82,36.2,12,167,108,33,93,14.6,10718,Diabetes,None,Penicillin,2022-07-17,5,10,8,Keto,Uninsured,3494,0,Yes,Yes,Yes,30
+P0083,81,Female,184,80,23.6,O+,Never,132,79,62,36.7,16,192,115,63,196,12.6,5181,Anxiety; Arthritis,None,Shellfish,2022-11-19,6,7,5,Vegan,Uninsured,5569,2,Yes,No,Yes,75
+P0084,24,Female,183,91,27.2,O-,Current,90,85,83,36.2,14,296,189,50,195,12.4,5529,Anxiety,Metformin,Penicillin,2024-06-26,3,5,3,Vegetarian,Uninsured,5980,0,No,No,Yes,55
+P0085,47,Female,165,88,32.3,O-,Former,128,119,88,37.7,16,215,166,54,100,13.8,10340,None,Metformin,Penicillin,2020-05-17,3,8,1,Omnivore,Medicaid,12417,3,Yes,Yes,No,70
+P0086,21,Female,162,101,38.5,O-,Never,156,91,69,36.5,14,160,80,56,119,13.2,7297,Anxiety,Ibuprofen,Eggs,2022-03-30,0,7,7,Omnivore,Private,4614,4,No,No,No,55
+P0087,40,Male,195,51,13.4,O-,Never,120,94,74,36.8,19,175,125,47,141,12.8,5532,Hypertension,Omeprazole,None,2020-01-26,2,5,5,Mediterranean,Private,2075,4,Yes,No,No,60
+P0088,71,Female,150,115,51.1,B+,Current,174,92,94,36.5,19,262,162,70,187,11.8,6737,Arthritis; Hypertension,Ibuprofen,Dairy,2023-05-13,4,5,3,Paleo,Medicaid,2091,4,Yes,No,Yes,30
+P0089,30,Other,162,61,23.2,AB+,Former,93,70,93,37.1,19,177,145,67,124,16.1,4177,None,Aspirin,Shellfish,2021-10-06,0,6,8,Mediterranean,Medicare,2485,0,Yes,No,Yes,75
+P0090,73,Female,152,102,44.1,B+,Current,156,78,80,36.2,19,247,149,55,168,13.5,7099,Depression,Lisinopril; Albuterol,Nuts,2022-12-21,0,9,9,Keto,Uninsured,4088,4,Yes,No,No,25
+P0091,70,Male,171,66,22.6,B+,Current,161,104,83,36.4,16,202,95,32,90,13.5,4689,Anxiety,Albuterol,Nuts,2022-09-14,0,9,9,Paleo,Medicare,4200,1,Yes,Yes,No,35
+P0092,78,Male,190,90,24.9,B+,Never,96,65,87,37.4,14,220,109,62,103,15.7,8466,Arthritis,Aspirin,Dairy,2020-04-25,0,8,6,Vegan,Medicaid,7310,1,No,No,Yes,80
+P0093,24,Male,171,98,33.5,AB-,Never,139,87,91,36.4,16,160,182,39,152,15.9,7196,None,Lisinopril,Penicillin,2022-12-21,6,7,8,Omnivore,Uninsured,5348,4,No,No,No,75
+P0094,63,Male,167,59,21.2,O-,Never,109,87,64,36.3,12,296,75,49,105,15,7672,Heart Disease,Atorvastatin; Omeprazole,Dairy,2024-07-14,6,10,4,Omnivore,Uninsured,9668,0,Yes,Yes,No,80
+P0095,72,Other,184,98,28.9,A+,Never,113,76,67,36.2,16,202,178,66,105,13.3,4336,None,None,Shellfish,2021-12-27,2,6,4,Keto,Private,14736,0,No,Yes,Yes,95
+P0096,47,Male,194,105,27.9,A-,Former,111,115,89,37,14,158,129,70,170,15.2,8226,Anxiety,Lisinopril,Eggs,2024-09-06,6,8,6,Vegan,Private,4529,2,No,No,No,65
+P0097,74,Male,180,63,19.4,A+,Former,157,99,70,37.4,15,215,71,53,78,16.6,10387,Depression; Heart Disease,None,Pollen,2024-02-01,1,6,6,Omnivore,Uninsured,2220,2,Yes,No,No,50
+P0098,74,Female,173,63,21,AB+,Former,176,85,68,37.4,18,162,130,76,74,13.6,6574,Anxiety,None,Eggs,2024-12-14,4,6,5,Omnivore,Medicare,2222,0,No,No,No,70
+P0099,73,Female,178,88,27.8,O-,Former,106,98,92,37.1,19,213,148,53,71,12.3,10838,None,Aspirin,Dairy,2022-02-10,3,10,7,Mediterranean,Uninsured,669,4,No,No,No,70
+P0100,22,Other,189,119,33.3,AB-,Never,157,90,76,36.3,16,189,112,46,119,16.8,7355,Diabetes,Ibuprofen; Aspirin,None,2022-12-14,5,7,1,Vegetarian,Private,12933,2,No,No,Yes,65
+P0101,72,Male,161,87,33.6,B-,Current,151,72,85,37.4,14,256,124,58,168,15.8,7334,Heart Disease,Omeprazole,None,2021-11-14,4,5,6,Keto,Medicare,10896,0,Yes,No,No,40
+P0102,31,Female,157,63,25.6,B+,Former,113,95,65,36.7,12,266,114,34,168,11.4,5735,None,Atorvastatin,None,2020-10-04,1,9,8,Vegetarian,Medicaid,8054,2,No,No,No,55
+P0103,54,Other,188,53,15,O+,Never,95,114,82,37.4,13,281,176,32,171,15.3,7344,None,None,Nuts,2021-09-22,5,5,7,Vegan,Medicare,5284,3,No,Yes,Yes,70
+P0104,18,Male,181,95,29,AB-,Never,172,101,67,36.7,19,209,146,74,156,15.2,4175,Asthma; Hypertension,Metformin,None,2023-04-12,2,10,9,Keto,Medicare,5087,4,No,Yes,Yes,45
+P0105,22,Female,160,98,38.3,B-,Former,109,88,85,36.9,19,191,153,37,76,17,6527,Asthma,Aspirin,Dairy,2020-11-09,3,4,5,Vegan,Private,6040,3,Yes,No,Yes,65
+P0106,70,Female,171,78,26.7,B-,Former,92,82,98,36.3,17,280,108,67,140,11.8,5850,Anxiety,Aspirin,Nuts,2022-11-05,5,9,3,Omnivore,Medicare,11099,4,No,No,Yes,75
+P0107,65,Other,198,66,16.8,A-,Never,146,77,81,37.2,14,264,160,53,103,11.7,10131,None,Aspirin,Penicillin,2024-06-01,0,10,4,Paleo,Uninsured,12980,4,No,No,No,60
+P0108,18,Other,185,106,31,AB-,Never,153,118,70,36.1,13,251,168,38,191,12.4,8876,None,Lisinopril,Pollen,2020-09-07,3,8,9,Omnivore,Medicaid,4816,1,No,No,No,65
+P0109,19,Other,175,118,38.5,A+,Never,156,113,93,36.1,12,197,86,55,84,11,10585,None,Atorvastatin,Eggs,2020-04-16,1,8,4,Vegan,Medicare,13057,3,No,No,Yes,65
+P0110,69,Male,168,55,19.5,A+,Former,172,64,87,36.5,16,182,75,36,156,17,7058,Asthma,None,Shellfish,2020-11-14,3,7,6,Keto,Private,4275,0,No,Yes,No,70
+P0111,76,Male,196,118,30.7,A-,Current,160,84,86,36.7,17,203,161,55,187,12.5,6960,Diabetes,Ibuprofen,Pollen,2024-04-22,2,4,3,Mediterranean,Medicare,8515,3,Yes,Yes,No,40
+P0112,21,Female,150,83,36.9,A+,Current,161,63,86,37.6,15,200,120,35,136,13.4,4616,None,Albuterol,Pollen,2021-06-13,2,5,5,Mediterranean,Medicaid,9787,4,No,Yes,No,50
+P0113,30,Other,193,70,18.8,O-,Former,140,62,92,37.1,12,253,115,61,162,15.4,9257,Diabetes,Ibuprofen,Shellfish,2023-09-14,0,7,3,Vegetarian,Medicare,1201,0,No,No,No,70
+P0114,62,Other,162,51,19.4,AB+,Former,133,92,61,37.7,17,164,187,41,73,15.8,5804,None,Albuterol; Atorvastatin,Pollen,2021-02-24,3,10,2,Mediterranean,Medicaid,5255,4,No,No,No,75
+P0115,25,Female,179,72,22.5,B+,Current,136,94,91,36.9,13,230,125,57,123,16.1,8331,Anxiety,None,Dairy,2023-05-06,5,6,2,Mediterranean,Uninsured,6077,0,No,No,No,55
+P0116,19,Other,154,62,26.1,B+,Former,113,117,68,36.5,12,187,130,73,108,11,4416,Depression,Ibuprofen; Metformin,Pollen,2024-12-16,4,8,6,Paleo,Private,2959,0,Yes,Yes,No,65
+P0117,45,Female,190,57,15.8,B-,Former,127,86,85,36.3,14,209,146,42,107,14.4,7083,Asthma,Lisinopril,Pollen,2022-04-16,1,5,2,Vegetarian,Medicare,3735,1,Yes,No,No,55
+P0118,52,Male,162,76,29,B-,Current,120,81,80,37.5,15,271,83,62,130,12.8,7368,None,Atorvastatin,Pollen,2022-04-16,0,10,5,Omnivore,Medicaid,5680,4,Yes,No,No,55
+P0119,65,Male,156,100,41.1,B-,Never,127,119,95,36.7,15,235,188,34,92,15.8,8351,Arthritis,Albuterol,Penicillin,2021-07-23,1,5,7,Omnivore,Uninsured,12897,0,No,No,No,50
+P0120,78,Male,173,85,28.4,O-,Current,149,62,78,36.8,17,246,114,56,75,14.1,8013,Hypertension,Aspirin,Shellfish,2020-02-21,1,10,3,Paleo,Uninsured,11049,3,No,No,No,35
+P0121,48,Female,192,74,20.1,A+,Former,120,71,99,36.6,14,287,101,79,149,15,9893,None,None,Nuts,2020-03-25,0,7,5,Vegan,Medicaid,2232,2,Yes,Yes,No,85
+P0122,50,Male,185,91,26.6,B+,Former,131,118,86,37.2,12,273,77,66,147,11.6,6076,None,None,Dairy,2021-02-10,5,10,7,Mediterranean,Medicaid,12510,0,No,No,No,70
+P0123,31,Other,199,104,26.3,O-,Current,90,97,89,36.9,19,247,79,35,138,11.1,5317,Diabetes,Omeprazole,Shellfish,2021-01-12,5,9,1,Mediterranean,Medicare,11663,3,No,No,Yes,50
+P0124,74,Male,190,107,29.6,O-,Never,139,119,68,37.1,16,234,146,32,97,16.6,4708,None,Metformin,Eggs,2022-09-05,5,4,9,Keto,Private,4224,3,No,Yes,No,65
+P0125,50,Male,189,96,26.9,AB+,Former,94,107,85,36.7,19,166,117,63,129,11.4,9142,Heart Disease,None,Penicillin,2020-09-22,6,7,4,Omnivore,Medicaid,13679,1,No,Yes,Yes,65
+P0126,35,Male,173,54,18,AB+,Current,132,71,96,37.3,19,217,109,42,172,13.8,9110,None,Aspirin,Eggs,2023-03-10,1,9,1,Paleo,Medicare,10023,0,No,Yes,Yes,55
+P0127,29,Male,178,61,19.3,A-,Former,134,81,77,37.8,18,257,155,63,177,14.3,9498,None,Atorvastatin,Shellfish,2024-10-07,6,5,1,Vegan,Medicare,4243,0,Yes,Yes,Yes,85
+P0128,67,Male,188,111,31.4,AB+,Never,168,111,75,36.9,14,220,70,33,159,14.6,9431,None,Atorvastatin,Dairy,2023-12-24,0,7,5,Vegan,Uninsured,6279,3,No,No,No,65
+P0129,65,Other,155,60,25,B-,Never,170,76,62,37.4,17,270,161,55,170,15.5,7369,None,Metformin; Aspirin,Penicillin,2022-07-22,6,10,2,Keto,Private,11603,0,No,No,Yes,80
+P0130,66,Male,152,84,36.4,A+,Never,92,117,93,36.6,14,160,168,71,174,13.4,4127,Heart Disease,None,Pollen,2024-07-29,2,9,2,Paleo,Private,13884,4,No,No,No,65
+P0131,65,Female,181,52,15.9,A-,Former,174,64,80,36.6,15,222,112,79,193,12.3,8566,Arthritis; Asthma,None,Eggs,2020-02-02,6,4,5,Keto,Uninsured,6785,3,Yes,Yes,No,45
+P0132,30,Other,192,73,19.8,A-,Never,155,101,91,37.7,18,206,170,64,82,15.6,5829,Heart Disease; Diabetes,None,Dairy,2024-09-17,4,10,1,Mediterranean,Uninsured,14745,0,No,No,No,60
+P0133,29,Male,171,79,27,O+,Current,121,99,88,36.2,19,153,73,50,110,13.4,10718,None,Aspirin,Eggs,2022-08-05,6,9,6,Paleo,Private,1950,4,No,No,No,60
+P0134,82,Other,191,81,22.2,AB+,Never,117,104,74,37.5,16,271,96,75,122,14,9725,Anxiety,Aspirin; Metformin,None,2024-09-24,2,6,7,Paleo,Medicaid,1948,2,No,No,No,75
+P0135,26,Other,154,115,48.5,O-,Never,103,75,69,37.4,12,280,78,43,151,15.8,8629,Heart Disease; Anxiety,Metformin,Penicillin,2024-10-17,6,4,9,Paleo,Medicare,12863,2,No,Yes,No,55
+P0136,30,Other,164,93,34.6,A+,Current,98,63,86,36.1,18,158,189,62,107,16.1,5751,Asthma,Ibuprofen; Metformin,Shellfish,2022-06-12,2,8,5,Omnivore,Uninsured,14952,3,Yes,Yes,Yes,60
+P0137,81,Female,175,101,33,A-,Former,152,92,99,37.4,18,269,107,64,127,11.4,9042,Anxiety; Hypertension,Omeprazole,Eggs,2023-10-19,5,8,4,Omnivore,Medicare,9341,0,Yes,No,Yes,50
+P0138,30,Other,154,60,25.3,AB+,Former,151,78,70,36.1,18,234,123,71,86,11.2,8294,Anxiety; Arthritis,None,Pollen,2022-06-06,1,6,8,Omnivore,Uninsured,1184,4,No,Yes,Yes,35
+P0139,71,Other,158,77,30.8,B-,Never,177,89,87,37.6,19,197,104,40,174,12.1,8255,Arthritis,Aspirin; Albuterol,Eggs,2024-06-06,2,9,9,Mediterranean,Medicare,12206,1,No,No,No,55
+P0140,75,Other,199,111,28,AB-,Current,158,82,90,37.2,16,175,143,32,161,15.8,6412,None,Albuterol,None,2023-02-23,0,4,5,Keto,Medicare,1605,2,Yes,No,No,45
+P0141,39,Female,189,92,25.8,AB-,Former,164,69,73,36.6,13,284,135,51,152,15.6,9411,Asthma,Atorvastatin,Pollen,2023-01-11,5,10,3,Vegetarian,Medicare,2195,3,No,Yes,Yes,60
+P0142,42,Female,153,65,27.8,O+,Never,140,65,68,37.3,17,250,152,34,84,11.5,4954,Depression,Metformin,Eggs,2022-09-16,5,4,5,Omnivore,Uninsured,2584,2,No,Yes,No,75
+P0143,36,Other,185,113,33,A+,Never,109,84,97,36.8,14,186,148,67,96,13.1,6182,None,Aspirin,Dairy,2020-05-05,4,9,3,Vegan,Uninsured,7668,4,Yes,No,No,85
+P0144,56,Female,157,90,36.5,A+,Never,143,72,82,36.1,12,153,153,48,123,12.4,9506,None,None,Penicillin,2022-04-05,6,8,2,Vegan,Uninsured,7942,3,Yes,No,Yes,75
+P0145,57,Male,175,116,37.9,AB+,Current,113,99,73,37.2,19,263,126,62,113,16.4,8636,None,Atorvastatin; Ibuprofen,Dairy,2024-04-22,0,5,4,Keto,Private,9194,2,Yes,No,No,40
+P0146,56,Other,167,97,34.8,B-,Never,106,82,69,37.1,18,281,138,74,189,11.4,6541,None,Metformin,Nuts,2021-06-23,0,8,4,Keto,Uninsured,3828,0,No,Yes,No,75
+P0147,44,Other,174,92,30.4,B+,Never,162,77,89,36.9,15,257,160,79,99,14.5,8117,Arthritis; Heart Disease,Atorvastatin,Dairy,2023-07-25,0,9,9,Keto,Uninsured,4914,0,Yes,No,No,35
+P0148,68,Female,161,108,41.7,B+,Former,154,84,76,36.9,14,280,145,54,168,13.7,5653,None,None,None,2022-02-09,1,5,3,Vegetarian,Private,6611,3,No,Yes,No,55
+P0149,53,Other,181,102,31.1,O-,Never,162,112,62,37.5,16,242,129,52,147,11.3,9745,Diabetes; Asthma,Omeprazole,Nuts,2023-01-13,5,9,8,Keto,Uninsured,5207,4,No,No,No,45
+P0150,62,Other,195,93,24.5,B+,Current,144,77,86,36.6,14,234,118,67,181,11.7,7586,None,Lisinopril,Nuts,2022-07-19,4,7,2,Omnivore,Medicaid,6073,4,No,Yes,Yes,65
+P0151,74,Female,163,61,23,B-,Former,161,101,60,37,15,151,89,53,165,12.1,8856,None,None,Pollen,2022-09-24,3,5,5,Vegetarian,Medicaid,4492,3,No,No,Yes,75
+P0152,78,Female,150,117,52,A-,Former,178,107,94,36.5,14,256,97,49,105,13,6425,Asthma,Ibuprofen,Dairy,2024-08-25,3,5,7,Omnivore,Private,3502,0,No,No,No,55
+P0153,71,Male,166,84,30.5,O+,Current,151,107,80,37.6,17,188,157,76,174,16.9,4861,Heart Disease; Diabetes,Lisinopril; Atorvastatin,Penicillin,2023-06-02,3,5,5,Keto,Private,11795,0,No,Yes,No,30
+P0154,65,Other,151,108,47.4,B+,Former,97,104,95,36.4,14,272,135,78,167,13.9,5300,Asthma,None,Pollen,2023-02-04,6,4,3,Paleo,Uninsured,1006,1,No,Yes,Yes,55
+P0155,30,Female,159,66,26.1,A+,Former,128,63,63,37,17,246,149,33,79,16.4,5220,None,None,Pollen,2023-10-18,3,10,8,Vegan,Medicaid,7481,0,No,No,Yes,75
+P0156,37,Other,155,59,24.6,AB+,Never,90,63,62,37,14,288,78,44,86,14.7,4759,None,None,None,2020-08-12,1,8,2,Vegetarian,Uninsured,14154,0,Yes,Yes,Yes,90
+P0157,31,Other,164,63,23.4,O-,Former,104,61,90,37.7,12,179,104,36,70,14,4254,None,Aspirin,Dairy,2021-01-25,4,7,5,Mediterranean,Medicaid,10889,2,Yes,No,No,95
+P0158,54,Other,195,114,30,B+,Former,90,106,60,37.3,14,269,154,35,163,16.3,4064,Anxiety,Atorvastatin; Lisinopril,Nuts,2020-04-30,4,4,5,Mediterranean,Uninsured,13442,4,No,No,No,60
+P0159,38,Other,199,52,13.1,O-,Never,126,104,60,36.3,12,256,165,38,118,12.9,8609,Arthritis,Lisinopril,Dairy,2021-11-24,0,7,1,Keto,Private,3415,1,Yes,No,Yes,55
+P0160,63,Other,164,75,27.9,B+,Never,126,68,86,37.1,13,298,86,41,82,15,4010,Heart Disease; Anxiety,Omeprazole; Ibuprofen,Eggs,2021-10-08,6,8,9,Paleo,Medicaid,7437,0,Yes,Yes,Yes,65
+P0161,72,Male,155,75,31.2,AB+,Current,145,86,96,37.7,14,209,77,79,197,11.8,10916,Arthritis,Ibuprofen; Metformin,Penicillin,2023-02-04,1,10,7,Keto,Private,3816,2,No,No,No,30
+P0162,84,Female,178,75,23.7,B-,Never,146,63,91,37.5,17,274,99,52,123,14.7,6996,None,Metformin,Dairy,2023-08-08,4,7,8,Omnivore,Medicare,12892,1,No,No,No,75
+P0163,18,Male,174,93,30.7,AB+,Never,118,113,74,37.8,18,243,155,71,176,12.5,6862,Hypertension,None,Shellfish,2022-10-02,6,8,5,Mediterranean,Private,1382,4,No,No,No,65
+P0164,26,Female,185,84,24.5,B+,Current,119,108,82,36.3,16,228,180,51,80,12.1,7998,Anxiety,Atorvastatin; Lisinopril,Eggs,2020-03-10,2,5,8,Vegan,Uninsured,4658,3,No,No,Yes,40
+P0165,45,Other,175,57,18.6,AB-,Never,162,118,62,36.1,16,295,155,56,145,15.2,10307,Asthma,Omeprazole; Aspirin,Eggs,2024-07-05,0,4,1,Vegan,Medicare,10264,4,No,No,Yes,60
+P0166,51,Male,153,113,48.3,A-,Current,112,91,66,37.4,15,273,143,59,191,15.2,8241,None,Lisinopril,Nuts,2021-09-01,5,10,1,Vegan,Uninsured,4604,2,No,Yes,No,50
+P0167,39,Male,168,53,18.8,A-,Former,159,116,96,36.9,15,263,153,67,83,11.7,6036,None,Metformin,Penicillin,2021-08-21,1,5,2,Paleo,Private,12925,3,No,No,No,65
+P0168,35,Other,154,77,32.5,AB+,Current,133,66,68,37.3,17,250,150,48,97,14.3,10661,Depression,Omeprazole,Dairy,2023-10-30,2,8,4,Vegetarian,Private,7908,3,No,No,No,55
+P0169,54,Female,195,67,17.6,AB-,Former,176,92,95,36.3,17,190,188,56,73,14.4,6474,Hypertension,Metformin,Pollen,2024-06-23,6,6,2,Vegan,Private,3558,2,No,No,No,60
+P0170,68,Female,171,110,37.6,AB+,Never,94,92,76,36.2,12,293,74,49,181,12.5,9171,Heart Disease,Ibuprofen,Shellfish,2021-08-06,2,7,4,Vegetarian,Medicaid,10252,1,Yes,No,Yes,65
+P0171,22,Other,198,105,26.8,AB+,Never,159,93,67,36.5,13,163,160,39,101,13.7,6019,Heart Disease,Metformin,None,2023-11-01,0,4,7,Omnivore,Medicaid,13046,1,No,No,No,55
+P0172,42,Other,185,66,19.3,O-,Current,99,68,65,37.5,13,247,89,30,177,16.8,9360,None,None,Eggs,2024-08-05,1,4,6,Paleo,Medicaid,9563,4,No,No,Yes,65
+P0173,57,Female,165,83,30.5,A+,Never,174,67,65,36.6,14,238,139,51,134,15.1,8874,Arthritis,Atorvastatin,Eggs,2023-12-17,0,5,8,Vegetarian,Uninsured,11063,2,No,Yes,Yes,40
+P0174,26,Male,157,90,36.5,AB+,Never,164,100,78,36.1,18,164,155,32,157,12.9,8276,Asthma,Ibuprofen,Eggs,2020-04-22,0,10,2,Vegetarian,Medicaid,10456,4,No,Yes,No,50
+P0175,72,Male,165,86,31.6,A-,Current,127,76,65,36.5,12,210,122,38,126,14,5818,Anxiety,Atorvastatin,Eggs,2024-03-29,0,9,5,Paleo,Uninsured,11137,1,No,Yes,Yes,50
+P0176,57,Other,197,90,23.2,AB-,Current,95,69,74,37.5,17,188,150,41,191,16.3,7329,Arthritis,Metformin,Penicillin,2022-04-30,3,9,5,Omnivore,Private,8207,2,No,No,No,70
+P0177,19,Male,196,103,26.8,AB+,Former,169,110,98,36.2,19,242,156,48,125,13.5,4108,Heart Disease,None,Eggs,2023-09-23,0,6,4,Mediterranean,Uninsured,2323,4,No,No,No,55
+P0178,55,Male,158,118,47.3,A+,Current,117,118,64,36.2,17,227,72,72,169,15.3,6661,Asthma,Lisinopril,Dairy,2021-03-27,1,5,4,Vegetarian,Private,7081,3,Yes,No,No,30
+P0179,57,Other,196,117,30.5,B-,Current,114,73,72,37.2,13,190,80,65,98,16.3,6606,Anxiety,None,Penicillin,2022-05-20,5,4,4,Vegan,Private,2771,3,No,No,No,55
+P0180,62,Male,151,66,28.9,O+,Current,172,108,64,36.1,13,289,75,58,90,14.6,8556,None,Metformin; Albuterol,Shellfish,2022-06-25,5,5,3,Omnivore,Private,10864,0,No,No,Yes,55
+P0181,54,Other,196,113,29.4,AB+,Former,115,109,88,36.1,17,152,105,43,104,15.6,9949,None,Ibuprofen,Eggs,2024-02-06,6,6,4,Paleo,Private,8378,2,Yes,No,No,75
+P0182,78,Male,152,119,51.5,O-,Never,166,83,67,37.6,13,150,97,35,162,15.8,6591,Depression,Ibuprofen,Shellfish,2024-01-13,4,5,6,Omnivore,Uninsured,3428,1,No,No,No,60
+P0183,57,Male,179,93,29,A+,Former,137,72,91,36.1,13,289,155,52,112,14.4,5445,None,Lisinopril,Dairy,2020-11-21,1,9,2,Vegan,Medicaid,13977,2,No,No,Yes,75
+P0184,57,Other,158,71,28.4,B-,Current,176,101,90,36.4,12,173,140,31,121,12.1,6107,Hypertension; Arthritis,None,Dairy,2023-04-29,2,4,6,Paleo,Medicaid,14205,0,No,No,No,35
+P0185,49,Male,189,53,14.8,O-,Former,157,68,64,37,18,208,137,34,111,11.8,9644,Heart Disease,Aspirin; Ibuprofen,Shellfish,2021-01-28,2,6,9,Omnivore,Medicaid,610,4,No,No,No,50
+P0186,49,Other,161,105,40.5,B+,Current,166,100,73,36.3,14,293,179,69,74,15.4,8663,Arthritis,Atorvastatin; Albuterol,None,2020-11-04,2,10,3,Mediterranean,Medicaid,6204,3,No,Yes,Yes,40
+P0187,43,Other,189,94,26.3,O-,Current,153,99,71,36.5,14,201,99,67,73,16.9,9912,None,Albuterol,Dairy,2020-01-11,4,9,9,Omnivore,Medicare,8194,1,Yes,No,Yes,50
+P0188,55,Male,167,96,34.4,O-,Current,142,81,85,36.8,13,261,158,51,196,13.9,4656,Arthritis; Heart Disease,None,Dairy,2021-09-23,0,6,6,Vegan,Medicare,10169,4,Yes,Yes,No,25
+P0189,24,Male,185,69,20.2,O-,Former,150,74,82,36.1,18,178,74,72,196,14.4,8386,Asthma,Ibuprofen,Shellfish,2022-02-07,0,10,3,Keto,Uninsured,12816,0,Yes,No,Yes,55
+P0190,24,Female,174,75,24.8,A+,Never,170,103,98,36.6,16,292,151,57,109,15.7,4981,Heart Disease; Hypertension,Albuterol,Pollen,2023-10-03,2,7,1,Vegetarian,Medicaid,4291,0,Yes,No,No,65
+P0191,53,Female,174,78,25.8,A+,Current,162,92,78,37.6,19,252,186,43,134,14,5706,Depression,None,Pollen,2020-06-22,5,7,6,Mediterranean,Medicare,9390,4,No,No,No,50
+P0192,32,Female,155,103,42.9,AB-,Current,139,85,66,36.8,13,179,132,61,168,13.7,6152,Hypertension,None,Nuts,2022-02-26,6,5,7,Vegetarian,Medicaid,7709,4,No,Yes,No,50
+P0193,37,Female,174,100,33,A+,Never,123,114,93,36.2,14,176,87,30,151,15.2,10382,Anxiety,None,Penicillin,2022-09-17,1,10,6,Vegetarian,Uninsured,12650,2,No,No,Yes,50
+P0194,69,Male,176,106,34.2,AB-,Former,127,109,99,36.2,14,231,113,49,133,16.6,4956,Heart Disease,Ibuprofen,None,2022-08-07,3,8,3,Omnivore,Private,5005,1,Yes,No,No,60
+P0195,68,Female,164,52,19.3,A-,Former,152,107,83,36.7,15,251,94,48,189,11.5,4421,None,Atorvastatin; Albuterol,Dairy,2020-11-27,2,5,6,Paleo,Private,7995,3,No,Yes,No,75
+P0196,24,Female,166,109,39.6,A+,Never,127,86,91,36.3,15,291,80,51,199,14,4243,None,Omeprazole,Shellfish,2023-11-25,5,10,9,Vegetarian,Private,13998,4,Yes,No,Yes,70
+P0197,41,Other,169,61,21.4,B+,Current,156,61,99,37.3,19,251,73,49,72,16.6,7227,Depression,Omeprazole,Dairy,2022-02-24,3,5,3,Keto,Medicaid,4049,1,Yes,No,Yes,50
+P0198,28,Other,171,79,27,A+,Never,98,72,65,36.6,17,270,88,60,71,13.5,8927,Depression,Lisinopril,Nuts,2024-09-02,5,10,1,Vegetarian,Private,7522,0,No,No,No,80
+P0199,37,Other,174,89,29.4,O+,Never,131,77,63,36.2,17,218,95,59,148,14.7,9072,Depression,Ibuprofen,Eggs,2021-02-27,0,8,9,Vegan,Private,2828,1,Yes,No,No,60
+P0200,65,Other,160,71,27.7,A+,Current,90,105,89,37.3,19,219,151,34,71,13.5,4508,None,None,Penicillin,2021-05-24,6,5,5,Mediterranean,Medicaid,10184,1,No,No,Yes,55
+P0201,25,Other,177,61,19.5,AB-,Former,172,60,99,36.1,19,151,75,52,158,14.4,5417,Anxiety,None,Dairy,2024-04-21,3,7,3,Mediterranean,Medicare,4085,2,Yes,Yes,Yes,70
+P0202,76,Other,181,99,30.2,O+,Never,100,82,77,37.7,15,218,129,77,178,16.7,7264,Arthritis,Lisinopril,Eggs,2023-06-04,3,9,9,Mediterranean,Medicare,10820,3,Yes,No,No,65
+P0203,44,Male,172,95,32.1,O-,Former,161,66,88,36.8,15,182,136,56,160,14.2,5175,Anxiety,Aspirin,Pollen,2022-09-22,6,4,2,Paleo,Private,9967,0,No,No,No,55
+P0204,72,Female,193,103,27.7,O-,Former,171,72,89,36.8,18,190,92,57,94,14.2,9618,None,Metformin,Dairy,2021-04-08,0,10,9,Mediterranean,Uninsured,12837,0,Yes,No,Yes,50
+P0205,37,Female,174,108,35.7,B-,Never,104,72,83,36.7,17,209,112,62,115,12.7,5622,Heart Disease,Lisinopril,Pollen,2024-01-16,4,8,5,Keto,Uninsured,13658,1,No,No,Yes,80
+P0206,62,Other,187,71,20.3,A+,Former,114,76,74,36.6,16,255,80,37,179,13.4,8523,None,Albuterol,Pollen,2022-06-18,4,5,9,Paleo,Private,13847,0,No,No,No,80
+P0207,31,Other,186,101,29.2,B+,Current,110,115,81,36.9,13,192,165,64,197,13.3,10599,None,Metformin; Lisinopril,Shellfish,2023-05-17,0,9,3,Vegan,Medicaid,5937,4,No,No,Yes,50
+P0208,40,Female,163,110,41.4,AB+,Never,107,102,81,36.6,19,180,71,46,168,16.9,9336,None,Ibuprofen,None,2023-10-17,6,7,3,Keto,Uninsured,1335,1,Yes,No,Yes,75
+P0209,23,Female,150,102,45.3,O+,Never,114,112,71,37.3,18,164,171,41,178,13.6,9419,Arthritis,Metformin; Aspirin,Pollen,2020-08-20,6,6,7,Keto,Private,4521,3,No,No,Yes,65
+P0210,28,Male,168,109,38.6,A-,Current,157,65,93,37.4,14,210,189,73,173,11,8825,None,Ibuprofen; Albuterol,Pollen,2022-11-19,3,10,5,Paleo,Private,14359,0,Yes,No,No,50
+P0211,61,Other,187,51,14.6,B+,Never,145,116,96,37.2,17,172,108,49,185,12.4,8788,None,Lisinopril,None,2020-08-31,5,5,8,Paleo,Uninsured,3609,0,No,No,No,60
+P0212,66,Male,174,103,34,O+,Former,116,111,61,37.3,12,196,175,43,77,12.9,4729,None,Metformin; Ibuprofen,None,2024-06-22,6,9,2,Mediterranean,Medicaid,5304,1,Yes,Yes,No,70
+P0213,46,Male,168,119,42.2,A-,Never,169,94,94,37,13,161,138,36,192,14.3,4994,Anxiety,Metformin,Penicillin,2020-10-13,2,10,6,Vegan,Uninsured,9477,0,No,No,No,60
+P0214,81,Female,176,68,22,A-,Never,126,72,88,36.7,14,162,112,56,128,15.4,8010,Asthma; Arthritis,Albuterol,Pollen,2024-02-16,3,8,7,Paleo,Private,2187,4,No,Yes,No,80
+P0215,49,Male,168,114,40.4,B-,Current,157,82,68,37.4,12,219,160,66,135,17,9709,Asthma,Albuterol; Ibuprofen,None,2024-08-26,4,4,2,Omnivore,Uninsured,2885,0,No,No,Yes,40
+P0216,27,Male,195,92,24.2,A-,Never,131,115,75,36.6,17,278,164,57,130,13,10386,None,Omeprazole; Ibuprofen,Eggs,2020-02-29,3,10,5,Vegan,Private,13633,3,Yes,No,Yes,80
+P0217,49,Male,167,117,42,B+,Current,93,94,91,36.6,16,189,178,41,166,13.1,7205,None,Ibuprofen; Albuterol,None,2022-04-16,5,9,3,Vegan,Medicare,8561,4,No,No,Yes,55
+P0218,83,Female,188,101,28.6,AB-,Current,136,97,82,36.6,15,164,167,51,98,16.8,10286,Anxiety; Arthritis,None,Shellfish,2023-01-11,3,10,1,Vegetarian,Medicaid,8796,2,No,No,No,35
+P0219,34,Male,183,100,29.9,A+,Never,156,107,81,36.8,18,279,99,40,81,13,4453,None,Albuterol,Nuts,2022-03-08,3,8,1,Omnivore,Medicare,1703,0,No,No,No,80
+P0220,25,Male,164,111,41.3,AB+,Never,95,94,67,37.8,14,193,143,41,140,13.6,7178,None,Aspirin,None,2023-07-12,3,8,9,Vegetarian,Medicaid,12060,1,No,No,Yes,65
+P0221,47,Male,184,81,23.9,O+,Current,149,108,75,37.2,13,168,135,65,128,11.4,9830,Anxiety,Atorvastatin,Eggs,2023-02-04,1,8,7,Keto,Medicaid,5830,3,No,No,Yes,45
+P0222,43,Female,189,102,28.6,O-,Former,165,75,85,37,18,192,172,49,81,15.1,4756,None,None,Eggs,2021-03-09,0,9,8,Omnivore,Medicaid,3750,4,No,No,Yes,55
+P0223,31,Male,167,79,28.3,B-,Former,101,85,75,37.3,18,264,152,66,173,13.7,8514,Depression,None,None,2024-01-19,2,4,6,Mediterranean,Uninsured,8426,4,No,No,Yes,70
+P0224,74,Other,185,88,25.7,A-,Former,175,115,67,36.6,17,288,169,31,185,12.5,8097,None,Albuterol,Eggs,2020-12-30,5,6,2,Omnivore,Private,4156,4,No,No,No,75
+P0225,23,Other,151,76,33.3,AB+,Former,155,102,97,36.8,18,157,161,40,186,11.7,10691,Hypertension,Albuterol,Penicillin,2021-05-30,6,10,5,Paleo,Private,14653,0,Yes,No,No,55
+P0226,38,Male,180,113,34.9,A+,Current,118,78,85,36.1,12,294,135,41,108,15.5,10085,Hypertension,Metformin,Penicillin,2020-02-23,0,5,3,Mediterranean,Private,12514,3,No,No,No,45
+P0227,19,Male,167,86,30.8,A+,Never,175,64,63,37.1,13,172,171,72,195,13.9,5477,Hypertension; Asthma,Lisinopril,Pollen,2020-10-26,6,10,1,Keto,Uninsured,2415,4,No,No,No,50
+P0228,69,Female,152,91,39.4,O+,Never,164,80,78,36.2,14,247,157,77,120,15.9,4471,Diabetes,None,None,2024-03-31,4,9,7,Vegan,Medicaid,7627,1,No,No,No,65
+P0229,25,Female,181,110,33.6,B-,Never,166,93,67,36.3,19,158,92,40,131,14.8,4848,None,Metformin,Pollen,2024-09-18,5,6,6,Vegan,Medicare,10660,4,No,Yes,No,75
+P0230,35,Male,181,66,20.1,A-,Never,101,114,60,36.9,15,196,185,73,134,16.7,4328,Diabetes,Albuterol; Atorvastatin,None,2021-06-04,5,9,5,Keto,Medicare,559,4,Yes,No,No,75
+P0231,53,Female,195,103,27.1,B-,Former,162,107,74,37.1,17,294,175,79,134,15.9,10889,Anxiety,None,Shellfish,2021-07-28,0,10,6,Mediterranean,Private,6087,0,No,Yes,No,50
+P0232,83,Male,176,56,18.1,A-,Current,133,72,63,37.7,16,203,71,75,179,13.4,9541,Arthritis,Lisinopril,Eggs,2023-02-06,6,4,3,Vegan,Medicaid,7693,1,No,Yes,No,50
+P0233,39,Male,150,90,40,AB-,Current,147,62,85,36.3,13,286,148,39,104,13.9,10666,Depression,Omeprazole,Dairy,2020-06-22,0,7,2,Vegetarian,Uninsured,14638,2,Yes,Yes,No,35
+P0234,56,Male,165,54,19.8,B-,Former,120,117,96,36.8,15,286,88,51,169,12.5,5041,None,None,Pollen,2024-12-15,6,4,6,Keto,Medicaid,1138,1,No,Yes,No,75
+P0235,27,Female,199,102,25.8,A-,Never,108,107,79,37.7,19,256,111,32,192,15.2,6458,Asthma,None,Penicillin,2021-06-23,5,7,2,Omnivore,Medicare,4409,2,Yes,No,Yes,70
+P0236,65,Other,155,62,25.8,AB+,Current,158,110,97,37.4,13,292,172,52,148,17,5970,None,Omeprazole,Pollen,2023-01-24,4,5,9,Paleo,Uninsured,8801,2,Yes,Yes,No,45
+P0237,40,Other,196,62,16.1,A-,Never,178,105,72,37.6,18,154,141,41,168,12.3,5293,Hypertension; Heart Disease,Lisinopril,Shellfish,2020-02-06,5,9,1,Keto,Medicare,8223,0,Yes,No,No,55
+P0238,25,Male,177,88,28.1,B-,Current,96,102,97,37.7,17,152,88,31,127,16,5896,None,None,Shellfish,2020-06-06,3,5,1,Vegan,Medicare,8775,0,No,No,No,55
+P0239,72,Female,163,118,44.4,A-,Former,100,118,93,36.8,13,241,109,68,163,12.7,10506,Heart Disease,Lisinopril,Shellfish,2021-10-13,0,10,2,Vegetarian,Medicaid,11422,1,Yes,Yes,No,45
+P0240,72,Male,163,52,19.6,AB-,Never,117,79,85,37.3,16,160,97,67,181,16.8,8411,Depression; Anxiety,Albuterol; Aspirin,None,2021-05-24,5,5,3,Vegetarian,Medicare,14855,3,Yes,No,Yes,75
+P0241,64,Other,157,99,40.2,A+,Current,92,102,63,37.7,19,267,118,61,125,13.6,7373,Hypertension,Albuterol,Shellfish,2024-02-04,2,9,2,Vegetarian,Uninsured,3605,3,No,No,No,45
+P0242,78,Female,197,117,30.1,B+,Never,121,94,74,36.4,14,277,97,62,190,15.4,5885,Arthritis,Albuterol,Shellfish,2022-04-08,3,6,6,Omnivore,Medicaid,6965,1,No,No,No,65
+P0243,62,Female,184,67,19.8,B-,Never,91,65,96,36.7,18,206,90,77,71,12.6,10990,None,Lisinopril,Eggs,2021-03-05,5,8,1,Paleo,Medicare,4030,3,No,Yes,No,100
+P0244,79,Other,191,105,28.8,A-,Former,116,113,63,36.2,17,215,122,72,181,16.7,10308,None,Albuterol,Eggs,2023-05-09,0,10,5,Keto,Medicaid,12284,2,No,No,No,60
+P0245,69,Female,190,79,21.9,O+,Former,95,116,64,37.4,19,292,130,75,104,12,8423,Heart Disease,None,Dairy,2022-08-16,6,6,8,Vegan,Medicaid,2235,1,No,Yes,No,60
+P0246,34,Female,194,94,25,AB-,Former,160,85,87,36.7,17,165,72,39,107,16.5,9498,None,Atorvastatin,Nuts,2020-05-10,3,8,3,Vegan,Private,4062,0,No,Yes,Yes,80
+P0247,24,Male,187,73,20.9,A+,Former,124,95,90,36.5,18,208,96,65,153,15.4,6319,Heart Disease,Ibuprofen,None,2021-04-13,2,4,3,Mediterranean,Private,5052,3,No,Yes,No,65
+P0248,77,Female,154,104,43.9,B+,Former,111,85,69,36.3,16,266,161,34,199,11.3,8790,Arthritis,None,None,2023-10-29,3,7,6,Paleo,Medicaid,2494,3,No,No,Yes,70
+P0249,82,Other,167,113,40.5,A+,Current,140,118,71,36.5,18,297,72,30,163,12.6,10340,Anxiety,None,Nuts,2020-12-19,4,8,5,Vegan,Uninsured,4381,4,No,No,No,45
+P0250,74,Other,181,91,27.8,AB-,Former,171,94,96,37.1,18,224,98,47,106,17,4148,Asthma,Ibuprofen,None,2024-01-29,6,7,7,Vegetarian,Medicaid,5192,2,No,No,No,65
+P0251,39,Other,181,86,26.3,A-,Current,171,77,97,37.4,13,181,141,48,136,11.2,5309,None,None,Dairy,2022-03-21,0,8,6,Omnivore,Uninsured,14154,0,No,No,No,50
+P0252,23,Other,194,105,27.9,A+,Former,168,99,63,36.2,12,278,87,54,116,14.9,9589,Depression,None,Dairy,2023-04-30,0,7,3,Vegetarian,Medicaid,12632,2,No,Yes,No,55
+P0253,59,Other,181,71,21.7,AB-,Former,179,81,90,37.3,19,165,110,35,167,14.2,5058,Anxiety,Aspirin,Penicillin,2020-09-22,5,4,5,Mediterranean,Medicare,13880,3,Yes,Yes,Yes,65
+P0254,74,Male,154,107,45.1,B+,Former,156,62,74,36.1,14,188,103,45,122,15.5,6002,None,Lisinopril; Aspirin,Dairy,2023-09-19,6,10,3,Keto,Uninsured,7668,1,Yes,No,No,65
+P0255,72,Female,155,88,36.6,B+,Current,143,106,93,37.8,18,156,186,37,104,15.7,6984,None,Aspirin,Pollen,2020-08-19,3,5,4,Omnivore,Medicare,4516,2,Yes,No,Yes,50
+P0256,76,Other,189,89,24.9,AB-,Former,174,80,78,37.5,17,284,85,39,95,13.9,10752,None,None,None,2024-07-28,0,6,9,Omnivore,Uninsured,783,3,No,No,Yes,60
+P0257,77,Male,153,58,24.8,A-,Current,108,97,85,36.6,16,220,99,71,116,15.3,4563,Depression,Metformin,Shellfish,2022-09-22,6,5,7,Keto,Medicaid,8575,0,Yes,No,No,50
+P0258,70,Male,194,89,23.6,B+,Current,97,62,62,37.8,13,282,123,32,128,11.4,10301,Asthma,Metformin,Dairy,2023-03-21,6,10,3,Vegetarian,Medicare,7100,1,Yes,Yes,No,65
+P0259,80,Female,155,72,30,A+,Never,136,70,71,36.4,14,232,189,38,139,13.7,5140,None,Ibuprofen; Metformin,Shellfish,2022-08-16,3,7,4,Vegan,Private,10455,0,No,No,No,90
+P0260,20,Male,193,88,23.6,AB-,Current,136,117,62,36.7,16,280,156,48,104,11.3,4729,None,None,Pollen,2020-09-05,5,6,8,Vegan,Medicaid,5116,1,No,No,No,55
+P0261,78,Female,189,73,20.4,B-,Current,177,91,99,36.3,18,270,146,60,174,12.3,4451,None,Omeprazole,Pollen,2023-01-18,1,6,8,Vegetarian,Uninsured,616,4,No,No,Yes,45
+P0262,23,Female,153,51,21.8,B+,Former,124,109,61,36.4,19,295,107,70,75,11.4,10721,None,None,Penicillin,2023-10-30,5,10,9,Vegan,Uninsured,2775,1,Yes,Yes,Yes,65
+P0263,20,Other,175,85,27.8,A+,Former,117,66,83,37.8,15,256,146,77,159,12.7,4683,None,None,None,2024-09-30,0,10,3,Mediterranean,Uninsured,5063,1,Yes,Yes,No,75
+P0264,54,Female,150,55,24.4,AB-,Current,92,100,66,37.5,19,190,141,46,106,16.5,4373,Depression,None,None,2022-02-14,1,8,2,Omnivore,Medicaid,8553,0,No,No,Yes,45
+P0265,31,Male,186,67,19.4,O+,Current,164,62,95,37.3,13,218,184,62,89,14.4,9803,Depression; Hypertension,None,Pollen,2023-10-14,3,10,5,Keto,Medicare,11602,2,No,No,No,40
+P0266,67,Female,157,62,25.2,B-,Current,163,69,72,36.7,15,193,103,63,88,11.7,7295,Anxiety,Lisinopril; Ibuprofen,Nuts,2022-02-15,4,7,9,Vegetarian,Medicaid,4136,0,Yes,No,Yes,40
+P0267,73,Female,163,107,40.3,AB+,Current,158,70,66,37.6,12,263,185,37,194,14.9,8823,Heart Disease,Lisinopril,Penicillin,2023-11-11,4,4,4,Mediterranean,Medicaid,13021,3,No,Yes,No,40
+P0268,42,Female,177,50,16,A+,Former,123,81,86,37.3,17,208,171,42,106,14.7,7152,None,Atorvastatin,Penicillin,2024-11-21,2,5,5,Omnivore,Uninsured,7088,1,No,No,No,75
+P0269,49,Male,164,99,36.8,B-,Former,175,85,91,36.5,16,229,186,38,193,13.7,9681,Diabetes; Asthma,Metformin; Aspirin,Dairy,2020-12-16,3,10,7,Paleo,Medicaid,3685,4,No,No,Yes,45
+P0270,25,Other,170,83,28.7,AB-,Never,179,77,63,36.8,16,172,80,31,154,13,10722,None,Lisinopril; Omeprazole,Penicillin,2023-06-04,2,9,3,Mediterranean,Uninsured,10919,4,Yes,No,Yes,80
+P0271,79,Female,175,107,34.9,A+,Never,140,110,89,36.3,18,294,188,69,87,12.9,9901,Anxiety; Depression,None,Pollen,2020-10-06,4,4,4,Mediterranean,Medicaid,13516,0,No,No,No,50
+P0272,54,Male,160,66,25.8,B+,Current,149,100,82,37.6,16,206,86,39,181,11.9,10579,Depression,Albuterol; Metformin,Nuts,2021-05-24,0,10,1,Paleo,Uninsured,9567,3,No,No,Yes,35
+P0273,56,Male,182,51,15.4,AB+,Never,163,119,73,37.4,19,297,136,64,122,16.3,10595,None,None,Pollen,2023-10-14,5,4,1,Paleo,Medicaid,6492,4,No,No,No,70
+P0274,82,Male,163,99,37.3,B+,Former,128,70,77,36.7,18,248,85,74,77,16.6,10555,Hypertension,None,Nuts,2021-09-15,3,8,8,Paleo,Medicare,1529,3,Yes,No,No,65
+P0275,29,Male,168,55,19.5,B+,Current,101,104,67,36.4,13,200,89,70,155,13.1,10726,None,None,Eggs,2023-06-14,1,5,3,Mediterranean,Medicare,1442,0,No,No,Yes,50
+P0276,75,Other,182,86,26,B-,Former,110,70,89,37.7,13,226,102,48,191,14.3,8433,Heart Disease,Ibuprofen,None,2023-04-19,5,8,2,Vegan,Medicaid,8549,4,Yes,No,No,80
+P0277,38,Female,194,117,31.1,A-,Current,98,103,80,37.2,16,289,170,38,186,16.8,9519,None,None,Eggs,2020-11-17,4,6,4,Vegan,Medicaid,9284,0,No,No,No,55
+P0278,49,Other,191,63,17.3,O-,Current,129,83,93,37,12,151,107,47,99,16,10737,Arthritis,Lisinopril,None,2024-04-10,5,5,5,Vegan,Private,7077,4,No,No,No,50
+P0279,20,Other,192,85,23.1,AB+,Never,145,118,73,37.2,12,287,80,43,107,13.8,5652,Asthma,Omeprazole,Nuts,2023-02-27,6,4,6,Mediterranean,Medicaid,1742,0,Yes,No,No,70
+P0280,53,Female,192,58,15.7,A-,Current,171,68,73,37.3,12,270,142,71,190,14.4,7101,Asthma,None,Pollen,2021-03-07,0,8,3,Vegan,Uninsured,2561,0,No,No,No,35
+P0281,31,Female,161,79,30.5,AB+,Former,92,87,76,36.4,17,180,136,77,82,13.5,6730,Asthma; Anxiety,None,Dairy,2022-10-20,6,7,5,Vegan,Uninsured,12734,0,No,No,No,60
+P0282,68,Male,182,95,28.7,B-,Current,145,92,88,37.2,18,232,116,46,81,11.1,10677,None,Lisinopril,Dairy,2021-03-29,0,9,8,Vegetarian,Uninsured,13894,0,No,No,No,40
+P0283,50,Female,188,81,22.9,A-,Former,117,73,65,37.8,18,278,105,46,135,16.7,10658,None,Albuterol,Penicillin,2023-08-05,6,6,3,Omnivore,Medicare,8774,3,No,Yes,Yes,95
+P0284,64,Other,179,102,31.8,B-,Former,132,103,87,36.3,13,279,141,50,164,14.8,7417,None,Omeprazole,Eggs,2023-08-19,2,7,9,Vegetarian,Uninsured,3211,2,No,No,No,60
+P0285,51,Other,199,59,14.9,B+,Current,130,118,89,36.9,12,197,114,77,194,16,6872,None,Albuterol; Lisinopril,Nuts,2024-11-07,3,7,3,Paleo,Private,11294,4,No,No,Yes,55
+P0286,31,Other,161,111,42.8,O+,Never,97,103,80,36.4,16,201,181,54,141,14.8,5997,None,None,Dairy,2023-06-19,6,7,3,Vegetarian,Medicare,12682,3,No,No,No,75
+P0287,75,Female,150,83,36.9,B+,Never,156,101,77,36.2,14,233,181,66,116,15.9,5303,Arthritis; Heart Disease,Aspirin,Dairy,2024-09-06,2,4,3,Omnivore,Medicaid,8192,2,Yes,No,Yes,50
+P0288,18,Female,156,102,41.9,AB-,Current,146,110,81,37.7,18,182,147,71,183,16.2,9214,None,Atorvastatin,Pollen,2021-07-21,2,7,5,Vegan,Medicare,7455,0,No,No,No,55
+P0289,58,Female,167,96,34.4,O+,Former,107,99,76,37.5,19,240,139,57,193,16.1,7894,Arthritis,Omeprazole,Pollen,2020-07-10,2,4,4,Vegetarian,Uninsured,737,3,Yes,No,Yes,55
+P0290,46,Other,166,93,33.7,A+,Current,122,108,80,36.2,13,285,169,39,136,13.6,5530,None,Atorvastatin; Aspirin,Pollen,2024-05-20,0,10,4,Paleo,Uninsured,10933,1,No,No,No,40
+P0291,19,Female,159,112,44.3,B+,Current,147,66,88,37,13,207,105,48,190,15.5,5339,None,Lisinopril,Penicillin,2023-08-11,0,4,3,Vegetarian,Medicare,5669,1,Yes,Yes,Yes,40
+P0292,37,Other,169,95,33.3,O+,Former,163,81,72,37.5,18,298,89,56,115,13.2,10013,Heart Disease,Lisinopril,Penicillin,2024-04-09,1,5,4,Paleo,Medicaid,4736,0,No,No,No,45
+P0293,31,Other,199,108,27.3,A-,Current,151,60,69,37.4,14,225,120,41,158,13.5,6671,Anxiety,None,Dairy,2022-02-16,3,9,1,Mediterranean,Private,6740,3,No,Yes,No,50
+P0294,18,Female,183,107,32,A-,Former,117,85,79,37.5,14,201,177,72,152,12.5,4152,None,None,Penicillin,2022-08-31,6,8,7,Keto,Uninsured,14771,1,No,No,No,80
+P0295,28,Female,199,119,30,A-,Never,101,105,95,36.6,12,277,170,66,104,11.7,4129,None,None,Dairy,2024-02-09,1,8,8,Paleo,Private,3497,2,Yes,No,No,60
+P0296,63,Male,199,63,15.9,O+,Current,148,78,79,37.4,16,250,149,56,110,15.6,4047,Arthritis,None,Penicillin,2022-01-12,2,7,6,Keto,Uninsured,12618,4,No,Yes,No,45
+P0297,69,Male,156,72,29.6,B+,Current,130,73,77,36.6,19,233,188,56,190,11.8,8678,Heart Disease,None,Dairy,2022-10-05,3,9,1,Vegan,Uninsured,12384,1,Yes,No,Yes,65
+P0298,54,Female,152,114,49.3,B+,Former,147,63,89,37.4,14,155,162,52,170,12.6,4620,None,None,Pollen,2023-03-05,3,10,1,Paleo,Medicare,13641,4,Yes,No,Yes,65
+P0299,62,Female,150,107,47.6,A-,Never,169,65,80,37.5,17,159,140,39,157,11,4844,Depression,None,Penicillin,2024-04-14,3,9,4,Vegan,Medicare,3040,4,No,No,Yes,65
+P0300,31,Female,159,88,34.8,AB-,Current,118,88,60,37,19,270,132,51,90,14.6,8243,Heart Disease,None,Pollen,2021-03-15,2,10,2,Paleo,Uninsured,10821,4,Yes,No,No,50
+P0301,20,Other,180,101,31.2,B+,Current,130,98,94,36.8,12,184,146,48,183,13.8,4896,Arthritis; Hypertension,Lisinopril,Pollen,2021-02-23,2,10,5,Keto,Private,9281,1,No,No,No,30
+P0302,79,Female,155,96,40,AB-,Former,141,111,97,36.5,16,183,150,74,156,13.6,4495,Hypertension,Albuterol,Nuts,2023-08-04,3,10,4,Vegetarian,Medicare,1589,2,No,No,No,55
+P0303,52,Female,153,112,47.8,O-,Never,127,107,65,36.5,14,238,165,69,188,13.1,10534,Heart Disease,None,Nuts,2021-10-26,4,7,8,Paleo,Medicare,11154,2,No,Yes,No,55
+P0304,52,Female,160,99,38.7,A-,Current,126,109,77,37.3,12,182,120,76,146,11,8238,Hypertension,Omeprazole,Eggs,2022-05-14,1,5,3,Vegetarian,Medicaid,5413,4,No,No,No,30
+P0305,65,Female,158,99,39.7,A+,Current,172,103,87,37.8,14,267,168,79,193,16.6,8123,Hypertension,Ibuprofen,Nuts,2020-10-10,1,8,8,Vegetarian,Medicare,2823,2,No,No,Yes,25
+P0306,28,Other,159,61,24.1,AB-,Never,148,106,91,37,19,221,92,78,168,15.2,10891,Depression,Omeprazole,Shellfish,2020-05-16,6,7,5,Vegetarian,Private,3729,2,Yes,No,No,75
+P0307,78,Other,169,98,34.3,A-,Never,97,100,61,37.6,18,251,97,33,182,16.7,8815,Asthma,Atorvastatin,Dairy,2022-01-28,5,7,6,Omnivore,Medicare,6368,2,Yes,No,Yes,65
+P0308,43,Female,156,88,36.2,A+,Former,176,71,78,37.1,13,273,152,62,75,11.4,10439,Heart Disease; Depression,Albuterol,Nuts,2024-11-30,4,8,9,Keto,Medicaid,3302,1,No,No,No,40
+P0309,53,Other,178,81,25.6,O+,Never,146,76,72,36.6,13,274,76,67,111,16.9,6128,Anxiety,None,Penicillin,2024-05-09,6,6,8,Paleo,Uninsured,6481,1,No,Yes,No,60
+P0310,21,Female,158,60,24,A+,Current,105,103,98,37.2,14,160,135,79,171,11.2,7240,Depression; Hypertension,None,Penicillin,2022-06-08,3,8,9,Vegan,Private,7553,4,No,No,No,35
+P0311,56,Other,197,104,26.8,AB-,Current,112,107,70,36.3,19,222,138,32,87,16.8,5157,None,Omeprazole,Dairy,2020-09-30,1,6,7,Keto,Medicaid,5552,0,No,No,Yes,50
+P0312,52,Other,190,92,25.5,O+,Never,163,104,60,36.8,18,244,143,53,90,12.1,5018,Asthma; Depression,None,Dairy,2024-04-10,6,9,4,Keto,Private,13979,1,No,No,Yes,60
+P0313,69,Male,190,51,14.1,B+,Never,111,92,60,36.6,19,175,142,54,149,12.7,10206,None,Ibuprofen,Pollen,2022-12-11,4,8,8,Keto,Private,3340,2,Yes,No,Yes,65
+P0314,50,Male,175,84,27.4,B-,Current,139,107,76,36.5,13,216,82,39,85,12.4,7661,None,None,Nuts,2020-09-27,1,8,1,Omnivore,Private,2550,4,No,Yes,Yes,50
+P0315,29,Female,161,82,31.6,B+,Current,93,71,70,36.2,17,242,82,52,102,14.8,4940,None,None,Eggs,2024-03-27,0,4,5,Mediterranean,Medicaid,7180,2,No,No,No,55
+P0316,49,Female,195,58,15.3,O+,Never,162,105,64,37.5,19,186,155,53,150,13,6108,None,Ibuprofen,Nuts,2021-01-10,4,4,4,Vegetarian,Medicare,3105,2,No,Yes,No,70
+P0317,70,Female,179,71,22.2,AB-,Never,117,118,69,37.2,18,200,154,76,152,12.9,7639,Hypertension,Metformin,Penicillin,2021-04-21,5,6,1,Mediterranean,Medicaid,1455,2,Yes,No,Yes,75
+P0318,39,Male,167,99,35.5,AB+,Never,123,92,73,37.5,17,240,104,58,168,13.1,9521,None,None,Nuts,2021-10-07,2,8,1,Vegetarian,Private,5005,3,Yes,Yes,No,75
+P0319,72,Other,182,60,18.1,B-,Current,151,86,84,36.7,14,173,119,62,78,12.3,4250,Depression,Metformin,Pollen,2021-08-11,1,5,5,Vegetarian,Medicaid,6705,1,No,No,No,30
+P0320,29,Female,171,68,23.3,A+,Never,125,100,86,36.9,19,264,162,56,128,11.4,8654,Heart Disease,None,Eggs,2023-12-25,6,10,7,Keto,Private,1994,0,No,Yes,No,70
+P0321,33,Male,198,79,20.2,A-,Former,165,92,63,37,18,280,142,60,196,13.8,10836,None,Ibuprofen; Lisinopril,Pollen,2020-09-08,6,9,8,Mediterranean,Medicaid,5215,2,No,No,Yes,70
+P0322,30,Other,151,60,26.3,A-,Former,131,98,67,37.5,18,179,184,50,105,15.4,7359,Asthma,None,Eggs,2020-08-21,6,7,1,Vegan,Medicaid,1183,2,No,No,No,65
+P0323,78,Male,160,51,19.9,O+,Former,177,105,68,37.4,19,238,184,47,145,15.9,10893,None,Metformin,Shellfish,2024-07-14,1,8,1,Mediterranean,Uninsured,12046,2,Yes,No,Yes,70
+P0324,37,Female,172,64,21.6,A+,Former,146,84,85,37.3,12,253,118,58,112,16,10007,Arthritis,Atorvastatin,Eggs,2022-04-25,4,7,1,Omnivore,Uninsured,8944,3,No,No,No,70
+P0325,41,Male,196,73,19,A-,Current,100,64,78,37.1,15,201,85,79,191,14.4,4291,Heart Disease,Albuterol,None,2023-11-04,5,6,2,Omnivore,Private,14959,2,No,No,Yes,70
+P0326,54,Male,169,80,28,O-,Never,132,62,64,36.3,13,189,94,61,179,16.5,9769,Anxiety,Aspirin,None,2022-12-01,2,10,9,Paleo,Medicaid,2910,2,No,No,No,65
+P0327,39,Male,159,70,27.7,B+,Current,138,110,90,36.4,18,160,94,37,126,12,9242,None,None,Eggs,2024-06-10,0,7,3,Omnivore,Medicare,7037,0,Yes,No,Yes,50
+P0328,73,Female,173,115,38.4,O-,Current,125,74,87,36.5,18,168,153,44,160,15.2,10816,Anxiety,Metformin,None,2023-10-14,4,4,5,Vegan,Medicare,11756,3,No,No,No,55
+P0329,41,Male,160,111,43.4,O+,Former,149,107,76,36.7,19,210,99,31,76,11.2,10842,Heart Disease,Lisinopril; Albuterol,Penicillin,2021-12-01,4,4,2,Mediterranean,Private,7964,0,Yes,Yes,No,55
+P0330,44,Other,151,101,44.3,B+,Never,162,69,83,37,15,237,132,50,156,14.5,4216,Depression,Lisinopril; Metformin,Nuts,2022-02-01,0,10,7,Omnivore,Medicare,1572,0,No,No,Yes,50
+P0331,19,Other,157,60,24.3,O+,Current,179,83,97,37.2,15,246,104,57,179,15.2,8434,None,Aspirin,Dairy,2021-06-23,5,8,3,Keto,Private,3384,2,No,No,Yes,65
+P0332,28,Female,154,51,21.5,A+,Former,179,113,66,36.6,19,200,178,53,194,11.9,5753,None,None,Dairy,2020-03-01,0,7,1,Keto,Medicare,9939,0,No,No,No,70
+P0333,53,Male,196,77,20,AB+,Former,153,101,62,36.5,12,293,159,33,99,15.6,9636,Arthritis,Aspirin; Ibuprofen,Eggs,2024-06-27,5,4,7,Vegetarian,Medicaid,4651,2,No,Yes,No,65
+P0334,46,Female,171,56,19.2,B-,Never,102,77,66,37.6,15,231,77,77,105,13.5,8494,Asthma,Atorvastatin,Nuts,2022-04-06,0,4,4,Vegetarian,Private,14833,2,No,Yes,Yes,75
+P0335,45,Male,189,54,15.1,O-,Former,110,119,86,37.7,14,156,109,52,77,11.1,8633,Depression,None,Penicillin,2024-05-22,5,6,6,Vegan,Private,10574,2,No,No,No,60
+P0336,23,Male,189,58,16.2,AB+,Current,176,61,91,36.6,17,270,76,49,151,15.8,8169,None,Metformin,Shellfish,2024-02-25,3,7,5,Paleo,Private,5821,2,No,No,No,55
+P0337,45,Female,197,102,26.3,B-,Current,127,108,85,36.7,15,242,148,45,129,11.9,6884,None,None,None,2022-01-21,0,5,6,Vegetarian,Private,9949,3,Yes,No,Yes,45
+P0338,83,Other,167,50,17.9,O-,Current,120,82,80,36.9,17,264,149,40,77,15,10212,Anxiety,Atorvastatin,Penicillin,2024-04-01,3,9,9,Mediterranean,Private,6780,0,No,Yes,No,45
+P0339,44,Female,183,91,27.2,A-,Never,151,76,66,37.7,15,254,173,66,80,12.1,4171,Depression; Diabetes,None,Dairy,2021-04-20,1,7,5,Mediterranean,Medicaid,9609,1,No,Yes,No,50
+P0340,19,Female,155,71,29.6,AB+,Former,125,61,99,36.7,14,232,86,43,151,11.5,10302,None,Aspirin,Pollen,2024-11-28,3,8,5,Keto,Medicare,1604,2,No,No,Yes,90
+P0341,43,Other,159,78,30.9,AB-,Never,107,109,62,37.7,12,276,121,32,194,12.1,5660,Heart Disease,None,Nuts,2023-11-01,1,8,7,Paleo,Uninsured,10955,1,Yes,No,No,55
+P0342,61,Male,181,65,19.8,O-,Never,165,118,89,36.6,18,208,182,37,117,15.6,10820,Asthma,Albuterol,Eggs,2023-04-09,4,7,4,Omnivore,Medicare,8475,3,No,No,Yes,75
+P0343,37,Other,170,93,32.2,B+,Former,128,102,60,37.7,14,216,153,34,181,15.8,5803,Diabetes,None,Dairy,2024-07-15,3,7,4,Mediterranean,Medicaid,11179,0,No,No,Yes,60
+P0344,21,Male,195,57,15,B-,Never,171,116,82,37,13,251,97,38,99,14.9,4393,None,Aspirin,Penicillin,2023-12-18,5,4,4,Keto,Uninsured,7520,3,No,No,No,70
+P0345,21,Female,195,116,30.5,A-,Current,118,111,72,36.4,18,259,147,38,130,15.6,7443,Heart Disease,Lisinopril,Pollen,2024-09-11,5,8,1,Omnivore,Private,6092,1,Yes,No,No,45
+P0346,67,Other,176,57,18.4,O+,Never,160,66,60,36.9,12,228,175,43,194,15.4,10525,None,None,Pollen,2021-01-23,5,7,5,Omnivore,Uninsured,6458,4,No,No,No,75
+P0347,66,Female,170,94,32.5,O-,Current,104,94,71,37.3,15,292,113,69,187,16.5,6591,Asthma; Anxiety,None,Shellfish,2023-01-10,6,7,7,Mediterranean,Medicaid,14939,3,Yes,No,Yes,35
+P0348,44,Male,179,85,26.5,B+,Former,144,119,95,36.2,18,226,90,44,164,16.8,10654,None,Aspirin,Nuts,2022-07-22,2,5,2,Mediterranean,Private,5599,1,No,No,Yes,70
+P0349,60,Female,190,56,15.5,B+,Former,92,115,88,36.7,17,241,107,38,143,16.3,6316,Asthma; Depression,Ibuprofen,Eggs,2021-09-02,0,9,7,Omnivore,Medicare,603,0,No,No,No,40
+P0350,33,Male,189,112,31.4,O-,Never,163,117,70,37.4,13,282,185,50,191,14.9,10393,None,Omeprazole,Shellfish,2024-06-08,6,6,6,Vegan,Uninsured,3958,3,No,No,Yes,75
+P0351,55,Other,177,104,33.2,AB+,Current,116,113,97,36.3,19,291,104,58,101,11,10708,None,Albuterol,Nuts,2024-06-01,4,5,9,Omnivore,Medicare,8613,3,No,No,No,40
+P0352,37,Male,180,98,30.2,AB+,Never,145,84,87,36.4,19,278,76,74,188,11.8,4939,Arthritis,None,Nuts,2024-11-12,3,10,9,Omnivore,Medicaid,5657,4,Yes,No,Yes,50
+P0353,54,Other,167,69,24.7,A+,Current,139,106,74,37.7,16,256,188,40,121,11.4,10838,None,None,None,2022-08-03,2,5,6,Vegetarian,Medicaid,1970,0,Yes,No,No,60
+P0354,82,Other,164,73,27.1,AB+,Never,143,71,99,37.5,15,246,111,44,138,14.7,4056,Heart Disease,None,Nuts,2024-04-29,4,6,7,Omnivore,Uninsured,11434,2,No,No,Yes,70
+P0355,40,Female,164,71,26.4,O-,Never,140,66,84,36.6,15,187,179,57,85,15.3,4703,Asthma,Omeprazole,Eggs,2022-06-23,6,8,9,Mediterranean,Uninsured,13565,3,No,No,No,70
+P0356,64,Female,157,101,41,A+,Never,135,114,84,37.4,15,231,135,47,109,12.3,6976,None,Metformin,Nuts,2022-06-06,0,7,4,Vegan,Medicare,8213,1,Yes,No,No,65
+P0357,55,Female,192,105,28.5,O+,Never,123,88,82,37.3,19,231,178,55,111,12.4,9478,Anxiety,Metformin,Penicillin,2024-09-25,6,9,3,Mediterranean,Private,4092,4,No,No,Yes,80
+P0358,42,Other,194,107,28.4,A-,Current,161,74,86,37,16,259,163,44,110,15.7,6319,Heart Disease,Albuterol,Shellfish,2024-06-20,2,9,8,Paleo,Medicare,13343,3,No,Yes,No,40
+P0359,23,Other,191,114,31.2,AB+,Current,120,80,86,37,17,220,139,36,159,14.1,7992,Hypertension; Anxiety,Albuterol; Metformin,Nuts,2022-09-04,5,6,2,Vegan,Private,991,3,No,Yes,Yes,50
+P0360,60,Female,196,100,26,A-,Former,165,81,75,37.2,19,299,97,34,167,12.2,5489,None,None,Nuts,2024-01-14,3,9,7,Mediterranean,Private,13561,4,No,No,No,75
+P0361,72,Other,168,118,41.8,B+,Former,132,94,83,37.5,13,173,131,54,135,15.5,10001,Depression,Albuterol,Shellfish,2020-03-18,0,4,2,Vegetarian,Medicare,14645,2,No,Yes,No,45
+P0362,25,Other,150,75,33.3,B-,Never,166,77,77,36.5,14,278,100,49,131,14.2,10238,None,None,Nuts,2021-03-29,4,4,4,Keto,Uninsured,3841,3,No,No,No,70
+P0363,83,Male,185,114,33.3,B+,Never,100,107,78,37.2,14,269,109,71,135,16.2,6914,Anxiety,Aspirin,Dairy,2023-06-22,3,9,1,Omnivore,Private,8917,4,No,Yes,No,65
+P0364,49,Other,152,94,40.7,A+,Never,152,79,63,36.8,17,214,129,31,147,16.6,5459,Asthma; Diabetes,None,Eggs,2024-08-26,2,6,5,Paleo,Medicaid,12048,0,No,Yes,Yes,55
+P0365,77,Other,158,91,36.5,A+,Never,150,93,99,37.4,18,189,87,51,179,12,8165,Depression,Metformin,Nuts,2020-05-11,0,6,9,Keto,Uninsured,1254,0,Yes,Yes,Yes,45
+P0366,83,Male,177,102,32.6,B-,Current,175,98,91,36.6,19,235,182,36,137,14.1,7830,Asthma,None,Dairy,2024-10-26,2,7,7,Omnivore,Private,1397,1,No,Yes,No,45
+P0367,52,Male,155,59,24.6,A+,Never,101,69,92,37.5,14,243,100,73,126,16.1,6916,None,Ibuprofen,Dairy,2020-05-12,5,10,8,Vegan,Medicare,14873,2,No,No,No,85
+P0368,63,Female,172,100,33.8,A+,Never,130,84,61,37.2,18,280,78,54,165,15.1,8744,None,Lisinopril; Aspirin,Pollen,2021-11-24,4,6,3,Omnivore,Private,4445,1,No,No,Yes,85
+P0369,66,Female,150,87,38.7,B-,Current,144,112,82,36.7,12,227,134,75,164,13.2,4035,Diabetes; Asthma,Atorvastatin,None,2020-04-21,3,10,8,Mediterranean,Medicare,2342,3,Yes,No,No,20
+P0370,63,Male,194,66,17.5,O+,Former,139,117,78,36.8,15,267,129,35,150,12.6,6037,Hypertension,Ibuprofen,Penicillin,2023-07-10,1,7,6,Mediterranean,Medicaid,14653,2,Yes,Yes,Yes,50
+P0371,55,Other,196,78,20.3,O+,Current,175,61,75,36.8,16,203,98,38,126,13.2,6025,Diabetes,None,Nuts,2023-04-13,1,6,1,Paleo,Medicaid,3696,2,No,No,Yes,45
+P0372,31,Female,176,68,22,AB-,Never,124,107,99,37.3,18,265,153,51,156,15.1,8994,None,None,Nuts,2023-07-07,6,10,8,Vegan,Private,13214,1,No,No,No,70
+P0373,32,Female,160,88,34.4,AB-,Former,165,103,60,36.6,15,220,95,53,76,12.4,7002,None,None,Shellfish,2024-08-13,6,10,6,Omnivore,Medicaid,9195,1,No,No,No,65
+P0374,66,Male,197,61,15.7,AB-,Former,147,70,69,37.1,18,258,130,64,111,14.5,6148,Arthritis,Aspirin,Nuts,2020-05-24,2,6,4,Keto,Uninsured,9360,0,Yes,No,No,60
+P0375,28,Other,153,113,48.3,B+,Former,176,66,95,37.6,19,180,125,54,127,15.3,5562,Anxiety; Hypertension,Lisinopril; Omeprazole,Dairy,2022-06-16,4,4,3,Keto,Private,11967,0,Yes,Yes,No,45
+P0376,80,Other,177,108,34.5,O-,Former,123,87,72,37.6,16,214,109,36,70,11.7,5533,Arthritis,Lisinopril,Dairy,2021-07-11,1,8,3,Omnivore,Medicare,3744,2,No,No,No,60
+P0377,26,Male,156,61,25.1,A-,Never,108,106,63,37.7,14,266,115,67,123,15.4,10995,None,Atorvastatin; Omeprazole,None,2022-07-27,0,4,2,Paleo,Private,2679,2,Yes,No,No,65
+P0378,40,Female,159,79,31.2,AB-,Former,163,108,94,36.9,18,167,166,51,141,13.4,10577,None,Ibuprofen,Nuts,2022-11-17,4,5,8,Vegan,Private,6268,4,No,No,Yes,55
+P0379,36,Male,195,78,20.5,B-,Former,152,62,66,37.1,13,211,109,66,92,14.8,10688,Hypertension,Lisinopril; Atorvastatin,Dairy,2021-01-26,0,4,3,Vegan,Medicare,5610,0,No,No,No,55
+P0380,53,Other,193,79,21.2,B-,Former,168,116,89,37.7,16,234,129,59,111,16.1,6020,None,Omeprazole; Lisinopril,Shellfish,2024-02-01,1,7,8,Paleo,Medicare,13102,3,No,No,No,60
+P0381,71,Other,165,85,31.2,O-,Never,125,113,65,37.7,13,222,85,70,90,15.4,6868,Asthma; Diabetes,Lisinopril,Pollen,2024-01-04,6,10,6,Vegetarian,Private,10783,4,No,No,Yes,50
+P0382,19,Female,172,84,28.4,O+,Never,137,89,66,36.4,19,290,115,43,152,16.7,9619,Anxiety,None,Penicillin,2020-03-05,2,9,2,Vegetarian,Medicare,10627,4,Yes,No,No,80
+P0383,34,Female,151,91,39.9,AB+,Former,139,82,86,37.4,19,264,90,74,135,12.6,9052,Anxiety,Atorvastatin; Metformin,Shellfish,2022-02-21,1,8,1,Omnivore,Medicare,10042,0,No,No,No,60
+P0384,79,Male,180,97,29.9,B-,Never,178,104,86,36.2,18,238,130,63,91,11.6,4855,Heart Disease,None,None,2022-05-10,2,8,6,Mediterranean,Uninsured,10717,0,Yes,No,Yes,70
+P0385,59,Other,175,98,32,B+,Current,166,82,92,36.1,13,157,80,64,81,12.4,10375,Arthritis,Atorvastatin,Nuts,2020-02-23,1,10,8,Keto,Uninsured,1421,4,No,No,Yes,20
+P0386,60,Female,156,96,39.4,A-,Never,144,65,96,36.1,12,177,84,49,195,14.2,10212,None,Lisinopril,Pollen,2024-09-16,5,10,1,Vegetarian,Uninsured,13396,1,No,Yes,No,70
+P0387,71,Male,181,66,20.1,O-,Never,146,67,75,36.9,18,221,177,35,119,14.7,7831,Heart Disease,Lisinopril,Shellfish,2023-04-11,0,7,7,Omnivore,Medicare,2782,4,No,Yes,Yes,65
+P0388,55,Other,179,61,19,B+,Never,116,105,61,36.5,15,299,159,47,177,13.6,6882,Diabetes,None,Penicillin,2023-02-09,0,6,1,Vegan,Medicaid,4333,2,No,No,Yes,65
+P0389,33,Female,188,100,28.3,AB-,Current,105,104,76,37.2,14,272,83,74,141,11.6,9131,Arthritis,None,Eggs,2023-06-10,0,10,2,Paleo,Medicare,10132,2,No,No,No,35
+P0390,34,Female,159,50,19.8,AB+,Current,167,106,64,36.7,14,252,93,50,112,15.1,7578,Arthritis,Omeprazole,Eggs,2024-03-17,1,6,6,Vegetarian,Medicaid,4290,2,No,Yes,No,45
+P0391,57,Male,199,117,29.5,A+,Former,157,92,71,36.4,16,288,184,32,127,15.5,5563,None,Omeprazole,Nuts,2023-03-25,4,9,1,Keto,Uninsured,1605,0,No,No,No,75
+P0392,74,Female,196,71,18.5,O-,Never,124,112,75,36.3,12,292,152,58,113,13.6,10046,Heart Disease; Diabetes,Ibuprofen,Pollen,2022-07-14,5,9,6,Mediterranean,Uninsured,3047,1,No,No,No,65
+P0393,46,Female,170,94,32.5,AB+,Never,103,98,76,36.9,12,295,149,41,86,11.1,7656,None,Omeprazole,Eggs,2023-06-13,3,10,3,Keto,Private,4605,2,No,No,No,70
+P0394,41,Other,194,92,24.4,AB+,Current,107,77,74,37.2,16,256,127,57,100,15.2,5567,Depression,None,Eggs,2023-08-20,5,7,7,Keto,Medicaid,11324,2,Yes,No,No,70
+P0395,29,Other,183,59,17.6,AB-,Former,100,91,69,36.4,15,279,140,56,75,13.6,7207,None,None,None,2023-08-22,2,9,1,Keto,Private,904,3,No,No,No,70
+P0396,69,Other,164,75,27.9,A-,Never,139,111,91,37.7,18,169,138,43,116,15.2,10512,Hypertension,Atorvastatin,Pollen,2023-11-12,6,4,7,Keto,Uninsured,4496,1,Yes,No,No,65
+P0397,59,Male,158,100,40.1,A-,Current,123,67,66,37.7,13,158,97,58,85,12.8,5653,None,None,Eggs,2022-10-22,0,8,3,Omnivore,Uninsured,5644,2,No,Yes,Yes,60
+P0398,30,Male,154,77,32.5,AB+,Former,96,98,70,37.8,15,252,79,54,171,15.3,9264,Asthma,Albuterol,Penicillin,2020-01-17,5,10,9,Vegetarian,Medicaid,14496,2,No,Yes,No,45
+P0399,79,Female,150,82,36.4,B+,Never,123,89,82,36.4,14,289,141,43,96,13.9,8263,None,None,Shellfish,2022-03-31,1,7,1,Vegan,Medicare,10855,2,No,Yes,Yes,75
+P0400,23,Other,191,115,31.5,O-,Never,107,88,93,36.9,16,248,184,37,136,13.1,5982,None,Metformin,Pollen,2024-10-23,4,5,4,Keto,Medicaid,14211,3,Yes,No,Yes,80
+P0401,80,Other,156,110,45.2,O+,Never,178,69,86,36.6,14,253,123,58,129,11.7,4506,None,Lisinopril,Penicillin,2023-01-12,4,4,1,Keto,Medicare,9805,4,No,Yes,No,70
+P0402,74,Male,168,95,33.7,A-,Current,170,60,71,36.8,16,239,124,32,116,12.6,4109,Arthritis,Omeprazole,Nuts,2021-05-14,2,7,1,Mediterranean,Uninsured,5392,0,Yes,No,No,45
+P0403,65,Other,175,103,33.6,B+,Never,118,66,94,37.2,15,157,87,58,196,11.4,5510,None,Aspirin,Eggs,2024-04-17,3,8,6,Vegan,Medicare,9425,1,No,No,Yes,90
+P0404,29,Other,187,100,28.6,A+,Never,137,88,70,37.7,16,295,79,47,143,15.2,5066,Asthma,Omeprazole,Pollen,2022-05-18,0,10,7,Vegan,Medicaid,11439,3,No,No,No,65
+P0405,36,Male,152,81,35.1,A+,Current,135,89,83,36.8,12,264,122,63,109,11.4,9766,None,None,Pollen,2023-12-02,1,9,9,Keto,Medicaid,13656,2,No,No,No,45
+P0406,83,Other,178,71,22.4,B-,Former,118,97,88,37.7,14,215,75,33,181,11.1,4401,Hypertension,Aspirin,Penicillin,2020-05-23,6,9,1,Paleo,Uninsured,14098,3,Yes,Yes,No,70
+P0407,47,Male,165,101,37.1,AB+,Former,102,76,70,36.2,14,181,97,33,145,11.6,4477,None,Albuterol,Pollen,2022-09-03,3,4,4,Keto,Medicaid,11507,2,No,No,No,80
+P0408,22,Other,195,116,30.5,B-,Never,152,91,72,37.4,12,266,117,68,138,12.5,7739,Anxiety,None,Nuts,2022-10-10,2,10,2,Omnivore,Private,14094,2,No,No,No,60
+P0409,78,Female,153,105,44.9,O+,Current,107,119,90,37.4,15,252,102,65,87,16.1,9503,Diabetes,Aspirin,Penicillin,2023-06-24,0,7,4,Paleo,Medicaid,943,0,No,No,No,35
+P0410,18,Female,165,109,40,O+,Current,152,108,92,36.3,12,270,130,68,170,12.6,10513,Hypertension,Atorvastatin,Shellfish,2023-09-23,6,9,5,Vegetarian,Private,13541,4,No,No,No,45
+P0411,69,Other,158,89,35.7,AB+,Former,142,78,81,36.2,12,214,115,76,113,16.9,7752,None,Ibuprofen,Shellfish,2020-06-06,6,8,3,Keto,Uninsured,8446,1,Yes,No,Yes,70
+P0412,82,Other,172,100,33.8,A-,Former,144,107,96,37.3,12,189,138,79,98,13,4152,None,Albuterol,None,2022-12-23,1,9,9,Keto,Uninsured,1956,0,Yes,No,Yes,50
+P0413,38,Female,152,51,22.1,AB-,Current,131,68,81,37.1,12,299,172,73,171,15.2,6412,Depression,Metformin,Shellfish,2022-04-20,1,5,9,Mediterranean,Uninsured,13756,3,No,No,Yes,40
+P0414,22,Other,162,92,35.1,O-,Never,103,82,71,37.8,17,234,76,63,119,12.4,6496,None,Albuterol,Penicillin,2022-05-21,1,9,3,Paleo,Medicare,11354,4,No,No,No,75
+P0415,79,Female,163,85,32,B+,Current,127,68,89,37.1,14,191,134,74,168,12.5,9871,Depression; Hypertension,Omeprazole,Penicillin,2024-10-27,6,9,4,Vegan,Uninsured,7252,0,Yes,No,Yes,50
+P0416,63,Female,161,53,20.4,A-,Current,110,65,63,37.1,18,171,86,57,127,16.1,4775,None,None,Eggs,2020-10-17,6,8,2,Omnivore,Private,14254,1,No,No,Yes,80
+P0417,38,Male,191,95,26,B+,Never,134,71,78,36.8,13,269,134,56,83,11.7,10923,None,None,Dairy,2023-12-19,5,10,5,Vegan,Medicare,8935,2,No,No,No,85
+P0418,75,Male,153,117,50,B-,Former,101,63,86,36.9,17,180,130,30,80,14.7,6275,None,Aspirin; Atorvastatin,Eggs,2024-02-14,4,4,8,Paleo,Medicare,5238,4,Yes,No,No,70
+P0419,68,Male,154,100,42.2,AB+,Never,136,113,99,37.6,17,197,166,53,194,14.8,6919,Arthritis; Asthma,Omeprazole,Pollen,2023-12-06,3,8,6,Vegetarian,Medicare,6228,1,No,Yes,Yes,55
+P0420,57,Male,164,83,30.9,B+,Never,121,62,87,36.3,17,199,182,67,93,16.2,8406,None,None,Penicillin,2022-07-13,1,7,5,Paleo,Medicaid,11288,3,No,No,No,80
+P0421,35,Other,176,85,27.4,AB-,Former,102,77,70,37.4,12,262,141,37,124,12.4,7476,None,None,None,2021-09-19,0,8,3,Keto,Medicaid,6526,2,No,No,No,80
+P0422,23,Other,181,70,21.4,A-,Never,96,66,73,37.7,18,178,181,77,151,12.4,4763,Anxiety,Lisinopril,Penicillin,2020-03-03,0,8,2,Mediterranean,Private,3748,3,Yes,No,No,80
+P0423,25,Female,185,91,26.6,A-,Never,137,79,89,37.6,17,218,102,63,105,14.5,4777,None,None,Dairy,2020-07-19,4,9,9,Mediterranean,Medicaid,6817,0,Yes,No,No,80
+P0424,25,Female,169,53,18.6,O-,Current,179,77,83,36.2,14,165,98,30,74,16.3,7120,Asthma,None,Shellfish,2020-09-06,2,10,4,Omnivore,Medicaid,4631,3,Yes,No,No,50
+P0425,26,Other,192,56,15.2,A-,Never,106,84,75,37.2,19,190,124,39,134,13.8,6142,Depression,None,Pollen,2023-08-17,4,9,2,Mediterranean,Uninsured,14710,3,No,Yes,No,75
+P0426,52,Other,178,96,30.3,O+,Never,95,102,74,37.1,14,168,101,45,172,13.7,5628,Arthritis,Aspirin,Shellfish,2024-04-15,3,10,5,Vegetarian,Medicaid,2562,1,No,No,No,60
+P0427,26,Male,180,75,23.1,O+,Former,155,113,97,37.7,13,220,105,63,145,12,6614,None,Lisinopril,Pollen,2020-10-31,4,7,8,Vegan,Medicare,13870,4,Yes,Yes,Yes,70
+P0428,68,Male,165,79,29,AB-,Never,104,113,73,36.3,15,176,143,75,179,12.7,6563,Diabetes,None,None,2021-05-12,3,5,9,Keto,Medicare,10342,4,No,Yes,Yes,55
+P0429,78,Male,184,65,19.2,AB+,Never,112,81,79,37.3,14,255,99,76,129,11.8,9127,None,Ibuprofen,Eggs,2023-06-12,1,5,7,Omnivore,Medicaid,12413,0,No,No,No,80
+P0430,47,Male,169,110,38.5,O-,Never,125,83,81,37.6,15,194,128,38,169,14.4,4800,Arthritis,Aspirin; Metformin,Shellfish,2022-11-20,5,7,6,Vegetarian,Medicaid,11859,2,Yes,No,No,75
+P0431,52,Male,152,93,40.3,A-,Former,100,79,74,37.6,14,281,155,77,107,12,10851,None,Ibuprofen; Metformin,Eggs,2024-02-21,5,8,8,Mediterranean,Uninsured,12014,1,No,Yes,No,75
+P0432,36,Other,171,74,25.3,B-,Current,163,82,89,36.9,15,299,93,72,147,11.1,9866,None,None,Penicillin,2022-04-09,1,7,2,Mediterranean,Medicare,8387,4,No,No,Yes,50
+P0433,84,Female,158,53,21.2,AB-,Current,163,95,76,37.2,15,217,188,68,80,11,6683,Heart Disease,Albuterol,Shellfish,2023-03-27,6,8,3,Vegetarian,Private,10814,2,No,No,No,55
+P0434,79,Other,190,75,20.8,O+,Never,146,76,99,37.7,13,150,161,72,134,12.5,5004,Anxiety,Atorvastatin,Penicillin,2020-01-28,1,7,1,Paleo,Private,3390,3,Yes,No,No,65
+P0435,65,Male,154,89,37.5,A-,Never,118,113,96,37.4,16,164,182,47,129,16.2,10993,Anxiety; Diabetes,Lisinopril,Shellfish,2022-08-23,1,7,9,Vegetarian,Medicare,1116,3,No,No,Yes,35
+P0436,29,Male,169,62,21.7,B-,Current,141,96,76,36.5,13,163,89,77,169,11.7,4433,Anxiety,Atorvastatin,None,2024-12-21,5,6,7,Vegetarian,Uninsured,11392,4,Yes,Yes,No,55
+P0437,25,Female,167,90,32.3,O+,Current,176,85,65,36.2,12,268,148,51,83,13.3,4013,Depression,Omeprazole; Lisinopril,Penicillin,2022-02-26,1,9,4,Paleo,Uninsured,2635,3,No,No,No,35
+P0438,23,Male,169,59,20.7,O-,Former,172,89,95,37.5,15,172,175,43,125,14.1,4403,None,Ibuprofen; Metformin,Eggs,2022-12-27,5,9,5,Paleo,Medicaid,11352,4,Yes,No,Yes,80
+P0439,19,Male,167,71,25.5,AB+,Current,157,112,73,36.8,13,170,95,59,72,12.8,10832,Diabetes,Atorvastatin,Dairy,2024-05-22,0,9,1,Paleo,Medicare,7619,0,Yes,No,No,40
+P0440,25,Other,178,53,16.7,A+,Current,108,117,90,37.1,19,211,94,46,94,13.3,7331,Asthma; Heart Disease,None,Eggs,2020-11-12,0,6,9,Paleo,Medicaid,8445,2,No,No,No,15
+P0441,50,Other,164,73,27.1,A+,Never,163,118,84,37.2,12,236,75,48,111,16.6,5563,Asthma,Omeprazole; Atorvastatin,Shellfish,2023-04-27,2,4,6,Paleo,Medicare,3010,1,No,No,No,65
+P0442,27,Male,173,58,19.4,AB-,Former,101,102,82,37.2,17,197,185,39,75,16.2,4219,Diabetes,Atorvastatin,Penicillin,2020-03-28,3,9,8,Mediterranean,Uninsured,9804,4,No,No,No,60
+P0443,60,Male,174,71,23.5,O+,Never,128,83,61,37.2,16,175,137,53,121,13.1,9544,Anxiety,Lisinopril,Penicillin,2022-04-13,6,5,5,Omnivore,Medicare,6023,1,No,No,No,80
+P0444,53,Male,188,56,15.8,A+,Never,145,91,63,37.4,12,217,115,63,127,13,5165,None,Ibuprofen,None,2024-05-14,2,9,4,Paleo,Medicare,3383,1,Yes,No,No,75
+P0445,38,Other,166,117,42.5,AB-,Former,175,76,91,37.8,15,248,117,79,136,11.3,8072,Hypertension,Ibuprofen,Penicillin,2024-05-25,2,7,2,Keto,Uninsured,8198,2,Yes,No,No,60
+P0446,76,Female,169,79,27.7,AB-,Current,174,102,95,36.8,18,174,75,79,177,11.6,10622,None,None,None,2021-07-23,1,7,1,Vegetarian,Medicare,3415,3,Yes,No,Yes,50
+P0447,67,Other,173,52,17.4,O+,Current,154,63,89,36.9,18,282,87,77,136,11.2,10229,Depression,None,Eggs,2023-03-18,5,10,8,Vegetarian,Medicaid,4717,3,Yes,No,Yes,30
+P0448,36,Female,181,99,30.2,AB+,Former,142,117,85,36.9,12,291,97,42,101,15.3,6112,Arthritis,Metformin,Shellfish,2021-11-09,0,5,7,Mediterranean,Medicare,4496,4,No,No,No,45
+P0449,44,Male,187,77,22,B+,Never,150,105,64,36.5,17,285,183,40,189,16,6060,None,Ibuprofen,None,2021-12-06,2,9,3,Vegan,Medicaid,2665,3,No,Yes,No,85
+P0450,28,Other,184,64,18.9,B+,Former,163,79,99,36.7,15,271,102,70,152,15.1,6733,None,Albuterol; Atorvastatin,Nuts,2021-11-24,5,8,1,Vegetarian,Medicaid,1797,1,Yes,No,Yes,80
+P0451,71,Male,156,94,38.6,B+,Former,125,114,64,36.8,16,285,85,41,165,12.9,4596,Heart Disease; Hypertension,None,None,2024-05-08,1,7,5,Keto,Medicare,6406,3,No,No,No,40
+P0452,31,Other,161,103,39.7,B-,Never,90,115,64,36.8,13,179,90,79,88,13.7,10382,Depression,Omeprazole,Nuts,2020-08-06,5,8,4,Paleo,Medicaid,901,2,No,Yes,Yes,65
+P0453,66,Female,155,105,43.7,A+,Former,159,61,83,36.7,14,174,102,76,140,13.8,9306,None,Atorvastatin; Omeprazole,Penicillin,2021-01-19,5,10,4,Vegetarian,Private,3946,4,No,No,Yes,65
+P0454,44,Female,160,90,35.2,O-,Former,95,90,65,36.9,13,236,89,45,193,16.6,10113,None,None,Pollen,2024-12-15,1,5,7,Paleo,Private,6749,1,Yes,No,No,65
+P0455,52,Female,194,89,23.6,A-,Current,158,90,72,36.3,19,232,135,58,102,15.8,10382,None,None,Pollen,2022-03-27,1,5,1,Vegan,Uninsured,8315,1,No,No,Yes,50
+P0456,71,Female,150,66,29.3,A-,Former,150,112,87,36.7,14,228,76,44,132,16,8173,Arthritis,None,Eggs,2023-06-30,2,10,2,Keto,Medicare,825,4,No,No,No,60
+P0457,68,Other,199,79,19.9,O+,Never,146,81,61,36.2,13,227,85,43,196,13.8,4839,None,None,Eggs,2020-11-23,0,5,7,Mediterranean,Uninsured,8721,1,Yes,No,No,70
+P0458,65,Other,188,75,21.2,AB-,Current,164,73,61,37.2,14,287,85,72,75,13.7,4067,None,None,None,2021-06-24,0,5,5,Keto,Uninsured,2990,3,Yes,Yes,No,50
+P0459,67,Male,175,77,25.1,O-,Never,164,87,77,36.5,13,218,120,52,173,12.3,9033,Depression,Atorvastatin,Dairy,2020-05-31,4,5,3,Omnivore,Medicaid,4569,2,Yes,No,No,65
+P0460,18,Other,158,58,23.2,A+,Former,120,114,85,37.1,17,247,164,79,176,12.9,7492,Heart Disease,Lisinopril,Nuts,2021-04-07,4,7,8,Vegan,Medicare,5225,1,No,No,Yes,60
+P0461,40,Female,173,71,23.7,A-,Former,125,118,71,37.1,19,233,120,49,104,12.4,9426,Depression,Albuterol,Eggs,2024-10-27,6,5,1,Vegetarian,Uninsured,11607,2,Yes,No,No,65
+P0462,57,Other,180,74,22.8,O-,Former,125,64,99,36.5,13,201,132,55,78,16.3,5271,None,Omeprazole,Nuts,2023-10-19,4,7,7,Mediterranean,Uninsured,10683,2,Yes,No,No,95
+P0463,60,Female,177,119,38,A+,Current,116,101,70,36.2,16,241,113,37,78,15.3,4206,None,None,Eggs,2024-08-31,4,8,6,Vegan,Medicaid,13682,4,Yes,No,Yes,55
+P0464,24,Female,188,74,20.9,AB+,Former,164,119,81,36.5,18,182,135,76,153,14.9,8530,None,None,None,2022-03-31,6,6,4,Vegan,Private,4403,4,No,No,No,80
+P0465,77,Male,167,90,32.3,O-,Former,171,70,63,37.2,14,228,185,73,194,11.1,5827,Asthma,Omeprazole,Pollen,2024-12-11,0,8,3,Vegan,Uninsured,12595,3,No,No,Yes,50
+P0466,57,Male,154,97,40.9,B-,Current,142,84,62,37.6,16,229,148,75,120,16.6,6686,None,Atorvastatin,Dairy,2020-03-14,6,6,7,Vegan,Medicare,5732,2,No,No,Yes,55
+P0467,67,Other,154,65,27.4,A-,Never,169,115,72,37.4,14,244,118,78,135,12.4,5230,Diabetes,Omeprazole,Eggs,2020-12-27,5,4,4,Keto,Private,14355,0,Yes,No,No,65
+P0468,39,Other,158,69,27.6,A+,Current,98,106,89,37.4,15,246,119,53,77,14.2,7273,Asthma,Atorvastatin,Nuts,2021-05-29,6,9,4,Mediterranean,Private,3061,4,Yes,No,Yes,50
+P0469,20,Male,150,110,48.9,O+,Former,159,113,95,36.8,14,187,142,33,181,12.8,8773,Hypertension,None,Eggs,2023-06-20,2,6,2,Omnivore,Medicaid,1229,3,No,No,Yes,60
+P0470,43,Female,183,69,20.6,O+,Never,179,78,68,37.3,12,216,122,56,166,13.2,6028,None,None,Nuts,2022-11-13,1,10,2,Paleo,Medicare,13245,0,Yes,No,Yes,70
+P0471,27,Female,159,67,26.5,AB+,Current,98,78,82,37.1,13,231,153,64,107,13.5,10890,Heart Disease,None,Nuts,2021-12-19,1,4,7,Vegetarian,Uninsured,14611,4,Yes,No,Yes,50
+P0472,28,Female,163,106,39.9,B+,Never,129,66,64,36.9,16,228,188,54,78,14.2,6176,Arthritis,Omeprazole; Lisinopril,Pollen,2022-06-16,5,10,1,Vegetarian,Medicaid,12205,0,No,No,Yes,75
+P0473,50,Male,195,69,18.1,O+,Current,154,80,74,37.4,15,152,171,64,114,12.1,7037,None,None,Eggs,2024-10-03,2,9,2,Vegan,Medicare,4057,1,Yes,No,No,55
+P0474,29,Female,174,96,31.7,AB-,Never,102,111,75,36.2,16,161,155,32,78,15.4,8314,Arthritis,None,Penicillin,2024-04-27,1,9,4,Mediterranean,Medicare,3266,3,No,Yes,Yes,55
+P0475,47,Female,152,81,35.1,A-,Former,99,75,67,37.6,18,174,108,49,90,13.9,8189,Depression,Lisinopril,Penicillin,2021-09-06,4,4,8,Vegetarian,Private,2726,1,No,No,No,60
+P0476,64,Other,199,119,30,AB+,Never,143,71,68,36.7,13,233,180,56,89,11.4,9532,Heart Disease; Depression,Metformin,Penicillin,2022-01-07,1,8,2,Keto,Uninsured,10665,0,No,No,No,50
+P0477,30,Other,159,100,39.6,A+,Never,96,68,71,37.8,18,233,79,42,188,16.5,10473,None,None,Penicillin,2024-05-15,5,6,4,Paleo,Private,11527,4,No,No,No,90
+P0478,28,Other,186,95,27.5,A-,Former,131,95,78,36.2,19,223,161,65,98,11.3,5090,Diabetes,Albuterol; Lisinopril,None,2023-09-28,6,5,1,Mediterranean,Medicaid,5124,0,No,No,Yes,60
+P0479,63,Male,181,90,27.5,AB+,Current,170,100,60,36.2,18,235,188,65,163,12.9,8309,None,Aspirin,None,2023-09-01,2,6,8,Mediterranean,Private,12558,0,Yes,No,No,50
+P0480,21,Female,166,83,30.1,A-,Former,143,88,98,36.2,15,260,151,55,180,13.6,5528,None,None,Nuts,2022-02-13,0,4,1,Vegan,Uninsured,4104,1,Yes,No,No,55
+P0481,79,Female,159,65,25.7,O-,Current,160,75,80,37.3,12,238,88,49,135,13.4,8024,Hypertension,Lisinopril,Pollen,2023-07-26,0,4,8,Mediterranean,Medicare,9334,2,No,Yes,Yes,25
+P0482,77,Other,154,85,35.8,AB+,Never,170,91,90,37.2,15,264,110,31,93,11.4,9452,Heart Disease,None,Penicillin,2023-11-26,6,10,8,Vegan,Uninsured,12432,3,Yes,No,Yes,50
+P0483,71,Other,153,88,37.6,A+,Former,116,72,86,36.9,17,228,85,41,189,12.2,9322,None,None,Eggs,2021-11-28,2,10,9,Vegetarian,Medicaid,2863,4,Yes,No,No,70
+P0484,23,Male,173,87,29.1,A-,Never,105,96,99,37.2,12,294,137,30,156,12.3,8050,Hypertension,Ibuprofen,Pollen,2021-02-21,2,7,2,Omnivore,Uninsured,9491,0,No,No,Yes,70
+P0485,64,Male,170,117,40.5,O-,Never,121,119,88,36.2,13,290,110,37,125,11.7,5685,None,None,Penicillin,2021-04-24,5,7,3,Vegetarian,Medicare,13142,4,No,Yes,No,75
+P0486,35,Other,182,94,28.4,AB-,Current,126,90,61,37.6,13,202,181,35,138,12,8171,None,Omeprazole; Atorvastatin,Shellfish,2021-12-13,5,7,5,Mediterranean,Private,3510,2,No,Yes,No,70
+P0487,80,Other,152,74,32,O+,Current,109,105,73,37.1,13,233,105,70,157,15.2,8456,Anxiety,Lisinopril,Pollen,2020-01-02,0,9,4,Paleo,Private,3811,4,No,Yes,No,35
+P0488,50,Other,159,103,40.7,O+,Never,169,97,63,37.2,13,254,134,43,139,11.3,10557,Arthritis,Atorvastatin,Eggs,2022-01-12,4,5,5,Vegan,Private,5488,2,No,No,Yes,60
+P0489,51,Other,178,50,15.8,B-,Never,96,68,84,36.2,19,234,178,42,197,16.1,10444,Hypertension,Lisinopril,Dairy,2023-10-02,0,7,8,Keto,Medicare,3404,4,No,No,No,60
+P0490,42,Female,181,108,33,A-,Never,172,74,66,37.4,19,221,87,43,170,13.2,9856,None,Ibuprofen,Shellfish,2022-10-02,1,6,6,Paleo,Uninsured,8006,4,No,No,No,65
+P0491,25,Male,169,50,17.5,AB-,Current,136,61,82,37.3,14,170,115,75,158,14.7,7385,None,Ibuprofen,Shellfish,2023-07-05,1,9,8,Paleo,Medicaid,10918,3,No,No,No,45
+P0492,66,Female,197,97,25,A-,Never,167,62,99,36.9,13,183,74,63,105,13.9,6366,Arthritis; Hypertension,None,Penicillin,2021-12-20,5,9,3,Mediterranean,Private,7957,4,No,No,No,65
+P0493,78,Male,170,114,39.4,AB-,Never,161,118,65,37.2,16,245,143,60,138,12.6,9956,Diabetes,None,Nuts,2020-12-24,5,4,5,Vegetarian,Medicare,13835,3,Yes,No,No,60
+P0494,50,Other,183,76,22.7,B-,Former,118,95,75,36.6,13,299,80,36,125,11.6,9157,Arthritis,Albuterol,Penicillin,2023-07-04,0,7,2,Vegetarian,Private,14669,2,No,No,No,60
+P0495,33,Other,167,84,30.1,B+,Current,166,65,76,37.2,13,201,106,30,155,15.3,6896,Anxiety; Depression,Atorvastatin,Nuts,2020-09-11,3,5,2,Omnivore,Private,2208,3,No,No,Yes,30
+P0496,27,Male,173,118,39.4,O-,Former,173,108,72,36.5,19,274,159,65,131,14.4,8566,Heart Disease,Lisinopril,Eggs,2020-01-19,6,7,5,Keto,Private,1169,1,No,Yes,No,60
+P0497,32,Male,171,96,32.8,O+,Former,175,105,73,37.7,16,255,103,78,152,14.1,10112,None,Albuterol,Eggs,2024-11-08,3,4,3,Mediterranean,Medicare,1601,2,No,No,Yes,65
+P0498,68,Male,178,98,30.9,O-,Never,107,74,86,36.4,19,206,163,39,157,14.4,9656,None,None,Shellfish,2023-12-28,4,10,6,Omnivore,Medicaid,12477,1,No,No,No,85
+P0499,28,Female,190,89,24.7,A+,Former,127,116,77,36.6,17,265,173,75,192,12.9,10972,None,Metformin,Shellfish,2021-12-24,6,4,3,Vegetarian,Private,9340,1,Yes,No,Yes,75
+P0500,60,Male,196,55,14.3,O+,Never,162,104,63,36.6,17,268,131,63,133,14.7,6134,Anxiety,None,None,2023-08-31,0,9,4,Mediterranean,Medicare,1460,3,No,Yes,Yes,55
+P0501,44,Female,170,70,24.2,B-,Former,105,117,72,36.2,19,290,164,49,170,16.3,10312,None,Ibuprofen; Albuterol,None,2023-11-27,3,6,9,Vegetarian,Medicare,5238,1,No,No,No,70
+P0502,55,Male,196,92,23.9,A-,Current,98,91,80,36.3,18,162,85,31,196,14,6626,Hypertension,Metformin; Atorvastatin,Pollen,2021-10-20,4,10,9,Keto,Medicare,13175,3,No,Yes,Yes,40
+P0503,47,Female,187,84,24,AB+,Former,164,72,85,37.3,14,274,183,55,85,13.1,8503,Heart Disease; Anxiety,Omeprazole,Eggs,2023-01-19,2,7,1,Paleo,Medicaid,4660,2,No,Yes,No,60
+P0504,68,Male,177,114,36.4,O+,Former,135,84,76,37.4,14,292,70,43,152,11.5,4027,Arthritis,Metformin,Penicillin,2022-08-14,0,8,2,Keto,Medicare,6209,0,No,No,No,60
+P0505,21,Male,182,101,30.5,AB+,Current,134,99,71,36.4,16,179,103,48,165,11.5,9748,None,Albuterol,None,2024-12-26,5,7,3,Vegan,Medicaid,14504,0,Yes,No,Yes,55
+P0506,68,Other,150,78,34.7,O-,Current,94,87,88,37.5,15,180,183,42,149,16.8,4330,Diabetes,Metformin; Albuterol,Eggs,2023-12-26,4,5,5,Mediterranean,Private,9439,1,No,Yes,No,50
+P0507,58,Other,183,64,19.1,B+,Current,145,105,71,37.1,14,157,118,32,89,12.8,9161,Diabetes,None,Eggs,2023-09-11,0,6,8,Vegan,Uninsured,819,2,No,No,No,35
+P0508,35,Female,162,87,33.2,B+,Former,94,99,64,37.3,14,294,113,34,195,14.3,10552,None,Ibuprofen; Atorvastatin,Nuts,2023-01-04,2,4,7,Vegetarian,Medicaid,697,4,Yes,No,No,65
+P0509,47,Female,161,67,25.8,B-,Never,132,77,65,36.8,18,173,140,32,166,14.3,4960,Asthma,Omeprazole,Eggs,2023-06-24,5,6,1,Vegan,Private,2192,4,No,No,No,80
+P0510,66,Male,173,88,29.4,A+,Never,144,74,95,36.6,17,215,70,65,148,14.3,8975,Hypertension,Omeprazole,Eggs,2022-04-11,1,6,4,Keto,Medicare,10659,0,No,No,No,60
+P0511,28,Female,198,110,28.1,O+,Never,98,61,92,36.5,14,166,158,44,198,13.2,8938,None,Lisinopril; Aspirin,Eggs,2020-05-07,1,9,5,Omnivore,Medicaid,2784,0,No,No,No,85
+P0512,54,Female,199,112,28.3,B+,Former,165,65,64,36.8,19,172,132,36,84,15.4,6052,Depression,None,Shellfish,2020-10-28,3,5,3,Vegetarian,Medicaid,2842,3,Yes,No,Yes,60
+P0513,46,Male,191,53,14.5,A-,Former,124,103,70,36.9,16,253,106,62,120,14.7,8097,Depression,Metformin,Penicillin,2020-05-16,1,7,4,Paleo,Medicare,6622,3,No,Yes,Yes,50
+P0514,53,Female,176,102,32.9,AB-,Current,151,68,66,36.4,17,257,115,71,189,11.3,8279,None,None,Shellfish,2023-09-23,4,8,9,Omnivore,Uninsured,2950,4,Yes,No,No,45
+P0515,67,Female,192,110,29.8,AB+,Former,151,90,84,36.9,19,204,85,58,191,16.2,7467,Arthritis,Ibuprofen,Eggs,2021-12-19,4,8,8,Vegetarian,Uninsured,3171,4,Yes,Yes,Yes,55
+P0516,69,Male,174,95,31.4,O-,Current,105,108,93,37.7,17,289,75,31,79,12,8735,Diabetes,None,Shellfish,2024-06-04,1,4,6,Keto,Medicaid,2402,3,No,No,Yes,30
+P0517,47,Female,164,118,43.9,AB+,Never,147,115,88,36.8,15,229,92,43,150,13.4,6706,None,Albuterol,Nuts,2022-04-25,5,9,6,Paleo,Uninsured,11288,3,No,No,No,75
+P0518,44,Female,158,73,29.2,O+,Never,177,118,76,37.7,19,151,94,45,183,16.5,8996,Depression; Diabetes,Omeprazole,Eggs,2024-03-27,6,8,4,Keto,Medicaid,3610,0,Yes,Yes,No,60
+P0519,64,Female,162,62,23.6,A+,Former,141,93,63,37.4,13,216,148,34,90,16.2,4442,None,Atorvastatin,Nuts,2024-10-13,3,7,2,Mediterranean,Uninsured,4948,3,Yes,Yes,Yes,80
+P0520,63,Female,164,103,38.3,B-,Former,175,114,89,36.2,17,213,89,48,129,12.3,10076,Depression,Omeprazole,Dairy,2023-04-01,0,6,3,Paleo,Medicare,4729,0,No,No,Yes,50
+P0521,26,Female,154,85,35.8,O+,Never,132,95,75,37.2,14,233,179,67,178,15.4,6928,Arthritis,Ibuprofen,Nuts,2020-01-26,1,5,7,Vegetarian,Private,6535,2,No,No,Yes,50
+P0522,27,Other,151,117,51.3,B-,Never,147,80,93,36.2,12,154,111,30,149,11.8,9758,None,Metformin,Dairy,2020-04-19,6,9,9,Keto,Medicaid,4229,4,No,No,No,65
+P0523,52,Female,191,50,13.7,A-,Former,144,79,99,37.8,12,292,175,31,170,11.3,8223,None,Omeprazole,Shellfish,2020-06-24,4,8,5,Vegan,Medicare,5163,4,No,No,No,70
+P0524,45,Other,184,55,16.2,B-,Former,146,87,87,36.7,13,277,142,58,181,14.7,10227,Arthritis,Metformin,Dairy,2021-02-14,6,4,8,Vegan,Medicare,9222,1,No,No,Yes,45
+P0525,84,Male,197,60,15.5,B+,Never,115,70,99,36.4,18,178,72,68,157,14.6,6851,Heart Disease,Albuterol; Atorvastatin,Penicillin,2020-10-15,2,6,6,Vegetarian,Medicaid,14785,4,Yes,No,No,80
+P0526,77,Other,163,101,38,O-,Never,152,109,73,36.7,18,172,99,64,132,12.4,6814,Depression,Ibuprofen,Nuts,2024-01-22,4,4,8,Vegan,Medicare,2267,2,No,No,Yes,50
+P0527,46,Male,195,112,29.5,A-,Current,170,67,80,36.2,16,268,150,37,187,13.2,10777,None,None,Eggs,2021-06-02,0,4,6,Keto,Uninsured,14100,4,No,No,No,45
+P0528,35,Female,188,87,24.6,B-,Never,175,118,85,37.1,14,254,82,52,96,16.6,6307,Diabetes; Asthma,Atorvastatin; Lisinopril,Eggs,2021-07-17,3,5,3,Vegetarian,Private,3356,1,No,Yes,No,60
+P0529,47,Other,178,105,33.1,AB+,Never,155,112,62,36.4,12,253,156,75,149,11.7,8848,None,Aspirin,Penicillin,2020-06-04,5,10,9,Paleo,Uninsured,10052,2,Yes,No,Yes,60
+P0530,74,Other,152,112,48.5,B-,Former,112,109,68,36.7,14,275,70,78,164,16.6,7395,Heart Disease,None,Dairy,2021-02-02,2,5,2,Omnivore,Uninsured,12650,4,No,No,No,55
+P0531,84,Other,169,61,21.4,AB-,Never,117,117,97,37.1,12,258,90,75,167,11.3,7400,Hypertension,Aspirin,Shellfish,2020-05-01,3,6,3,Vegan,Private,10582,1,No,No,No,75
+P0532,20,Other,175,66,21.6,A-,Former,140,115,84,37.6,13,198,110,52,102,14.5,6268,None,None,Eggs,2021-01-31,6,7,7,Mediterranean,Uninsured,2678,1,Yes,No,No,80
+P0533,50,Female,161,97,37.4,O+,Current,159,113,77,36.9,15,264,179,50,164,12.3,10259,None,Albuterol,None,2022-01-28,1,8,2,Paleo,Uninsured,11317,3,Yes,Yes,No,45
+P0534,50,Female,155,117,48.7,B-,Current,176,108,63,36.3,19,209,179,50,75,11.2,5497,None,None,Dairy,2023-06-09,5,5,4,Keto,Medicaid,5975,0,Yes,No,Yes,50
+P0535,52,Other,173,93,31.1,B+,Never,127,113,68,37.3,19,253,92,39,92,14,6058,Depression; Hypertension,Lisinopril,Dairy,2023-01-26,4,10,4,Omnivore,Medicaid,2919,4,No,Yes,No,50
+P0536,58,Female,155,116,48.3,O-,Former,93,71,63,36.5,12,215,118,69,76,11.5,10479,None,None,Shellfish,2021-09-21,5,9,7,Keto,Uninsured,7665,1,No,No,No,85
+P0537,69,Male,195,57,15,AB+,Current,153,93,75,37.4,18,161,187,49,131,13.9,7357,Anxiety,Metformin,Pollen,2021-12-22,6,8,2,Vegetarian,Medicaid,10967,1,No,Yes,Yes,45
+P0538,54,Other,177,59,18.8,AB-,Current,170,117,76,36.6,15,172,170,69,195,12.3,8888,Heart Disease,Omeprazole,Pollen,2023-08-26,5,4,3,Keto,Medicaid,10472,3,No,No,No,50
+P0539,56,Other,189,108,30.2,A+,Current,149,100,90,37.2,18,229,88,33,154,13.4,8482,None,Aspirin; Albuterol,Nuts,2020-05-23,2,4,7,Keto,Private,636,1,Yes,No,No,50
+P0540,72,Other,165,99,36.4,O-,Former,109,88,98,37.6,19,293,82,51,195,14.4,8907,Heart Disease,None,Penicillin,2024-10-05,0,9,7,Omnivore,Uninsured,4085,2,No,No,No,60
+P0541,84,Female,163,97,36.5,A+,Former,149,64,65,37.6,13,229,107,43,157,15.3,6418,Asthma,None,None,2022-02-08,2,10,4,Omnivore,Medicare,7205,1,No,No,Yes,55
+P0542,46,Male,152,95,41.1,B+,Former,162,99,64,36.6,19,152,138,49,137,15.9,5621,None,Atorvastatin,None,2021-04-05,1,7,7,Vegan,Uninsured,13089,2,No,No,No,60
+P0543,58,Male,151,70,30.7,A-,Current,145,79,76,36.4,13,208,160,70,151,14.1,4837,None,None,Dairy,2020-05-15,1,10,5,Vegan,Private,13208,2,No,Yes,No,40
+P0544,37,Other,154,118,49.8,B+,Never,127,68,65,36.2,15,278,144,37,89,12,6901,Arthritis,Lisinopril,Penicillin,2022-05-06,4,7,3,Omnivore,Medicare,5381,4,Yes,No,No,80
+P0545,73,Other,198,53,13.5,B+,Current,154,110,87,37.3,12,169,139,39,99,15.7,4632,None,Lisinopril,Eggs,2024-05-24,6,5,2,Paleo,Uninsured,9299,3,No,No,Yes,50
+P0546,49,Male,155,99,41.2,AB-,Never,152,103,68,37.1,16,170,184,55,75,12.8,8086,Arthritis,Aspirin,Penicillin,2022-02-05,5,8,4,Keto,Uninsured,7971,1,No,Yes,No,65
+P0547,29,Female,159,94,37.2,B+,Current,117,80,76,37.4,15,153,88,75,81,14,8007,Heart Disease; Diabetes,Omeprazole,Eggs,2023-03-17,4,9,1,Paleo,Uninsured,8520,4,No,No,No,50
+P0548,79,Male,175,68,22.2,AB+,Never,167,110,90,37,14,222,182,71,104,11.6,6244,None,None,Shellfish,2024-01-10,2,8,1,Vegetarian,Medicaid,9509,2,No,No,Yes,85
+P0549,62,Female,163,82,30.9,A+,Never,170,106,89,36.4,16,245,86,37,169,15.6,6114,Hypertension,None,Pollen,2020-02-09,3,8,6,Paleo,Uninsured,1620,4,Yes,No,No,65
+P0550,53,Male,195,56,14.7,O+,Current,159,97,88,37.3,15,278,170,49,78,13.3,6024,None,Lisinopril,Shellfish,2023-06-08,5,9,9,Vegan,Medicaid,12132,0,No,Yes,No,45
+P0551,33,Other,181,73,22.3,A+,Current,100,86,93,37.3,16,224,93,74,139,11.9,7668,Depression; Anxiety,Metformin,Penicillin,2020-12-02,5,9,9,Vegan,Medicaid,13486,2,No,No,No,45
+P0552,50,Female,165,94,34.5,B+,Former,171,109,73,36.6,17,278,91,47,97,15.4,9628,Asthma,Metformin,Penicillin,2021-12-22,6,7,3,Omnivore,Medicaid,2506,4,No,No,Yes,60
+P0553,30,Male,186,76,22,AB-,Current,105,67,85,36.5,14,299,90,76,98,13.8,10020,None,None,Shellfish,2021-04-27,2,4,1,Vegetarian,Private,922,2,No,No,No,75
+P0554,32,Male,185,100,29.2,O+,Former,167,112,66,36.2,19,259,135,57,184,15.7,7242,Hypertension,Omeprazole,None,2023-08-21,3,9,6,Paleo,Medicare,3492,3,No,No,Yes,65
+P0555,44,Other,178,97,30.6,AB-,Never,128,91,71,37.2,18,270,109,53,96,15.9,4108,None,None,Pollen,2023-09-30,3,5,5,Mediterranean,Medicare,1114,0,No,No,Yes,70
+P0556,82,Other,195,65,17.1,AB-,Current,158,75,88,37,15,291,115,77,181,16.5,9154,None,Metformin; Omeprazole,Nuts,2022-10-27,4,9,6,Vegetarian,Uninsured,11718,2,No,Yes,Yes,55
+P0557,37,Male,154,103,43.4,O-,Never,91,93,66,37.8,14,156,170,53,179,13.8,5952,Anxiety,Albuterol; Omeprazole,Dairy,2022-10-08,0,9,3,Mediterranean,Medicare,4566,2,No,Yes,No,55
+P0558,38,Other,166,103,37.4,A-,Former,168,111,76,36.2,14,255,89,49,143,11.6,8802,Depression,None,Nuts,2020-07-26,5,8,8,Vegetarian,Medicaid,6414,2,Yes,No,No,50
+P0559,39,Male,186,98,28.3,A-,Former,137,98,73,36.4,14,186,107,41,149,12.1,8432,Hypertension,Atorvastatin,Eggs,2021-09-05,0,8,3,Vegan,Private,13333,4,No,No,Yes,55
+P0560,69,Female,181,77,23.5,O+,Former,145,72,68,37.1,12,280,119,63,119,15.7,5062,Diabetes; Asthma,Lisinopril; Aspirin,Dairy,2022-02-28,5,5,1,Vegetarian,Private,4967,3,Yes,Yes,Yes,55
+P0561,25,Other,185,119,34.8,A+,Current,110,65,98,37.2,15,259,182,46,197,15,9868,None,Metformin; Atorvastatin,Eggs,2023-03-07,4,10,9,Keto,Medicare,9351,3,No,No,No,55
+P0562,57,Female,190,71,19.7,O-,Former,173,98,85,36.4,12,297,172,73,181,11.9,7122,None,Albuterol; Lisinopril,Penicillin,2023-01-19,1,7,9,Paleo,Medicare,2440,3,Yes,No,No,60
+P0563,59,Male,181,50,15.3,O+,Current,98,112,99,36.9,16,225,115,69,89,11.9,7770,None,Atorvastatin,Eggs,2023-09-10,1,9,2,Omnivore,Medicare,6546,2,No,No,Yes,45
+P0564,60,Male,199,91,23,A-,Never,133,69,63,37.7,16,176,138,58,101,13.4,5000,Diabetes,None,None,2021-07-19,0,8,7,Vegan,Private,8307,1,No,No,Yes,75
+P0565,45,Female,189,107,30,B-,Never,160,88,73,36.9,18,222,181,34,119,12.1,4253,Arthritis,None,Shellfish,2021-11-12,6,5,3,Paleo,Medicaid,11277,3,No,No,Yes,65
+P0566,45,Female,184,107,31.6,A+,Former,118,75,81,36.7,15,176,125,78,118,16.5,6270,Heart Disease,Atorvastatin,Pollen,2021-04-09,0,4,2,Mediterranean,Private,3645,1,No,No,No,60
+P0567,37,Male,173,108,36.1,AB-,Former,148,60,86,36.5,17,281,153,59,155,15.2,8221,Diabetes,Lisinopril,Dairy,2024-11-28,1,4,4,Keto,Medicare,11707,4,No,No,No,45
+P0568,45,Other,179,79,24.7,O+,Former,171,81,65,37.4,18,279,139,52,175,16.4,5867,Arthritis; Depression,Atorvastatin,Pollen,2024-10-19,3,6,1,Mediterranean,Medicare,10357,1,Yes,Yes,No,60
+P0569,20,Other,179,70,21.8,A+,Former,112,76,99,37.7,19,279,187,67,74,13.8,5417,Arthritis,None,Dairy,2024-05-03,5,8,4,Omnivore,Private,2512,3,Yes,No,No,85
+P0570,42,Male,156,75,30.8,O-,Current,106,73,99,36.2,15,184,89,70,127,11.6,6637,Asthma,Aspirin,Nuts,2024-10-13,4,10,3,Vegan,Uninsured,4809,3,Yes,No,No,55
+P0571,62,Male,178,102,32.2,O+,Current,136,110,88,36.8,13,153,162,74,197,15.5,5779,None,Ibuprofen,Pollen,2021-11-22,3,7,5,Vegan,Uninsured,2898,2,No,No,Yes,55
+P0572,27,Female,159,85,33.6,A-,Never,142,73,68,37.5,16,290,82,41,137,12.9,6927,Hypertension,None,Eggs,2020-09-18,1,7,3,Omnivore,Medicare,4064,1,Yes,Yes,No,55
+P0573,60,Male,199,96,24.2,A+,Current,160,78,91,37.6,13,210,125,58,96,16.7,8905,Anxiety,Albuterol,Dairy,2024-05-24,0,8,3,Omnivore,Medicaid,13458,1,No,No,Yes,45
+P0574,51,Female,189,108,30.2,B+,Current,162,106,77,37.4,14,204,131,52,100,13.3,7599,Heart Disease,Aspirin,Pollen,2024-08-02,3,4,6,Paleo,Uninsured,11018,4,No,No,No,40
+P0575,65,Male,173,73,24.4,O-,Current,163,90,85,37.1,14,218,164,68,154,15.4,7866,None,Lisinopril,Nuts,2024-08-10,5,4,9,Vegetarian,Medicare,10600,3,No,Yes,Yes,50
+P0576,77,Other,197,50,12.9,O-,Current,169,109,82,37.3,13,174,174,30,151,15.7,6358,Asthma,Albuterol,Dairy,2021-12-09,1,8,8,Mediterranean,Medicare,1229,3,No,No,No,25
+P0577,32,Female,174,91,30.1,O-,Never,108,95,89,37.7,13,224,107,60,94,16.5,8435,None,None,None,2024-11-10,5,5,4,Keto,Private,1620,4,No,No,Yes,70
+P0578,20,Female,152,63,27.3,AB+,Never,160,89,78,37,13,185,180,72,168,13.5,6216,Arthritis,None,None,2023-10-24,4,8,6,Mediterranean,Medicare,5035,3,No,No,Yes,70
+P0579,28,Other,193,62,16.6,O+,Former,91,103,92,37,19,283,141,63,116,17,9250,Depression,None,None,2024-08-02,3,8,1,Mediterranean,Uninsured,4781,2,No,No,No,60
+P0580,70,Other,164,100,37.2,A-,Never,174,96,79,37.6,14,233,75,59,176,16.4,8407,None,Lisinopril,Eggs,2021-11-10,6,8,6,Keto,Medicaid,9299,1,No,No,No,75
+P0581,65,Male,175,86,28.1,B+,Current,117,64,61,36.7,16,155,95,74,75,11.6,4470,Diabetes,Ibuprofen,Eggs,2020-05-22,6,9,4,Keto,Medicare,842,4,No,No,No,65
+P0582,23,Female,165,73,26.8,O+,Never,162,70,91,36.4,12,271,77,77,199,13.2,8595,None,Omeprazole,Shellfish,2024-08-07,5,6,3,Keto,Private,4311,3,Yes,No,Yes,80
+P0583,39,Female,182,85,25.7,B+,Former,171,63,66,37.7,17,251,96,74,95,11.9,10658,Anxiety,None,None,2022-02-09,0,5,7,Keto,Medicaid,14818,1,No,No,No,50
+P0584,67,Other,183,70,20.9,A-,Current,141,69,68,36.5,12,172,165,50,169,16.1,7694,None,Omeprazole,Eggs,2021-01-13,0,5,7,Vegetarian,Medicare,7349,1,Yes,Yes,Yes,50
+P0585,20,Other,178,115,36.3,B+,Current,94,72,70,37.3,16,227,172,62,108,14.2,5481,Depression,None,Pollen,2023-04-02,5,9,6,Mediterranean,Medicaid,1103,4,No,No,No,60
+P0586,50,Male,178,81,25.6,AB-,Never,129,69,94,36.4,13,248,88,34,92,16.8,7380,Anxiety,None,None,2022-12-02,0,8,2,Mediterranean,Medicare,8855,1,Yes,Yes,Yes,75
+P0587,23,Female,151,54,23.7,O-,Former,171,70,91,36.9,18,261,139,68,127,13.4,7454,None,None,Nuts,2020-04-17,6,9,2,Mediterranean,Uninsured,11809,4,No,No,No,80
+P0588,69,Female,180,112,34.6,AB-,Former,165,71,90,37,18,243,126,79,71,13.4,7144,Arthritis,Omeprazole,Nuts,2024-03-12,0,4,4,Keto,Uninsured,11554,2,No,Yes,No,45
+P0589,61,Female,193,89,23.9,AB-,Current,168,118,82,37,17,175,93,74,77,13,9082,Heart Disease,None,Dairy,2023-12-31,3,5,3,Vegan,Medicaid,776,1,No,No,Yes,50
+P0590,70,Other,188,88,24.9,A+,Never,122,97,93,37.5,13,158,97,61,168,13.5,4434,None,None,Pollen,2022-07-04,6,4,3,Vegetarian,Medicare,9477,0,No,Yes,No,80
+P0591,35,Female,161,56,21.6,B-,Former,105,117,80,36.9,14,248,117,53,126,12.2,4779,None,Albuterol,Pollen,2023-08-10,3,7,9,Vegan,Private,2283,3,No,No,Yes,70
+P0592,54,Female,185,109,31.8,B-,Never,178,70,92,37.8,15,281,147,72,93,13.3,10440,Diabetes,Atorvastatin; Aspirin,Pollen,2020-03-12,1,8,8,Omnivore,Uninsured,14571,2,No,No,Yes,45
+P0593,74,Male,187,119,34,O-,Current,140,108,78,37.2,13,284,183,31,133,16.4,5969,None,Aspirin,Shellfish,2020-01-15,2,7,5,Omnivore,Private,11485,2,No,No,Yes,55
+P0594,78,Other,195,87,22.9,O-,Never,97,115,67,37.3,17,173,79,47,178,14.1,4984,None,None,Dairy,2020-01-05,4,7,4,Omnivore,Medicare,10179,4,No,No,Yes,85
+P0595,73,Male,173,79,26.4,B-,Current,154,70,75,37.1,19,185,153,70,127,16.2,6526,None,Albuterol,Shellfish,2022-05-21,6,9,7,Vegetarian,Medicaid,9225,3,No,No,No,60
+P0596,80,Male,163,101,38,B+,Former,178,69,85,36.8,17,206,125,61,84,16.2,5793,Arthritis,Atorvastatin,Penicillin,2021-07-12,2,4,9,Paleo,Medicare,8895,1,No,No,Yes,45
+P0597,44,Male,162,61,23.2,AB-,Never,124,85,99,37,16,172,134,64,158,14.4,10583,Depression,None,Nuts,2023-07-06,0,6,5,Vegetarian,Medicare,11276,4,No,Yes,No,75
+P0598,60,Male,186,107,30.9,AB-,Never,101,107,94,36.1,13,203,102,34,110,15,10321,Diabetes; Hypertension,Aspirin,None,2022-12-04,6,7,3,Omnivore,Medicaid,8631,0,No,No,Yes,55
+P0599,82,Female,192,73,19.8,AB-,Never,100,103,64,37.4,18,251,81,66,90,11.2,5647,None,Albuterol,Eggs,2023-03-25,6,4,1,Omnivore,Medicaid,11447,0,Yes,No,Yes,80
+P0600,20,Male,186,116,33.5,AB-,Former,138,67,92,36.2,14,153,92,70,113,13.4,8683,Depression,Aspirin,Penicillin,2023-08-10,2,6,3,Keto,Uninsured,8786,2,No,No,No,70
+P0601,57,Male,183,93,27.8,O-,Former,161,60,78,36.9,12,194,163,32,179,15.8,8958,None,Lisinopril; Albuterol,Penicillin,2022-06-17,2,5,2,Vegetarian,Medicaid,10038,0,No,No,Yes,70
+P0602,52,Other,167,109,39.1,B+,Former,125,98,71,36.4,12,238,118,64,190,15,4707,Hypertension,None,Shellfish,2021-11-01,2,9,6,Paleo,Medicare,7646,3,Yes,No,No,60
+P0603,84,Male,176,72,23.2,A-,Never,113,98,83,36.8,17,289,143,69,82,13.4,6856,None,Albuterol; Atorvastatin,Pollen,2024-02-13,4,9,9,Paleo,Medicaid,7425,4,Yes,Yes,No,75
+P0604,28,Other,194,67,17.8,O-,Never,151,110,82,37.1,14,230,73,54,178,15.5,6401,Heart Disease,Albuterol; Ibuprofen,Nuts,2021-10-17,5,7,2,Vegan,Medicare,14170,2,No,Yes,No,65
+P0605,43,Male,154,110,46.4,A+,Never,153,67,72,37.2,15,260,76,43,85,16.6,5257,None,Omeprazole,Nuts,2021-07-04,1,4,3,Vegetarian,Medicaid,12193,3,No,No,No,60
+P0606,68,Female,163,75,28.2,A-,Current,165,88,88,36.3,12,212,139,40,192,14.6,8325,None,Aspirin,Shellfish,2020-04-05,5,8,2,Vegan,Medicare,889,4,Yes,No,No,60
+P0607,50,Female,182,111,33.5,A-,Never,156,93,84,37.5,13,278,148,76,178,14,9087,Diabetes,Atorvastatin; Lisinopril,Pollen,2024-09-14,2,4,7,Paleo,Uninsured,13047,4,No,Yes,Yes,60
+P0608,41,Female,159,98,38.8,O-,Never,138,105,92,37.4,12,177,120,55,107,11.1,8308,Arthritis,Ibuprofen,Dairy,2024-05-24,4,8,5,Paleo,Uninsured,2614,3,No,No,Yes,65
+P0609,58,Male,167,64,22.9,O-,Current,177,85,90,36.2,15,180,143,36,122,15.6,8953,None,Atorvastatin,Dairy,2023-09-16,6,7,8,Omnivore,Uninsured,11805,3,Yes,Yes,No,55
+P0610,21,Male,171,92,31.5,AB-,Never,173,101,72,37.2,18,191,172,41,103,15.9,10937,Depression,Aspirin; Ibuprofen,Pollen,2023-10-02,4,6,3,Omnivore,Medicare,2424,1,No,No,Yes,65
+P0611,24,Female,164,112,41.6,A+,Current,159,87,72,37.1,13,151,162,68,109,16.5,4685,None,None,Penicillin,2020-03-26,1,9,7,Keto,Uninsured,5474,0,No,No,No,45
+P0612,31,Male,174,78,25.8,O-,Never,155,92,66,37.1,18,161,73,46,99,15.1,7596,Arthritis,Metformin,Pollen,2024-09-14,6,8,2,Vegan,Medicaid,10084,4,No,No,Yes,70
+P0613,83,Male,167,51,18.3,B-,Former,114,108,67,37.4,13,190,87,65,147,13.1,4005,Heart Disease,Albuterol,Dairy,2022-10-12,6,8,4,Paleo,Medicare,10987,4,No,No,No,60
+P0614,32,Other,161,51,19.7,O+,Never,141,106,63,36.4,15,181,143,44,192,12.3,4866,Anxiety,None,Dairy,2021-03-28,4,8,8,Keto,Uninsured,6482,4,No,Yes,No,65
+P0615,64,Male,152,73,31.6,A+,Never,94,63,68,37.8,14,170,141,36,164,11.1,4411,Diabetes; Depression,Atorvastatin,Nuts,2021-01-04,3,7,9,Paleo,Private,4424,4,No,No,No,60
+P0616,69,Female,162,95,36.2,A-,Current,103,114,96,37.3,14,273,75,63,80,15,9922,None,Omeprazole,Penicillin,2024-06-07,1,5,2,Vegetarian,Medicaid,2582,1,No,No,No,40
+P0617,24,Female,181,118,36,B-,Former,135,66,61,37.3,12,176,164,32,147,16.5,6390,Anxiety,None,Pollen,2020-03-10,2,4,4,Vegan,Private,552,4,No,No,Yes,65
+P0618,18,Other,191,80,21.9,O+,Never,177,104,92,37.7,12,223,113,73,160,12.6,9851,Arthritis,Albuterol,Nuts,2022-05-31,0,6,3,Mediterranean,Private,10486,4,No,No,No,65
+P0619,35,Male,199,110,27.8,AB+,Never,141,81,60,36.9,18,210,73,46,93,12.7,4650,None,Lisinopril,None,2023-12-24,2,8,8,Omnivore,Private,8876,2,Yes,Yes,No,70
+P0620,72,Other,168,98,34.7,B+,Former,137,97,89,36.3,18,223,112,77,111,15.5,9923,None,Albuterol,Penicillin,2023-12-27,0,10,4,Paleo,Private,13280,2,No,No,No,55
+P0621,74,Other,176,76,24.5,A-,Current,179,80,64,36.6,13,227,152,31,172,11.7,6181,Diabetes,Albuterol; Omeprazole,Shellfish,2020-07-08,6,8,8,Vegetarian,Medicaid,13476,3,No,No,No,45
+P0622,22,Female,193,78,20.9,O-,Never,149,95,95,37.6,13,194,89,71,100,16.7,7253,None,Albuterol,Eggs,2024-11-09,5,4,5,Mediterranean,Medicaid,1900,1,No,No,No,80
+P0623,30,Female,175,67,21.9,O+,Never,91,118,62,37.2,12,206,113,73,186,11.2,7541,None,None,Nuts,2022-03-11,0,10,3,Paleo,Medicare,10854,4,No,No,Yes,70
+P0624,56,Female,197,68,17.5,O+,Current,111,119,60,37.7,12,247,163,70,181,15.1,7881,Arthritis,Albuterol,Dairy,2022-04-12,1,7,7,Vegan,Medicare,3681,1,No,No,No,35
+P0625,51,Male,156,86,35.3,A+,Current,98,89,75,37,18,199,159,60,80,15,8796,None,Omeprazole,Dairy,2023-01-12,2,5,7,Keto,Uninsured,2086,2,Yes,No,No,60
+P0626,54,Male,183,78,23.3,AB-,Current,129,87,64,36.7,16,260,95,36,92,13.5,6213,None,None,Eggs,2022-07-19,6,10,6,Mediterranean,Medicare,12138,3,No,No,Yes,70
+P0627,40,Male,155,91,37.9,AB+,Former,133,108,89,36.5,18,165,71,30,98,14.5,6555,None,None,Nuts,2021-05-02,4,8,9,Mediterranean,Medicaid,10114,3,No,No,No,60
+P0628,36,Female,175,65,21.2,O-,Current,175,119,62,36.4,15,224,179,39,188,15,7528,Heart Disease,Aspirin; Metformin,Penicillin,2020-08-10,3,10,2,Vegan,Private,3767,1,No,No,No,50
+P0629,33,Male,192,91,24.7,B-,Never,170,84,92,36.6,15,269,78,30,108,11,9519,Depression,Ibuprofen,Pollen,2023-09-20,2,8,4,Vegetarian,Medicare,4609,2,No,No,No,75
+P0630,75,Female,191,72,19.7,O-,Current,146,92,86,36.7,13,299,189,32,141,12.4,9269,None,None,None,2022-11-03,1,10,3,Paleo,Medicaid,3688,2,Yes,No,Yes,50
+P0631,25,Other,166,77,27.9,O-,Never,132,63,75,36.3,16,182,101,60,84,16.9,7506,Asthma,None,Pollen,2023-10-12,2,10,1,Vegetarian,Medicaid,11520,1,Yes,Yes,Yes,75
+P0632,39,Female,175,93,30.4,A+,Former,157,106,89,36.7,12,225,139,69,74,16.4,6470,Depression,None,Dairy,2022-12-03,4,5,2,Vegan,Uninsured,9169,4,No,No,Yes,55
+P0633,37,Other,175,70,22.9,AB+,Former,133,71,95,36.1,12,152,147,39,80,12.7,8897,Arthritis,Albuterol,Pollen,2021-10-03,5,10,3,Omnivore,Uninsured,2626,2,No,Yes,Yes,75
+P0634,64,Female,167,64,22.9,AB-,Current,134,104,83,37.7,15,250,167,45,78,13.5,8337,Hypertension,None,Eggs,2022-01-16,1,6,4,Mediterranean,Medicaid,2697,1,Yes,No,No,45
+P0635,74,Female,157,118,47.9,B+,Never,162,110,79,36.4,14,271,151,44,90,13.6,7439,None,None,Nuts,2021-02-18,3,8,3,Vegan,Private,2017,0,Yes,No,Yes,75
+P0636,25,Other,164,110,40.9,O-,Current,92,85,82,36.7,13,216,172,61,133,15.9,10436,None,Metformin,Penicillin,2021-12-12,5,9,1,Paleo,Medicare,612,3,Yes,No,No,65
+P0637,69,Other,193,105,28.2,AB+,Never,158,82,99,36.4,17,224,75,70,84,16,9575,None,Aspirin,Dairy,2022-10-07,0,7,9,Omnivore,Private,14688,1,No,Yes,No,60
+P0638,26,Male,175,54,17.6,B+,Former,91,95,82,36.2,18,233,134,57,186,14.1,9855,None,Aspirin,Pollen,2021-07-16,0,9,2,Mediterranean,Uninsured,6614,3,No,No,No,60
+P0639,70,Male,151,81,35.5,AB-,Never,174,102,90,36.9,17,239,156,61,162,12.8,9666,Depression,None,Pollen,2021-04-27,1,4,1,Vegan,Uninsured,3524,3,Yes,No,No,50
+P0640,72,Male,150,105,46.7,O+,Current,146,92,89,37,12,178,88,47,180,13.1,8897,Arthritis,Ibuprofen,Dairy,2023-03-07,3,5,6,Vegetarian,Private,3788,2,No,Yes,Yes,40
+P0641,41,Male,170,69,23.9,B-,Former,100,69,81,37.7,17,226,117,54,143,16.9,7076,Diabetes; Depression,Albuterol,Eggs,2020-12-14,0,8,4,Mediterranean,Uninsured,3503,1,Yes,No,No,65
+P0642,36,Male,152,72,31.2,O+,Former,121,74,79,37.5,15,192,119,32,99,14,8725,Anxiety,Aspirin,Eggs,2024-08-04,5,8,5,Paleo,Medicaid,14025,3,No,Yes,Yes,75
+P0643,52,Female,180,90,27.8,AB-,Current,116,71,65,36.6,12,276,93,63,108,15.8,7411,Heart Disease; Diabetes,Albuterol,Eggs,2024-08-06,1,5,9,Keto,Private,11744,1,No,No,No,30
+P0644,82,Other,165,94,34.5,B+,Former,160,110,66,37.5,13,184,186,49,172,11.9,7420,Anxiety,None,Penicillin,2021-11-07,3,5,3,Omnivore,Medicaid,1114,2,No,No,No,55
+P0645,69,Female,169,80,28,B-,Current,117,87,76,37.3,15,262,87,35,186,13.5,7571,Anxiety,Metformin,Nuts,2022-07-13,0,10,4,Keto,Medicaid,12108,2,Yes,No,Yes,45
+P0646,36,Other,192,114,30.9,B+,Former,165,68,94,37.5,16,218,113,60,123,12,5757,Heart Disease,Metformin,Pollen,2024-05-14,6,8,4,Mediterranean,Medicaid,9176,0,No,Yes,No,60
+P0647,54,Male,167,65,23.3,O-,Never,125,105,61,37.4,16,272,175,70,194,14.4,5101,Depression,Albuterol; Aspirin,Pollen,2020-10-03,4,10,5,Vegetarian,Uninsured,12150,0,No,Yes,No,70
+P0648,19,Female,163,101,38,A+,Former,116,81,99,36.1,19,259,114,63,95,13.7,8578,Anxiety,None,Eggs,2022-05-13,3,9,6,Mediterranean,Medicare,7115,4,No,No,Yes,70
+P0649,73,Other,178,61,19.3,AB+,Former,142,82,67,37.4,16,262,158,35,125,11.8,10682,Hypertension,Omeprazole,Dairy,2020-06-17,2,4,2,Vegetarian,Medicare,9830,1,Yes,No,Yes,65
+P0650,31,Other,189,117,32.8,AB-,Never,115,114,62,36.5,12,258,152,40,104,14.7,9928,Heart Disease,Ibuprofen,Nuts,2022-07-06,0,6,1,Keto,Uninsured,8853,3,Yes,No,No,55
+P0651,26,Other,161,112,43.2,A+,Never,152,92,97,36.7,12,225,88,67,138,11.1,5404,Heart Disease; Depression,Lisinopril,Shellfish,2024-11-25,4,8,8,Vegan,Medicaid,999,3,Yes,No,Yes,45
+P0652,72,Male,156,60,24.7,AB-,Never,95,113,66,37.2,19,244,185,41,89,13.3,8252,Depression; Arthritis,None,None,2021-07-05,3,4,2,Vegan,Medicaid,1529,1,No,No,No,60
+P0653,83,Male,181,119,36.3,A-,Current,159,69,73,37.2,13,264,159,33,80,15.6,4930,None,None,Shellfish,2021-02-22,5,7,1,Paleo,Medicaid,1817,0,Yes,No,Yes,55
+P0654,51,Female,154,117,49.3,B-,Never,167,114,70,36.9,19,221,140,39,95,14.9,6098,None,None,Nuts,2021-03-03,1,10,4,Paleo,Medicaid,9169,1,No,No,No,60
+P0655,45,Female,192,106,28.8,AB-,Never,112,79,85,37.5,15,200,91,35,103,11.1,4100,Hypertension,Ibuprofen,Shellfish,2022-07-09,1,10,4,Mediterranean,Uninsured,14901,1,Yes,No,Yes,70
+P0656,24,Female,197,88,22.7,B+,Current,149,101,60,36.4,13,256,137,53,119,14.4,8280,Anxiety; Depression,Albuterol,Nuts,2023-06-16,5,6,1,Vegan,Medicare,10989,2,No,No,No,45
+P0657,32,Male,167,119,42.7,B-,Never,117,68,88,36.9,17,279,121,75,99,16.8,4235,Asthma,None,Pollen,2023-02-25,1,8,4,Vegetarian,Medicare,11007,1,Yes,No,Yes,70
+P0658,60,Other,180,53,16.4,B-,Never,131,60,91,36.6,17,252,86,39,142,11.9,10378,Diabetes,None,Nuts,2023-11-22,6,5,8,Mediterranean,Medicaid,12173,1,Yes,Yes,Yes,60
+P0659,20,Female,174,118,39,O-,Current,97,66,61,36.5,14,258,159,52,141,11.2,4693,Hypertension,Atorvastatin,Pollen,2023-07-11,2,5,4,Vegetarian,Medicare,5782,0,Yes,No,Yes,55
+P0660,50,Other,164,116,43.1,AB+,Former,126,112,66,37,17,229,187,55,118,13.7,5524,Asthma; Depression,Metformin,Eggs,2020-08-07,2,8,6,Paleo,Private,4227,0,No,Yes,No,50
+P0661,56,Other,197,100,25.8,O+,Current,111,103,78,37.3,16,200,161,73,162,14.1,8737,Heart Disease,None,Shellfish,2020-01-21,6,9,8,Mediterranean,Medicaid,6718,2,No,Yes,No,40
+P0662,69,Female,180,65,20.1,O-,Former,96,64,77,37.3,14,155,95,61,140,14.9,9181,None,Atorvastatin,Nuts,2021-10-27,0,6,4,Mediterranean,Medicaid,14185,3,Yes,No,No,85
+P0663,66,Female,154,112,47.2,O+,Former,119,100,60,36.5,14,276,173,38,173,17,7611,Asthma,Aspirin,Dairy,2022-04-01,4,4,5,Keto,Uninsured,10664,3,No,No,No,55
+P0664,24,Other,190,50,13.9,B-,Never,131,107,99,36.8,18,198,72,43,175,11.4,8841,Heart Disease,Lisinopril,Penicillin,2020-11-26,0,6,3,Vegetarian,Private,12434,0,No,No,No,55
+P0665,74,Other,161,114,44,B+,Never,149,116,77,36.5,12,155,127,44,118,16.6,6371,None,None,Nuts,2022-01-28,6,7,8,Vegan,Uninsured,6586,2,No,No,Yes,65
+P0666,28,Male,181,92,28.1,O+,Current,133,74,65,36.4,13,188,112,76,113,15,4534,None,None,Pollen,2020-05-23,3,4,3,Keto,Private,10233,3,No,No,No,65
+P0667,30,Female,180,107,33,AB+,Current,131,83,62,37.7,14,215,126,48,89,13.1,6989,Heart Disease,None,None,2024-09-10,0,7,9,Vegetarian,Private,14851,2,No,No,No,35
+P0668,28,Other,159,55,21.8,B+,Never,148,86,63,37.2,18,238,141,34,73,14.8,10106,None,Lisinopril; Metformin,None,2021-02-09,2,5,6,Paleo,Medicaid,8094,2,No,No,No,80
+P0669,57,Other,187,68,19.4,A-,Never,109,89,62,36.8,18,166,83,47,184,15.1,9391,None,None,Dairy,2021-05-30,4,5,5,Paleo,Uninsured,6961,3,No,No,No,90
+P0670,59,Other,172,92,31.1,O-,Current,150,66,96,37.6,19,286,94,70,156,16.4,5138,None,Aspirin,Nuts,2020-12-06,5,6,2,Vegetarian,Medicaid,6584,0,No,No,Yes,55
+P0671,31,Other,196,75,19.5,O+,Former,176,110,70,37.8,19,197,131,30,123,12.7,5999,Asthma,Ibuprofen,Shellfish,2020-06-19,4,8,3,Vegetarian,Medicaid,6190,4,No,No,Yes,70
+P0672,80,Female,152,54,23.4,O-,Current,107,63,75,36.2,16,205,132,76,133,11.3,10366,Hypertension,Ibuprofen,Pollen,2020-07-09,5,6,7,Vegetarian,Private,13687,1,No,No,No,70
+P0673,19,Male,154,73,30.8,B-,Never,147,107,93,37.6,12,297,142,58,98,16.2,4814,Hypertension,None,Penicillin,2020-05-11,0,6,2,Omnivore,Private,14451,1,No,Yes,No,55
+P0674,41,Other,197,91,23.4,O-,Current,119,63,84,36.3,19,195,142,64,105,14.8,5881,Asthma,None,Shellfish,2022-02-08,1,10,2,Vegan,Medicaid,10703,1,No,No,No,55
+P0675,36,Female,157,68,27.6,A-,Never,135,84,66,37.3,16,298,74,57,71,16.1,8883,Heart Disease; Arthritis,Metformin,Eggs,2022-01-04,2,6,5,Mediterranean,Private,3441,1,No,No,Yes,70
+P0676,73,Other,192,84,22.8,A+,Former,126,60,68,37.5,14,292,147,72,122,13,7136,Hypertension,Ibuprofen,Penicillin,2023-01-25,0,6,1,Mediterranean,Private,7897,3,No,No,Yes,75
+P0677,31,Other,150,111,49.3,O+,Current,129,88,90,37.8,15,269,85,55,121,14.5,9889,Heart Disease,Albuterol,Nuts,2023-12-18,6,4,2,Keto,Medicaid,12930,0,No,No,No,50
+P0678,20,Male,191,94,25.8,B+,Former,144,72,92,36.9,19,168,176,42,109,14.2,5041,Anxiety,Ibuprofen,Dairy,2020-04-30,3,7,2,Keto,Medicare,7225,3,No,No,Yes,65
+P0679,32,Female,156,73,30,O-,Former,176,109,94,37.3,17,252,174,47,89,11.4,9095,None,None,None,2024-10-04,4,4,4,Paleo,Uninsured,8845,1,No,No,Yes,70
+P0680,42,Other,157,111,45,AB+,Current,105,115,86,36.2,13,156,139,59,167,12.5,6610,None,Lisinopril,Nuts,2024-08-05,3,9,2,Mediterranean,Medicare,2440,4,No,No,Yes,55
+P0681,74,Male,181,80,24.4,O+,Current,115,69,64,36.1,13,244,174,58,145,15.3,10177,Anxiety,Metformin,Penicillin,2021-05-17,0,10,2,Keto,Uninsured,12665,0,Yes,No,Yes,55
+P0682,37,Female,157,105,42.6,O+,Never,158,110,60,36.7,15,192,130,79,152,15.1,8219,Diabetes,Albuterol,None,2023-02-06,5,10,9,Paleo,Private,10362,2,No,No,No,50
+P0683,58,Other,151,90,39.5,O-,Former,94,98,84,37.4,15,220,114,30,90,15.8,4584,Hypertension,None,Shellfish,2020-07-11,6,4,4,Paleo,Private,5351,0,No,No,No,55
+P0684,78,Other,168,81,28.7,AB-,Never,103,118,64,36.4,12,261,143,76,130,13.5,4481,Asthma,None,Dairy,2020-05-10,4,9,1,Vegan,Private,13592,3,No,No,Yes,70
+P0685,72,Male,190,56,15.5,A-,Never,174,87,64,37.2,12,151,163,40,159,16.4,6241,Anxiety,Albuterol,Dairy,2022-12-24,4,7,6,Vegan,Uninsured,5657,1,No,Yes,No,65
+P0686,60,Male,194,66,17.5,AB+,Never,142,96,88,36.2,17,161,161,62,195,16.5,9350,Anxiety,None,Shellfish,2023-06-16,4,4,9,Paleo,Medicaid,3833,2,No,Yes,No,50
+P0687,50,Male,187,101,28.9,A-,Current,176,114,97,36.8,14,211,149,50,192,12.1,8219,Anxiety,Albuterol,None,2023-07-19,4,9,2,Mediterranean,Medicaid,2629,0,No,No,Yes,50
+P0688,29,Other,166,81,29.4,A-,Never,108,100,85,37.1,19,277,167,72,111,13.2,8389,Depression,Aspirin,Shellfish,2021-10-23,3,4,7,Keto,Uninsured,5233,1,No,No,No,65
+P0689,48,Other,163,81,30.5,AB-,Never,119,112,69,37.4,17,178,139,30,94,14,7223,None,Metformin,Eggs,2024-06-17,6,4,1,Paleo,Private,7459,4,Yes,No,Yes,70
+P0690,52,Male,159,112,44.3,O-,Current,105,67,62,36.2,18,251,181,75,148,11.6,4079,None,Atorvastatin; Aspirin,Nuts,2022-10-27,4,8,3,Keto,Private,5935,1,No,No,Yes,70
+P0691,84,Female,195,60,15.8,B+,Never,142,113,75,37.2,13,182,152,40,132,14.1,9144,Asthma,Ibuprofen,Shellfish,2020-09-23,5,4,4,Vegetarian,Medicare,14918,4,No,No,No,60
+P0692,22,Male,178,86,27.1,AB-,Current,166,70,91,36.4,18,222,159,57,95,13,8000,Arthritis,None,Penicillin,2022-10-01,3,9,5,Mediterranean,Medicaid,1921,4,No,No,No,50
+P0693,73,Other,170,75,26,O+,Former,156,115,63,36.2,15,220,90,76,120,11.6,6503,Heart Disease,None,Penicillin,2023-11-09,0,7,9,Omnivore,Uninsured,12555,0,No,No,No,45
+P0694,57,Female,199,85,21.5,A+,Never,116,74,61,37.3,16,210,184,37,143,12.3,4354,None,Atorvastatin,Nuts,2022-03-17,6,9,3,Vegetarian,Uninsured,4145,4,No,No,No,100
+P0695,36,Female,172,78,26.4,AB-,Current,92,112,78,36.7,15,298,122,34,85,12.5,5820,Hypertension; Anxiety,Aspirin; Atorvastatin,Eggs,2024-10-05,0,8,5,Mediterranean,Medicare,9246,2,No,Yes,Yes,30
+P0696,80,Female,151,74,32.5,AB+,Current,105,86,87,37.1,18,232,127,53,106,12,6455,Arthritis; Diabetes,Ibuprofen; Metformin,Penicillin,2022-06-01,1,7,6,Paleo,Medicaid,3082,2,No,Yes,No,35
+P0697,18,Male,155,81,33.7,O+,Former,116,113,83,36.5,12,180,83,42,117,13.7,9090,Heart Disease,None,Nuts,2022-01-01,2,9,3,Mediterranean,Private,1876,2,No,No,No,60
+P0698,19,Male,162,82,31.2,B-,Current,96,75,64,36.5,15,299,136,50,172,13.4,7307,Heart Disease,Albuterol,Eggs,2022-08-08,2,5,5,Paleo,Medicare,12979,2,No,Yes,Yes,55
+P0699,84,Male,174,109,36,B-,Current,145,85,77,36.2,15,168,94,71,174,12.9,10642,None,Lisinopril,Pollen,2024-03-11,2,10,4,Vegetarian,Uninsured,6920,0,Yes,No,Yes,50
+P0700,30,Male,174,88,29.1,O-,Never,115,60,77,37.1,12,191,93,69,116,16,8404,None,None,Shellfish,2022-12-12,0,7,1,Vegan,Medicare,13586,2,No,No,No,85
+P0701,58,Female,171,101,34.5,B-,Current,122,80,93,36.1,16,229,155,59,132,14.2,7409,Heart Disease,None,Pollen,2023-12-12,1,6,9,Omnivore,Medicare,1417,4,No,Yes,No,40
+P0702,83,Other,198,95,24.2,B-,Current,152,70,79,36.2,15,277,120,61,152,14,8136,None,Lisinopril,Penicillin,2021-06-25,6,6,4,Mediterranean,Uninsured,634,4,No,No,No,65
+P0703,54,Female,185,52,15.2,O-,Never,121,78,81,37.7,19,237,122,53,155,15.8,9031,Diabetes,Metformin; Lisinopril,None,2022-09-28,2,6,4,Omnivore,Uninsured,3539,4,Yes,No,Yes,80
+P0704,63,Male,158,111,44.5,A+,Former,122,99,66,36.9,15,255,186,51,154,14.1,5885,None,None,Eggs,2020-08-22,3,6,5,Keto,Private,5853,4,No,No,No,70
+P0705,77,Other,190,66,18.3,A-,Former,173,94,80,36.5,12,250,100,56,172,15.6,4538,Arthritis,None,Nuts,2024-04-18,1,10,3,Paleo,Medicare,2329,2,Yes,Yes,Yes,45
+P0706,70,Female,170,96,33.2,B+,Former,96,106,84,36.6,13,159,152,55,195,11.3,9157,None,Ibuprofen,Eggs,2022-07-22,0,9,2,Keto,Uninsured,8985,2,No,No,Yes,60
+P0707,59,Other,161,63,24.3,B+,Never,106,111,68,36.7,15,266,110,56,166,13.1,9477,Asthma,Ibuprofen,Shellfish,2024-02-19,1,7,6,Omnivore,Private,1013,3,No,No,No,65
+P0708,30,Other,167,86,30.8,A-,Former,109,91,93,36.2,18,294,70,33,149,12.8,5432,Arthritis,Aspirin,Dairy,2020-10-16,1,10,2,Mediterranean,Uninsured,12235,1,No,No,No,45
+P0709,72,Female,192,86,23.3,B+,Never,96,61,86,36.2,14,228,103,31,85,15.1,7593,None,Metformin,Dairy,2021-06-20,6,8,3,Keto,Medicaid,2817,4,Yes,Yes,No,100
+P0710,55,Female,197,62,16,O+,Never,128,70,82,37.1,19,167,134,42,155,11.9,5818,Anxiety,Albuterol,Pollen,2024-01-20,1,8,4,Vegetarian,Private,13556,2,Yes,No,No,70
+P0711,33,Female,180,61,18.8,A-,Current,169,114,65,36.5,14,299,140,30,80,13.5,10828,Diabetes; Anxiety,None,Pollen,2021-12-20,6,7,5,Paleo,Medicare,5431,1,No,No,Yes,45
+P0712,30,Female,153,119,50.8,AB+,Never,126,114,88,37,16,296,90,30,115,13.5,6455,Asthma,Aspirin,Shellfish,2020-12-08,1,5,5,Mediterranean,Private,4477,0,No,No,No,50
+P0713,51,Male,160,80,31.2,A-,Never,169,80,70,36.3,19,260,142,31,186,16.4,5225,None,Atorvastatin,Penicillin,2020-05-12,2,6,1,Mediterranean,Private,6462,4,Yes,Yes,Yes,75
+P0714,83,Male,154,115,48.5,B+,Never,176,87,66,37.3,19,260,109,74,100,16.5,10134,None,None,Eggs,2022-09-26,0,9,4,Vegan,Uninsured,4071,4,No,Yes,Yes,65
+P0715,37,Female,166,96,34.8,AB+,Never,115,107,79,36.5,15,167,102,77,74,11.1,9136,None,Atorvastatin,Nuts,2021-11-11,3,9,3,Keto,Medicare,2417,3,No,No,No,75
+P0716,49,Male,180,113,34.9,AB-,Former,160,110,92,36.5,19,217,166,59,119,16.6,10613,None,Atorvastatin,Dairy,2020-09-09,3,5,7,Paleo,Uninsured,12717,4,No,No,No,65
+P0717,75,Male,172,61,20.6,O-,Former,108,118,63,37.7,19,246,144,43,112,16.3,9845,Arthritis; Heart Disease,Atorvastatin,Shellfish,2023-10-21,5,7,7,Vegetarian,Medicaid,6295,1,Yes,Yes,Yes,60
+P0718,23,Male,194,82,21.8,B+,Former,139,100,83,36.9,16,281,118,76,103,11.7,8667,Hypertension,Ibuprofen,Eggs,2024-11-17,2,5,2,Keto,Private,2533,2,No,No,No,65
+P0719,63,Other,197,57,14.7,A+,Former,147,97,99,36.9,15,191,133,36,162,15,9380,None,Albuterol; Lisinopril,Nuts,2021-03-18,1,5,9,Omnivore,Medicaid,9294,4,Yes,No,No,45
+P0720,67,Female,181,116,35.4,O-,Never,110,115,84,36.6,15,290,144,76,138,14.1,4940,Anxiety,Ibuprofen,None,2021-02-27,1,7,2,Omnivore,Private,4312,4,No,No,No,55
+P0721,48,Other,161,64,24.7,O+,Current,174,85,75,36.3,17,247,114,67,188,14.5,7458,None,Aspirin,Penicillin,2021-05-28,5,8,6,Omnivore,Medicare,12641,1,No,No,No,65
+P0722,48,Male,168,61,21.6,AB+,Never,168,95,95,37.5,18,189,175,54,124,11.9,5549,Anxiety,Ibuprofen,Pollen,2021-10-30,3,10,7,Mediterranean,Medicare,13827,2,No,Yes,No,70
+P0723,48,Other,180,94,29,B+,Former,104,113,69,37.6,18,192,150,64,162,15.4,6831,Arthritis,Aspirin,Penicillin,2020-05-26,5,6,6,Paleo,Uninsured,11374,3,No,No,Yes,65
+P0724,30,Male,159,116,45.9,A-,Former,160,76,69,37.4,14,197,148,65,155,15.8,6060,Anxiety,None,Pollen,2020-09-25,1,9,8,Keto,Private,6055,1,Yes,No,No,40
+P0725,21,Other,178,113,35.7,B-,Current,99,115,98,36.2,17,261,95,64,196,15.9,8340,None,Atorvastatin; Ibuprofen,Penicillin,2022-10-24,3,8,3,Keto,Medicaid,12148,2,No,Yes,Yes,55
+P0726,39,Other,197,93,24,O-,Never,116,72,74,37.7,18,208,150,71,110,13.8,9792,Heart Disease,Metformin,Nuts,2021-03-23,6,9,1,Paleo,Uninsured,4025,1,No,No,Yes,90
+P0727,38,Female,187,113,32.3,A+,Never,167,63,74,37.4,14,218,157,45,153,13.3,6994,Hypertension,Atorvastatin,Penicillin,2024-04-06,1,7,5,Vegetarian,Medicaid,2051,1,Yes,No,No,55
+P0728,58,Other,191,79,21.7,AB+,Former,94,102,85,37.6,18,164,130,30,110,11.1,10117,Depression,Atorvastatin,Shellfish,2024-05-07,1,9,5,Omnivore,Uninsured,9526,1,No,No,No,60
+P0729,32,Male,176,53,17.1,B-,Current,146,99,95,36.9,15,204,124,34,115,16.9,9838,None,Atorvastatin,Shellfish,2023-09-25,3,4,8,Vegetarian,Medicare,13285,2,No,No,No,40
+P0730,35,Male,180,111,34.3,B+,Former,139,85,70,37.2,17,234,100,52,83,15.9,6741,None,Omeprazole; Metformin,Nuts,2024-07-04,3,9,3,Paleo,Uninsured,6643,4,Yes,No,No,80
+P0731,52,Female,194,61,16.2,AB+,Former,179,105,74,36.6,12,221,109,43,157,13.7,5565,Anxiety,Aspirin,Nuts,2021-06-21,3,9,5,Paleo,Medicare,14314,1,No,No,No,60
+P0732,27,Female,150,68,30.2,O-,Former,159,60,88,37.6,12,184,183,61,77,13.3,6421,None,Omeprazole,None,2023-05-06,5,10,4,Omnivore,Private,13737,1,No,No,No,65
+P0733,66,Male,189,51,14.3,B-,Former,140,97,92,37.5,14,235,71,35,196,15.8,9179,Hypertension,Atorvastatin,None,2020-09-20,6,5,5,Omnivore,Medicaid,6282,2,No,No,No,55
+P0734,25,Male,150,83,36.9,O-,Never,131,113,61,37.6,19,277,78,61,188,12.6,9934,Diabetes,Atorvastatin; Omeprazole,Dairy,2024-05-03,5,6,7,Vegan,Private,10473,1,No,No,Yes,65
+P0735,57,Male,166,79,28.7,AB+,Current,137,109,91,37.5,16,152,89,36,177,14.2,7922,Depression,None,Eggs,2022-05-01,0,5,1,Vegetarian,Medicaid,4183,0,Yes,No,No,35
+P0736,74,Male,177,88,28.1,AB-,Former,155,96,93,36.3,14,275,136,55,123,16.3,10142,None,Atorvastatin,Nuts,2024-02-03,4,10,6,Mediterranean,Medicare,1686,2,Yes,No,No,70
+P0737,59,Other,178,74,23.4,B+,Former,175,86,87,37,13,280,148,68,184,15.8,8044,Heart Disease,Lisinopril,Eggs,2024-12-03,2,5,5,Mediterranean,Medicaid,14840,2,No,No,No,65
+P0738,23,Male,171,54,18.5,A+,Never,172,80,75,36.3,13,225,84,36,120,16.6,10667,Depression,None,Eggs,2024-07-16,3,10,2,Omnivore,Medicare,3071,0,Yes,No,No,70
+P0739,73,Other,165,53,19.5,B-,Former,123,70,80,36.5,19,190,147,50,99,16,8237,None,Atorvastatin; Aspirin,Shellfish,2022-04-15,5,10,8,Keto,Medicare,8454,4,No,No,Yes,80
+P0740,63,Female,169,96,33.6,O-,Former,122,79,89,36.9,13,170,88,54,123,15.9,4911,None,None,Nuts,2024-01-16,1,8,5,Vegan,Medicaid,12819,1,No,No,Yes,75
+P0741,30,Other,179,101,31.5,A-,Never,141,105,67,36.9,17,223,125,53,147,11.4,5522,Heart Disease,Ibuprofen,Dairy,2022-12-02,5,8,6,Omnivore,Medicare,12504,2,No,Yes,No,65
+P0742,66,Male,196,54,14.1,B+,Former,144,97,90,37.1,19,273,132,78,105,13.7,8028,None,Albuterol,Nuts,2021-11-14,6,6,9,Vegetarian,Uninsured,1890,2,No,No,No,60
+P0743,29,Other,152,75,32.5,O-,Never,155,71,83,36.7,16,232,184,64,173,13.6,5899,Hypertension,None,Eggs,2024-02-21,6,8,3,Vegetarian,Medicaid,2502,1,Yes,No,Yes,65
+P0744,37,Other,170,63,21.8,AB-,Former,152,77,91,36.9,14,205,147,30,147,12.7,10324,None,None,Shellfish,2021-08-06,5,9,2,Vegetarian,Medicare,14269,3,Yes,Yes,No,80
+P0745,65,Other,191,61,16.7,A-,Never,120,110,70,37.1,14,207,186,67,105,16,5512,None,Metformin,Penicillin,2020-05-12,2,9,1,Keto,Medicare,6201,1,Yes,Yes,No,75
+P0746,57,Other,177,66,21.1,O-,Never,108,89,85,37.6,19,196,135,39,129,14.9,6899,Arthritis,None,Eggs,2024-02-14,5,4,8,Mediterranean,Medicaid,12851,0,No,No,No,70
+P0747,42,Male,152,85,36.8,A+,Never,145,101,81,37.1,18,254,74,61,100,11.5,7170,Diabetes,None,Eggs,2020-05-17,4,6,7,Vegan,Medicare,3544,2,Yes,No,No,65
+P0748,56,Female,154,83,35,O+,Former,172,68,84,36.6,18,230,106,74,172,11.9,8699,None,Lisinopril; Atorvastatin,Eggs,2020-11-25,4,10,4,Paleo,Medicaid,6832,0,Yes,No,No,65
+P0749,24,Female,150,107,47.6,B+,Current,96,67,96,36.4,14,220,140,33,147,16.1,5939,None,Ibuprofen,Pollen,2022-05-10,2,10,9,Mediterranean,Medicaid,13974,2,No,No,No,55
+P0750,48,Female,168,91,32.2,B-,Former,144,80,80,37.6,18,291,181,76,147,14.2,7796,Diabetes,Aspirin,Eggs,2020-04-30,0,5,1,Vegetarian,Medicaid,11976,1,Yes,Yes,No,45
+P0751,84,Male,165,68,25,B+,Never,110,101,75,36.4,15,202,136,35,163,11.9,4553,Asthma,None,Penicillin,2022-01-27,1,9,4,Mediterranean,Medicare,9612,2,No,Yes,No,65
+P0752,72,Other,197,75,19.3,B-,Never,147,111,83,36.4,13,204,114,38,182,14,8302,None,None,Eggs,2021-09-07,3,4,1,Paleo,Uninsured,3631,4,Yes,No,Yes,80
+P0753,75,Other,190,104,28.8,B-,Former,176,84,76,37.6,15,189,189,74,155,13.2,10133,Diabetes,Lisinopril; Albuterol,Pollen,2021-07-28,2,5,9,Vegan,Medicaid,12249,2,No,No,No,50
+P0754,37,Male,153,55,23.5,A+,Former,124,70,95,37,16,297,156,62,177,14.6,6273,None,None,Penicillin,2023-07-25,6,5,4,Vegetarian,Medicaid,5875,0,Yes,No,No,90
+P0755,65,Male,168,110,39,O-,Never,149,63,83,37.6,17,215,89,52,171,16.9,5487,Anxiety,Aspirin,Eggs,2023-01-27,1,6,6,Vegan,Medicaid,10846,3,No,Yes,Yes,55
+P0756,59,Other,186,113,32.7,A+,Never,112,65,76,36.5,18,286,119,65,125,12.6,4245,Depression,Lisinopril,Pollen,2021-01-31,6,10,9,Mediterranean,Medicaid,12662,1,No,No,Yes,65
+P0757,47,Male,159,104,41.1,B+,Former,124,96,68,36.8,14,283,185,69,195,16,10048,None,Aspirin,None,2021-12-29,2,8,9,Keto,Uninsured,4690,1,No,Yes,Yes,60
+P0758,63,Female,180,99,30.6,AB-,Never,166,81,93,36.3,12,199,164,52,72,14.7,10956,None,Omeprazole,Pollen,2021-09-10,6,6,6,Vegetarian,Uninsured,7460,4,No,No,Yes,75
+P0759,19,Male,178,96,30.3,AB+,Former,118,117,74,36.7,17,268,189,31,178,14.1,10984,None,None,Eggs,2021-03-04,4,5,3,Vegetarian,Medicare,7240,2,No,Yes,No,65
+P0760,80,Male,152,106,45.9,O+,Current,96,99,90,37.1,18,264,117,56,126,11.9,9681,None,Aspirin; Metformin,Penicillin,2022-06-14,4,8,9,Keto,Medicaid,4710,1,No,No,No,45
+P0761,69,Male,152,106,45.9,AB+,Current,178,98,60,37.3,18,223,108,50,117,12,4544,Asthma,Ibuprofen,Eggs,2022-04-06,0,10,6,Vegetarian,Private,6527,4,No,No,Yes,30
+P0762,19,Male,197,87,22.4,A-,Current,168,105,70,37.5,15,191,132,31,121,11.7,10557,Asthma,Atorvastatin,Penicillin,2022-08-09,4,5,7,Paleo,Uninsured,4877,0,No,No,Yes,50
+P0763,22,Other,152,116,50.2,B+,Never,149,69,82,36.3,16,292,88,58,110,12.2,7582,Depression,Lisinopril,Dairy,2023-08-05,4,7,1,Paleo,Private,14724,0,Yes,Yes,No,65
+P0764,59,Other,195,61,16,O+,Current,116,74,90,36.5,16,227,177,33,164,11.2,8846,Anxiety,Ibuprofen,Pollen,2020-02-05,5,5,1,Mediterranean,Medicare,2477,2,No,Yes,No,55
+P0765,28,Female,169,81,28.4,O+,Former,159,90,80,36.9,12,252,183,78,121,11.8,5508,Arthritis,None,Eggs,2024-12-26,1,8,9,Mediterranean,Private,11716,0,No,No,No,45
+P0766,24,Other,174,56,18.5,AB+,Current,154,70,76,36.5,18,167,163,36,93,11.9,8918,None,None,Shellfish,2020-02-27,3,10,3,Vegetarian,Medicare,3243,2,No,No,No,60
+P0767,81,Male,191,58,15.9,A+,Former,166,80,71,37.6,18,259,145,45,98,13.7,7664,None,Metformin,Pollen,2023-11-06,6,8,5,Mediterranean,Uninsured,2137,0,No,No,No,70
+P0768,72,Female,191,81,22.2,A+,Current,98,100,69,37,14,178,184,68,146,13.9,4129,Hypertension,Ibuprofen,None,2024-03-27,4,5,7,Mediterranean,Medicare,608,3,No,No,No,50
+P0769,39,Male,163,118,44.4,A+,Former,91,111,83,37,16,275,86,70,171,12.1,4543,None,None,Dairy,2022-08-18,6,4,7,Omnivore,Medicare,9361,3,No,No,No,65
+P0770,73,Other,171,84,28.7,A+,Current,167,78,76,37.4,12,156,92,46,84,14.9,8207,None,Aspirin,Penicillin,2023-07-24,5,9,8,Paleo,Private,6229,0,No,No,No,50
+P0771,59,Other,199,73,18.4,O-,Former,113,118,61,36.5,19,216,135,54,94,14.5,8817,Diabetes,Atorvastatin; Albuterol,Shellfish,2021-03-18,4,9,3,Paleo,Uninsured,6087,3,No,No,No,60
+P0772,60,Male,159,115,45.5,B+,Never,150,78,94,36.2,14,275,78,58,189,11.4,7953,Anxiety; Depression,Ibuprofen,Eggs,2021-10-18,1,5,1,Omnivore,Uninsured,5899,0,Yes,No,Yes,40
+P0773,68,Male,177,80,25.5,O+,Current,144,76,66,36.1,12,293,139,33,180,12.7,9301,None,None,Eggs,2021-10-13,5,8,2,Mediterranean,Medicaid,11628,3,No,Yes,No,60
+P0774,46,Other,176,64,20.7,B+,Current,144,68,67,37.3,19,152,97,60,110,13.4,6887,Asthma,None,None,2023-12-25,4,9,7,Keto,Uninsured,8700,0,Yes,No,Yes,55
+P0775,43,Male,172,76,25.7,O+,Never,165,115,88,37.1,16,224,154,68,124,14.8,5579,Diabetes,Aspirin,Pollen,2024-11-16,3,9,2,Vegetarian,Private,1861,0,Yes,No,No,70
+P0776,68,Female,185,61,17.8,B-,Former,146,79,68,36.2,16,252,186,37,195,15.8,10594,None,None,Penicillin,2024-01-30,0,5,4,Vegan,Medicaid,10358,3,Yes,Yes,No,55
+P0777,18,Female,193,62,16.6,B-,Current,119,105,64,36.3,16,211,169,37,102,15.8,10419,Arthritis,Lisinopril,Penicillin,2023-11-16,0,9,4,Vegetarian,Private,2537,0,No,Yes,No,35
+P0778,32,Female,183,51,15.2,O-,Former,122,119,99,36.9,13,228,139,42,148,16.4,9286,None,Albuterol,Shellfish,2023-12-11,0,7,6,Mediterranean,Medicaid,825,2,No,Yes,No,60
+P0779,34,Other,179,68,21.2,AB+,Former,116,93,67,36.6,14,277,163,34,167,12.4,4682,None,Aspirin,None,2021-12-23,0,6,3,Omnivore,Medicare,11591,1,Yes,No,No,70
+P0780,64,Male,161,74,28.5,A+,Former,117,98,61,37,17,262,134,39,168,15.9,9150,None,Lisinopril,Shellfish,2020-01-26,2,7,5,Paleo,Private,12536,0,Yes,Yes,No,75
+P0781,41,Male,199,70,17.7,O-,Former,101,85,90,37.2,19,198,141,62,122,14.5,8330,None,None,Dairy,2023-08-24,6,9,6,Vegan,Private,4470,2,No,Yes,Yes,80
+P0782,43,Male,185,88,25.7,AB+,Former,158,89,91,37.8,15,286,89,78,81,15.5,7192,Anxiety,Aspirin,None,2022-07-21,2,4,6,Paleo,Medicare,2101,0,No,Yes,No,60
+P0783,31,Male,174,89,29.4,A+,Former,133,95,84,36.4,16,176,85,79,72,15.3,8440,None,None,Shellfish,2024-07-20,5,4,2,Mediterranean,Uninsured,5126,0,Yes,No,No,70
+P0784,42,Other,165,105,38.6,AB+,Current,91,68,65,37.6,14,265,183,44,70,14.8,4905,Asthma,Omeprazole,Pollen,2021-09-26,4,5,9,Paleo,Private,2633,4,No,No,Yes,45
+P0785,30,Female,154,90,37.9,O+,Former,109,61,64,37.1,13,242,142,44,172,13.9,8608,Heart Disease,Aspirin,None,2020-07-17,1,6,7,Vegetarian,Medicaid,6277,4,Yes,Yes,No,65
+P0786,50,Other,156,109,44.8,A-,Never,141,66,80,37.3,18,209,181,40,140,11.9,5526,Hypertension,Metformin,Penicillin,2021-08-24,5,6,7,Paleo,Medicare,12695,0,No,Yes,No,65
+P0787,69,Other,195,97,25.5,A+,Current,134,110,82,36.7,18,162,85,72,172,12.2,5218,None,None,Eggs,2023-01-24,6,6,8,Omnivore,Uninsured,7618,4,Yes,No,No,50
+P0788,43,Male,176,57,18.4,A+,Former,126,116,96,37,14,176,178,45,107,14.4,5064,Depression,Metformin,Nuts,2021-05-22,3,6,4,Omnivore,Private,4261,1,Yes,No,No,60
+P0789,79,Other,193,95,25.5,O-,Never,137,105,70,37.4,15,230,104,33,93,15.4,6115,Arthritis,None,None,2022-03-18,3,10,9,Omnivore,Medicare,11398,0,Yes,Yes,No,55
+P0790,20,Other,198,96,24.5,A-,Never,161,79,85,37.7,12,275,136,69,177,16.6,10398,Hypertension,Albuterol,Eggs,2022-07-04,6,9,1,Omnivore,Uninsured,7296,4,Yes,Yes,No,75
+P0791,19,Female,176,59,19,B+,Former,141,81,79,36.7,15,279,121,78,114,15,8026,Arthritis,Atorvastatin,Penicillin,2023-05-10,1,10,1,Vegetarian,Private,12824,4,No,No,No,55
+P0792,63,Other,161,89,34.3,A+,Never,98,74,87,37.7,15,179,153,64,72,13.4,5742,None,None,Eggs,2023-08-23,0,10,1,Mediterranean,Private,11257,2,No,No,No,75
+P0793,47,Other,170,92,31.8,AB-,Former,148,82,70,36.8,17,291,125,31,121,12.8,5174,None,Ibuprofen,Eggs,2024-02-16,2,7,5,Vegetarian,Private,13004,3,Yes,No,No,70
+P0794,28,Male,167,80,28.7,AB-,Never,170,78,95,36.9,18,150,81,54,120,16.5,9129,Hypertension,Aspirin,Penicillin,2023-09-07,6,10,1,Mediterranean,Uninsured,2509,4,No,No,No,65
+P0795,27,Male,186,103,29.8,O-,Current,98,90,73,36.4,17,276,101,56,112,11.2,7150,Asthma,Albuterol,Nuts,2024-06-27,0,9,2,Mediterranean,Private,2615,2,No,No,Yes,50
+P0796,54,Female,173,65,21.7,O-,Former,117,95,74,36.8,12,152,120,44,93,15.5,7530,Arthritis; Asthma,Atorvastatin,Eggs,2022-07-18,2,6,7,Mediterranean,Medicaid,6331,0,No,No,No,60
+P0797,53,Female,162,111,42.3,O-,Never,178,69,79,37.1,19,204,158,76,194,11.6,8383,Diabetes,None,Nuts,2023-08-18,5,5,6,Paleo,Medicaid,11345,3,Yes,No,Yes,60
+P0798,84,Other,180,62,19.1,AB+,Current,165,92,94,36.3,12,160,140,54,172,12,9399,Anxiety,Omeprazole,Pollen,2021-03-18,2,4,1,Paleo,Medicare,4011,4,No,No,No,50
+P0799,21,Male,165,95,34.9,B-,Never,128,110,77,37.5,16,272,147,68,113,15.1,7912,None,Metformin,Penicillin,2023-12-04,3,10,8,Vegetarian,Medicare,10324,2,Yes,No,No,60
+P0800,30,Other,164,94,34.9,B-,Current,138,106,81,37.1,19,290,143,54,152,13.5,6175,Hypertension; Asthma,Lisinopril,None,2023-10-05,0,5,2,Vegan,Medicare,10317,1,No,Yes,No,20
+P0801,76,Female,192,81,22,B-,Never,135,112,60,37.4,15,164,98,45,123,14.4,5210,None,Lisinopril,Shellfish,2021-12-16,2,8,2,Omnivore,Uninsured,6465,2,No,No,No,85
+P0802,20,Other,160,61,23.8,O+,Former,161,84,86,37.7,18,269,137,72,106,11.6,10246,Diabetes,Ibuprofen,Pollen,2024-04-10,4,5,9,Vegetarian,Private,11336,2,No,Yes,No,55
+P0803,83,Other,197,58,14.9,O-,Current,141,91,72,37.7,18,162,169,75,81,15,4991,Diabetes,Ibuprofen,Penicillin,2023-11-15,2,7,8,Mediterranean,Uninsured,14230,0,Yes,No,No,35
+P0804,31,Male,160,116,45.3,O-,Never,178,114,78,36.4,18,199,176,36,161,13.2,10178,Hypertension,None,Pollen,2021-07-20,1,7,5,Vegetarian,Uninsured,834,0,No,No,Yes,55
+P0805,62,Male,175,102,33.3,A+,Never,127,76,85,36.5,14,221,150,69,151,14.3,10655,Asthma,Omeprazole,Nuts,2022-06-22,3,7,9,Vegan,Private,6399,0,Yes,Yes,No,70
+P0806,35,Other,158,107,42.9,B+,Former,167,104,84,37.6,12,233,79,62,183,12.7,10173,Arthritis,Albuterol,Nuts,2022-12-03,2,7,2,Keto,Private,4407,0,No,No,No,60
+P0807,51,Female,167,72,25.8,B+,Current,97,80,70,36.6,19,227,159,51,72,15,6820,Arthritis,Metformin,Penicillin,2023-04-27,1,7,6,Mediterranean,Medicaid,3634,0,No,No,Yes,55
+P0808,37,Other,185,70,20.5,B+,Current,94,119,88,37.3,13,225,187,64,91,15.5,5836,None,Atorvastatin; Omeprazole,Shellfish,2024-04-13,4,9,4,Vegetarian,Medicaid,1415,2,Yes,No,No,65
+P0809,48,Other,167,119,42.7,O+,Former,133,95,68,36.6,16,255,150,37,132,11.2,7648,Diabetes; Arthritis,Metformin,Dairy,2022-03-29,4,7,2,Keto,Private,14105,2,No,No,Yes,50
+P0810,45,Male,161,116,44.8,AB-,Never,98,118,67,36.4,19,219,137,34,115,11.6,10426,Hypertension,Ibuprofen,Penicillin,2024-07-28,4,7,5,Mediterranean,Medicaid,13295,3,No,No,Yes,65
+P0811,45,Other,197,88,22.7,A-,Never,138,105,60,36.1,15,252,112,59,110,11.6,7997,Depression,Lisinopril,Pollen,2022-10-11,6,6,9,Vegan,Private,5861,4,No,No,Yes,65
+P0812,38,Other,181,86,26.3,B+,Former,145,111,83,36.2,16,170,147,53,186,15.5,8193,None,Omeprazole,None,2020-08-18,1,5,6,Keto,Private,14429,3,Yes,No,Yes,60
+P0813,78,Male,172,101,34.1,B-,Current,178,99,88,36.7,14,224,108,35,178,12.7,8491,Depression,Aspirin; Metformin,None,2022-09-05,5,5,8,Vegetarian,Medicaid,13431,4,Yes,No,No,30
+P0814,51,Female,195,99,26,AB-,Never,160,86,70,37.3,12,293,149,79,160,14.1,4021,Arthritis,Aspirin; Lisinopril,Pollen,2020-12-16,5,9,9,Vegetarian,Private,6249,2,No,Yes,Yes,60
+P0815,34,Female,173,54,18,A+,Former,142,74,93,37.3,17,187,135,62,121,11.5,4298,None,None,Dairy,2021-02-10,0,10,4,Keto,Private,3803,3,No,Yes,No,55
+P0816,24,Male,181,60,18.3,A+,Current,178,65,86,36.3,14,164,103,37,192,11.2,6671,None,None,Shellfish,2021-08-10,5,10,7,Vegetarian,Private,13871,1,No,Yes,Yes,50
+P0817,71,Other,178,54,17,O+,Former,177,67,62,36.7,18,276,109,43,129,12.1,4091,None,Metformin,Penicillin,2020-05-02,3,9,1,Vegetarian,Uninsured,12969,3,Yes,No,No,70
+P0818,59,Other,160,105,41,AB-,Current,137,83,77,37,12,179,128,36,127,11.4,9923,None,Atorvastatin,Eggs,2022-07-01,1,6,4,Mediterranean,Medicaid,4884,0,No,Yes,Yes,55
+P0819,65,Male,192,70,19,B-,Former,137,79,75,36.5,16,194,110,32,167,11.5,7626,Anxiety,Albuterol,None,2023-04-23,2,10,2,Vegetarian,Private,6538,0,No,No,Yes,75
+P0820,47,Other,165,74,27.2,A-,Former,93,104,94,37.2,19,256,140,43,177,15,9796,Asthma,None,Nuts,2023-12-09,5,6,8,Omnivore,Medicare,4396,2,Yes,No,No,55
+P0821,37,Male,160,57,22.3,B+,Former,108,89,93,36.8,14,296,89,33,83,13.6,4418,Diabetes,Lisinopril,Shellfish,2023-10-07,4,10,9,Omnivore,Private,8750,3,No,No,Yes,65
+P0822,28,Female,158,87,34.9,O+,Current,179,118,70,36.6,13,238,174,54,77,12.3,8970,Hypertension,Metformin,None,2021-12-16,1,6,1,Omnivore,Medicaid,13477,3,No,No,Yes,35
+P0823,66,Other,153,98,41.9,AB+,Former,108,117,83,37.8,19,193,95,38,124,11.3,9734,None,Lisinopril,Eggs,2020-11-16,1,6,3,Mediterranean,Private,3863,0,No,No,No,60
+P0824,48,Male,163,86,32.4,O-,Never,125,117,84,37.3,13,249,74,79,91,16.3,7908,None,Ibuprofen,None,2020-05-09,4,10,8,Mediterranean,Uninsured,9359,3,Yes,No,No,60
+P0825,66,Female,171,89,30.4,B-,Former,137,78,95,36.5,19,285,110,57,189,11.7,7034,None,Albuterol,Penicillin,2024-07-12,5,9,3,Vegetarian,Private,12080,2,No,Yes,No,80
+P0826,41,Female,160,54,21.1,O-,Current,119,63,83,37.3,12,207,172,58,192,13.1,6546,None,None,None,2021-06-25,5,9,4,Omnivore,Medicaid,9652,2,Yes,No,No,80
+P0827,26,Male,163,54,20.3,O+,Current,136,113,63,37.6,17,283,170,68,106,12.3,5584,Heart Disease,None,Nuts,2021-07-03,2,10,3,Vegetarian,Private,3666,3,Yes,Yes,Yes,50
+P0828,37,Male,156,60,24.7,AB-,Current,164,111,64,36.2,14,222,107,65,192,12.2,6383,Depression; Hypertension,Omeprazole,Shellfish,2020-09-15,0,5,2,Vegetarian,Uninsured,2567,2,Yes,Yes,No,30
+P0829,39,Female,183,75,22.4,B+,Current,101,62,75,37.3,19,247,132,37,107,13.9,6740,None,None,Dairy,2024-12-26,2,6,6,Keto,Medicaid,5942,3,No,No,No,80
+P0830,33,Other,185,77,22.5,AB-,Current,164,107,63,36.3,17,279,135,41,137,13.1,5841,Anxiety,Ibuprofen,Eggs,2020-09-06,2,6,1,Vegan,Private,1833,2,No,Yes,No,55
+P0831,22,Female,182,70,21.1,AB+,Current,127,83,77,36.4,12,279,169,76,100,12.8,4466,Hypertension,None,Dairy,2021-04-17,2,7,6,Paleo,Private,7437,2,No,No,Yes,65
+P0832,23,Other,196,95,24.7,B-,Former,125,109,74,37.2,15,177,156,72,122,15.9,4182,Diabetes,Lisinopril; Ibuprofen,Pollen,2020-09-04,4,7,5,Vegetarian,Medicaid,11317,3,No,No,Yes,70
+P0833,56,Male,181,71,21.7,O-,Former,104,107,99,36.2,19,284,71,46,169,13.5,9682,None,None,Shellfish,2024-08-10,2,4,6,Paleo,Uninsured,6410,4,No,No,Yes,75
+P0834,41,Other,172,113,38.2,O-,Former,136,60,80,36.2,19,189,88,37,94,15.8,7259,Anxiety,Ibuprofen; Aspirin,Penicillin,2024-12-16,1,9,5,Keto,Private,10348,3,No,No,No,60
+P0835,72,Female,186,65,18.8,B-,Current,104,80,82,37.5,12,227,168,67,163,13.6,6014,Arthritis,None,Dairy,2021-03-04,5,8,7,Omnivore,Medicare,2046,1,Yes,No,No,70
+P0836,71,Female,182,55,16.6,AB-,Former,163,118,83,37.2,19,164,92,44,150,15.3,7501,None,None,Dairy,2024-09-06,5,8,2,Keto,Private,7211,3,No,No,Yes,70
+P0837,75,Male,165,83,30.5,O-,Never,122,92,76,36.4,13,194,134,62,96,16.3,4203,Asthma,Albuterol,Shellfish,2024-01-13,2,6,3,Vegetarian,Private,12108,1,No,No,No,65
+P0838,44,Female,159,67,26.5,O-,Current,150,110,73,37.6,15,195,81,70,184,12.3,4462,None,None,Pollen,2020-10-12,4,8,9,Vegetarian,Private,14339,2,No,Yes,Yes,50
+P0839,80,Female,185,104,30.4,O+,Never,164,101,92,37.2,12,224,128,32,91,15.9,10507,Anxiety,None,Nuts,2022-12-15,3,9,2,Keto,Medicare,10801,2,No,No,No,65
+P0840,62,Male,188,116,32.8,A+,Former,159,64,96,36.4,13,194,165,52,87,12.9,5911,Hypertension,Omeprazole,Nuts,2020-01-10,1,5,8,Paleo,Private,14195,2,No,No,Yes,35
+P0841,69,Female,154,66,27.8,AB-,Never,138,93,88,36.7,14,226,136,52,102,14.8,6940,Diabetes,Lisinopril,Eggs,2020-12-12,5,7,5,Keto,Medicare,11737,2,No,Yes,Yes,70
+P0842,50,Female,174,105,34.7,O-,Former,124,94,97,36.9,19,157,96,71,129,16,10330,Diabetes,None,None,2022-12-08,3,7,1,Vegan,Uninsured,5031,2,No,Yes,Yes,60
+P0843,37,Other,178,99,31.2,B-,Current,97,92,85,36.2,17,197,161,70,133,16.4,7236,Asthma,None,Nuts,2024-02-09,2,7,7,Vegetarian,Medicare,4824,1,No,No,Yes,45
+P0844,62,Other,177,92,29.4,B-,Never,157,76,96,37,19,277,174,68,92,16.4,10450,Asthma,None,Nuts,2022-05-04,0,9,2,Keto,Uninsured,11834,4,Yes,No,No,60
+P0845,72,Female,182,111,33.5,AB-,Never,172,87,80,37.7,17,285,176,36,99,11.7,7978,None,Ibuprofen,Pollen,2023-02-17,3,6,8,Vegan,Uninsured,11961,0,No,No,No,65
+P0846,19,Male,182,61,18.4,AB+,Former,115,62,94,37.3,12,286,144,52,155,16.1,6293,None,None,None,2021-06-22,6,8,3,Mediterranean,Private,5875,0,No,No,No,85
+P0847,65,Male,150,73,32.4,B-,Former,179,60,89,37.5,18,174,155,38,170,13,5062,Hypertension; Asthma,Aspirin,Penicillin,2021-07-27,3,7,1,Omnivore,Medicaid,3327,2,No,No,Yes,50
+P0848,73,Other,193,82,22,A+,Current,93,110,87,36.6,18,281,108,36,146,12.8,7081,Depression,Lisinopril,Dairy,2020-08-23,2,10,3,Omnivore,Uninsured,12116,2,Yes,Yes,No,50
+P0849,61,Female,159,95,37.6,AB-,Current,178,86,70,37.1,12,281,186,43,123,12.3,7248,None,Ibuprofen; Metformin,None,2020-04-18,1,4,7,Vegan,Medicaid,9035,3,No,No,No,40
+P0850,60,Male,186,68,19.7,B-,Current,92,95,78,36.6,16,229,158,62,114,11.1,10943,None,Aspirin,Penicillin,2023-04-05,5,4,8,Mediterranean,Private,7408,2,No,Yes,Yes,50
+P0851,82,Female,199,85,21.5,AB-,Never,131,97,85,36.9,13,164,150,77,75,11.4,8387,Diabetes,None,Nuts,2020-08-04,2,5,7,Vegetarian,Medicare,2923,4,No,No,No,70
+P0852,34,Other,195,60,15.8,B+,Never,161,97,78,36.7,13,242,175,53,145,14.1,10828,Diabetes; Asthma,Omeprazole,Pollen,2023-06-08,0,6,6,Mediterranean,Medicare,4950,2,Yes,No,No,45
+P0853,84,Other,157,103,41.8,A+,Never,131,113,72,36.3,12,187,141,74,101,12.3,10639,Anxiety,Aspirin,Dairy,2021-11-17,5,10,4,Keto,Medicare,9820,4,No,No,No,60
+P0854,31,Male,169,116,40.6,O-,Former,115,85,70,37.4,12,161,93,60,172,14.9,8088,Hypertension,Aspirin,Penicillin,2024-07-06,6,4,3,Vegan,Private,5295,1,Yes,No,Yes,65
+P0855,84,Male,156,105,43.1,O-,Never,146,111,90,37.6,17,231,96,69,195,14.3,6972,Hypertension; Asthma,Aspirin,None,2024-06-21,1,6,6,Vegan,Medicaid,8013,4,No,No,No,45
+P0856,62,Female,197,64,16.5,O-,Never,121,68,97,36.4,14,260,99,30,132,13.7,4624,Heart Disease,Ibuprofen,Eggs,2021-05-21,0,6,3,Paleo,Medicare,9767,1,No,Yes,Yes,70
+P0857,38,Male,170,57,19.7,AB+,Never,135,98,89,36.1,14,267,152,43,115,13.2,9846,None,Omeprazole,Eggs,2024-10-01,2,6,7,Paleo,Medicare,1556,0,No,Yes,No,85
+P0858,24,Female,161,79,30.5,O+,Current,114,79,74,36.4,14,258,169,47,196,13,9102,Anxiety,Omeprazole,Eggs,2024-07-04,4,6,8,Vegetarian,Uninsured,13432,1,No,No,No,50
+P0859,22,Female,166,93,33.7,B+,Former,165,69,98,36.8,17,208,106,52,188,12.5,4608,Depression,Metformin,Penicillin,2024-11-12,5,7,2,Omnivore,Private,1951,0,Yes,No,No,60
+P0860,66,Female,172,88,29.7,A-,Current,130,66,65,36.7,17,215,184,31,141,11.7,9456,None,None,Eggs,2024-01-31,2,4,1,Vegetarian,Medicaid,13403,2,Yes,No,No,70
+P0861,63,Female,160,107,41.8,O-,Never,90,69,61,36.4,18,196,127,72,160,12.6,7725,Anxiety,Albuterol,None,2024-05-03,6,6,5,Omnivore,Medicaid,12160,2,Yes,No,Yes,80
+P0862,23,Male,153,58,24.8,AB+,Never,135,98,91,37.5,12,167,113,76,184,16,5732,None,Omeprazole,Dairy,2020-01-22,3,4,6,Keto,Uninsured,11900,1,No,No,Yes,80
+P0863,28,Female,168,77,27.3,A-,Current,130,82,90,37,19,252,141,77,131,14.8,7362,Hypertension,Albuterol,Shellfish,2023-01-20,3,9,1,Paleo,Medicare,2260,2,Yes,Yes,Yes,60
+P0864,64,Male,193,117,31.4,B+,Current,129,110,97,36.5,14,246,154,70,165,16.3,4401,None,Aspirin,Pollen,2023-02-02,4,7,9,Vegan,Uninsured,14373,4,No,No,No,45
+P0865,82,Other,151,72,31.6,AB-,Never,108,119,87,37.3,17,275,153,78,182,11.7,8675,Arthritis; Hypertension,None,Dairy,2024-10-08,4,4,9,Vegetarian,Medicaid,3480,2,No,No,Yes,40
+P0866,66,Male,195,79,20.8,A-,Former,167,79,85,36.7,14,164,151,39,167,11.5,5773,Anxiety,Lisinopril; Ibuprofen,Shellfish,2023-09-21,5,4,1,Vegetarian,Medicaid,5035,2,No,Yes,No,65
+P0867,64,Male,170,70,24.2,A+,Never,143,112,72,36.8,16,289,86,66,143,16.2,7702,None,None,Penicillin,2020-04-29,3,4,5,Paleo,Uninsured,1240,2,No,No,No,80
+P0868,33,Other,195,50,13.1,A+,Current,172,76,80,37.1,16,165,119,74,173,11.8,4732,Depression,Omeprazole,Nuts,2024-05-08,6,7,2,Paleo,Medicaid,11308,0,No,No,Yes,45
+P0869,70,Female,173,100,33.4,O-,Former,147,100,98,37,13,243,81,45,75,11.8,6514,None,Omeprazole; Lisinopril,Nuts,2024-12-24,4,6,7,Mediterranean,Medicaid,5343,0,No,No,Yes,70
+P0870,83,Other,181,65,19.8,AB+,Current,111,80,64,36.2,15,220,134,32,134,14.5,8490,Arthritis,Ibuprofen; Lisinopril,Dairy,2023-09-26,5,8,3,Mediterranean,Medicare,7781,2,No,No,No,70
+P0871,18,Male,169,56,19.6,B+,Current,151,73,68,37,13,185,113,68,110,13.7,5861,None,Omeprazole,Pollen,2022-12-15,1,9,1,Paleo,Medicare,12957,0,No,No,No,55
+P0872,46,Other,194,78,20.7,AB+,Never,138,92,76,37.4,15,229,168,49,169,12.1,7992,Arthritis,Lisinopril; Albuterol,Eggs,2021-10-13,1,10,8,Mediterranean,Medicare,10962,4,No,Yes,Yes,50
+P0873,36,Other,168,81,28.7,AB+,Never,126,118,90,36.6,17,227,86,50,148,12.1,4190,Arthritis,None,Penicillin,2021-05-25,1,8,2,Vegetarian,Medicare,11152,2,No,Yes,Yes,60
+P0874,81,Other,171,61,20.9,AB-,Current,120,111,84,36.8,12,191,156,33,174,15.8,4666,Diabetes,Metformin; Albuterol,Shellfish,2020-04-24,2,6,7,Omnivore,Private,3727,1,No,Yes,No,55
+P0875,77,Female,170,74,25.6,B+,Former,105,78,75,37.2,16,240,104,58,150,11.5,9055,None,Albuterol,Shellfish,2021-03-25,1,6,2,Vegetarian,Medicare,4678,2,No,No,Yes,80
+P0876,43,Other,188,60,17,B-,Never,127,64,93,36.3,12,264,172,43,134,13.1,6487,None,Metformin; Ibuprofen,Shellfish,2024-05-21,4,4,6,Vegan,Medicaid,10170,3,No,No,Yes,85
+P0877,66,Female,157,65,26.4,B-,Former,147,70,84,36.2,18,198,131,67,136,16,10819,Heart Disease,Metformin,Penicillin,2023-02-15,2,4,5,Vegetarian,Medicare,6380,3,No,No,No,60
+P0878,70,Male,176,86,27.8,A+,Former,105,60,93,36.6,17,209,150,36,89,13.4,6401,None,Albuterol,Pollen,2020-06-26,6,6,2,Vegetarian,Medicare,5040,4,No,No,No,90
+P0879,75,Male,166,112,40.6,B-,Never,130,79,60,36.6,13,226,96,39,155,13.4,9341,Hypertension,Omeprazole,Dairy,2024-05-05,0,6,4,Omnivore,Private,8113,0,No,No,No,70
+P0880,24,Female,156,70,28.8,B+,Current,92,112,95,36.3,18,189,183,57,79,14.2,10688,Heart Disease,None,Pollen,2023-10-14,3,7,9,Paleo,Medicaid,7900,1,No,No,Yes,40
+P0881,77,Female,167,108,38.7,AB-,Former,95,119,62,37.7,14,160,105,39,195,13.7,10479,Hypertension,None,Dairy,2023-07-02,0,8,7,Omnivore,Uninsured,5849,0,No,No,No,50
+P0882,22,Female,175,71,23.2,A+,Never,154,64,80,36.5,14,185,177,31,95,13.4,7767,None,None,Dairy,2022-05-16,0,4,6,Paleo,Medicare,11463,1,No,No,No,70
+P0883,56,Female,176,92,29.7,O+,Never,127,115,80,36.8,16,206,91,60,111,15.7,7550,None,None,None,2020-05-27,6,7,5,Vegetarian,Medicaid,8337,3,No,No,No,80
+P0884,58,Other,191,98,26.9,B-,Never,111,85,97,37.2,13,186,163,57,84,16.9,6314,None,Aspirin,Nuts,2023-10-10,4,9,9,Vegetarian,Private,11226,3,No,No,Yes,80
+P0885,80,Male,190,59,16.3,A-,Former,123,84,73,36.8,17,174,94,59,141,12.3,5047,None,Atorvastatin,Dairy,2020-08-04,2,8,9,Vegan,Uninsured,5967,1,No,No,Yes,70
+P0886,30,Male,174,117,38.6,AB+,Current,95,103,93,36.4,17,177,187,62,144,14.4,7887,None,Lisinopril,Shellfish,2020-04-30,6,5,7,Paleo,Uninsured,2656,1,No,No,No,50
+P0887,54,Other,164,62,23.1,AB-,Never,110,115,95,37.6,16,277,128,33,83,15.7,9992,None,None,Penicillin,2023-06-13,3,6,8,Mediterranean,Private,8017,1,No,Yes,No,75
+P0888,78,Female,156,101,41.5,O-,Current,104,81,73,37.7,13,277,133,54,83,12,9606,Hypertension,Aspirin,Eggs,2021-03-22,3,10,3,Omnivore,Medicare,9958,1,No,Yes,No,50
+P0889,37,Male,159,117,46.3,O-,Never,110,108,91,37.6,13,176,160,37,198,13.3,4314,None,None,None,2020-10-01,2,5,8,Keto,Medicare,4205,0,No,No,Yes,60
+P0890,47,Other,184,95,28.1,A-,Never,148,67,61,37.1,14,194,171,53,194,13.9,6449,None,Atorvastatin,Penicillin,2024-09-17,6,8,9,Omnivore,Medicare,1165,3,No,No,No,70
+P0891,18,Female,152,77,33.3,AB+,Current,109,96,70,36.2,16,234,124,70,108,14.2,7489,Hypertension,Aspirin; Metformin,Pollen,2020-11-03,0,10,7,Mediterranean,Medicare,2028,4,Yes,Yes,No,30
+P0892,38,Other,172,109,36.8,B-,Former,103,82,86,37.5,13,246,143,36,180,13.9,6760,Arthritis,None,Pollen,2020-10-07,0,4,3,Mediterranean,Private,8299,3,No,Yes,Yes,55
+P0893,48,Male,190,83,23,AB+,Never,157,78,69,37.7,17,157,101,57,184,13.3,5977,None,Ibuprofen; Metformin,Shellfish,2021-01-07,4,8,1,Mediterranean,Private,12126,3,Yes,Yes,Yes,85
+P0894,62,Male,175,93,30.4,AB+,Current,135,73,98,37.4,16,282,124,66,75,16.3,5470,Asthma; Diabetes,None,None,2021-03-08,5,8,7,Vegan,Private,14602,0,No,No,No,45
+P0895,26,Other,161,63,24.3,O+,Current,146,107,95,37.2,18,226,127,48,102,15.3,10460,Hypertension,None,Nuts,2022-08-24,6,6,6,Vegan,Medicare,7329,0,Yes,Yes,Yes,55
+P0896,59,Female,181,103,31.4,O-,Never,131,113,62,37.2,19,212,96,62,129,17,8057,None,None,Dairy,2021-01-04,6,6,4,Paleo,Medicare,14342,3,Yes,No,Yes,75
+P0897,59,Other,167,53,19,B+,Never,136,100,68,37.2,19,280,79,52,125,11.3,5718,Hypertension,Metformin,Pollen,2024-02-16,4,4,7,Vegan,Uninsured,10903,3,No,Yes,No,70
+P0898,67,Other,159,68,26.9,A-,Former,111,92,88,36.4,17,228,72,77,124,12.5,9304,Arthritis,Aspirin,Penicillin,2022-02-03,3,5,8,Mediterranean,Medicare,11239,4,Yes,No,No,50
+P0899,37,Other,192,60,16.3,A+,Former,154,65,87,36.9,19,166,169,59,194,11.5,10972,Arthritis,None,Shellfish,2020-08-03,1,9,8,Omnivore,Uninsured,6455,1,No,Yes,No,40
+P0900,78,Female,193,106,28.5,O-,Never,152,115,98,36.8,17,207,134,37,159,11.1,5426,Depression,Albuterol,Penicillin,2020-07-09,3,7,6,Vegan,Medicaid,4523,2,Yes,No,No,70
+P0901,51,Other,195,99,26,B-,Former,96,66,68,36.7,18,162,168,31,159,13.4,8090,None,Lisinopril; Omeprazole,Shellfish,2024-10-05,3,9,9,Omnivore,Medicaid,9298,2,Yes,No,Yes,80
+P0902,44,Male,184,74,21.9,AB-,Never,144,108,86,36.6,15,166,80,39,179,12.7,8396,Diabetes,Ibuprofen,Penicillin,2024-11-06,5,7,4,Mediterranean,Medicaid,5934,2,Yes,Yes,Yes,75
+P0903,56,Female,181,105,32.1,A+,Never,124,84,77,37.6,16,166,102,52,153,12.9,6002,None,Metformin,Dairy,2023-08-26,0,10,1,Paleo,Private,8360,0,Yes,No,No,70
+P0904,67,Male,178,76,24,O+,Never,91,118,77,36.6,14,186,148,32,91,13,6853,Depression; Diabetes,Aspirin,Nuts,2024-04-04,0,4,1,Keto,Medicare,10469,2,No,No,Yes,50
+P0905,20,Male,185,94,27.5,A-,Never,158,85,83,36.4,19,270,102,41,161,16.6,8594,Anxiety,Albuterol,Nuts,2020-08-26,0,4,4,Keto,Medicaid,905,3,No,No,No,55
+P0906,32,Male,153,76,32.5,A+,Never,108,93,78,36.4,19,241,94,52,134,16.3,9294,Arthritis,Ibuprofen,Eggs,2021-06-01,1,7,2,Paleo,Medicare,8421,4,Yes,Yes,Yes,55
+P0907,42,Other,192,89,24.1,O-,Former,139,109,75,37.1,13,190,183,62,152,11,6551,Arthritis,Albuterol,Eggs,2020-10-21,3,6,6,Mediterranean,Medicaid,1610,3,No,No,No,70
+P0908,63,Male,168,81,28.7,B+,Never,104,69,67,37.3,16,298,78,74,131,15.3,10357,Hypertension,None,Dairy,2022-07-16,4,5,4,Paleo,Medicaid,2787,2,No,Yes,No,80
+P0909,74,Male,173,93,31.1,AB-,Current,96,75,70,36.6,18,158,169,44,157,13.3,4021,None,Ibuprofen; Omeprazole,Penicillin,2024-04-05,6,9,4,Paleo,Medicare,9047,3,Yes,Yes,No,70
+P0910,36,Female,161,70,27,A-,Former,162,93,93,37.6,18,186,138,47,149,14.3,8622,Anxiety,None,Shellfish,2023-03-31,2,10,9,Mediterranean,Private,7265,4,No,No,No,50
+P0911,36,Other,187,113,32.3,B+,Never,103,111,62,37.6,15,294,140,39,76,15,7978,Diabetes; Hypertension,Lisinopril,Dairy,2022-10-24,0,8,5,Paleo,Private,8422,1,No,No,Yes,45
+P0912,39,Female,192,96,26,B+,Current,152,64,98,36.2,14,158,117,34,140,14.5,9182,Anxiety,Atorvastatin,Eggs,2022-03-27,4,7,4,Mediterranean,Private,9152,3,Yes,No,Yes,50
+P0913,71,Female,186,96,27.7,B-,Current,170,74,71,37,16,268,122,78,182,12.7,6172,Arthritis,Atorvastatin,None,2024-10-01,3,9,5,Omnivore,Medicaid,11902,1,No,No,Yes,50
+P0914,25,Other,151,92,40.3,AB-,Former,166,79,73,37.7,17,203,125,33,173,12.4,9279,Asthma,None,Nuts,2024-06-06,1,4,9,Vegetarian,Private,7929,1,No,Yes,No,35
+P0915,49,Other,159,71,28.1,A+,Former,148,111,73,36.5,18,256,94,58,88,14.8,10383,Depression,Omeprazole,Pollen,2021-12-30,6,7,6,Paleo,Medicaid,6169,3,Yes,No,Yes,65
+P0916,28,Other,161,68,26.2,AB+,Never,95,76,69,37.2,15,211,128,32,115,13,8095,Diabetes,None,Pollen,2022-06-09,4,5,3,Paleo,Private,10160,3,No,No,Yes,80
+P0917,66,Female,198,60,15.3,B-,Never,94,107,80,37.8,16,295,118,64,197,13.9,6375,Diabetes,Ibuprofen,Eggs,2023-07-13,6,8,3,Keto,Medicaid,3098,2,No,No,Yes,65
+P0918,74,Male,187,118,33.7,A-,Current,100,69,79,36.3,17,174,100,59,122,14.4,8833,Heart Disease,Metformin; Ibuprofen,Nuts,2020-08-01,2,9,6,Vegan,Private,9979,0,No,No,No,60
+P0919,32,Other,181,104,31.7,B-,Current,156,96,89,36.1,14,155,87,59,148,14,5275,Depression,None,None,2024-02-17,5,5,1,Vegetarian,Medicare,8840,4,No,Yes,Yes,40
+P0920,25,Other,159,100,39.6,O-,Former,126,73,91,37,16,228,180,45,138,11.1,9364,None,Ibuprofen,Nuts,2023-06-24,2,10,8,Mediterranean,Private,13279,1,No,No,No,70
+P0921,20,Other,199,115,29,O+,Former,132,69,78,36.5,19,277,138,62,133,11.6,9451,None,Aspirin,Dairy,2021-03-30,1,8,4,Keto,Medicare,3793,2,No,No,No,75
+P0922,65,Female,168,90,31.9,B-,Never,168,66,64,37.1,13,224,151,69,73,14.6,5381,Asthma,Aspirin,None,2024-06-02,0,5,5,Paleo,Private,9569,1,No,No,Yes,50
+P0923,18,Male,168,94,33.3,B+,Never,108,100,77,36.3,15,202,78,37,100,15.8,9702,Diabetes,Lisinopril,Penicillin,2020-02-19,4,9,7,Omnivore,Private,14947,4,No,No,No,65
+P0924,36,Female,171,118,40.4,B-,Never,98,110,94,36.1,13,156,163,76,196,11.6,10341,Anxiety,Aspirin; Omeprazole,Shellfish,2022-03-27,3,5,1,Mediterranean,Private,8834,0,No,No,No,60
+P0925,57,Female,170,117,40.5,O+,Never,142,116,75,37.6,15,200,98,69,114,15.9,8923,None,None,Eggs,2022-02-23,2,6,1,Vegan,Medicaid,7940,1,No,No,No,75
+P0926,70,Female,153,116,49.6,AB+,Never,100,83,72,36.2,19,240,171,35,94,13.1,6918,Heart Disease,None,Eggs,2024-09-10,5,8,9,Keto,Private,6490,3,Yes,No,No,65
+P0927,65,Female,155,98,40.8,B-,Former,158,64,74,36.7,13,197,182,44,78,15.7,8793,None,Omeprazole,Dairy,2023-10-22,5,10,4,Keto,Private,1043,4,No,Yes,No,65
+P0928,65,Male,162,58,22.1,AB+,Never,138,102,64,37,14,163,132,50,189,13,6499,None,None,Eggs,2023-04-11,5,6,6,Mediterranean,Medicaid,6341,3,Yes,No,Yes,85
+P0929,61,Other,176,87,28.1,B-,Former,163,96,84,36.7,12,213,84,48,103,15.1,10532,Heart Disease,Ibuprofen,None,2023-01-27,1,8,2,Keto,Private,11057,3,No,No,No,55
+P0930,61,Other,153,114,48.7,AB-,Never,159,74,86,37.7,13,169,160,31,90,11.5,8250,None,None,Dairy,2023-02-26,3,10,1,Vegan,Private,10207,4,No,No,Yes,70
+P0931,78,Female,180,76,23.5,AB-,Never,169,64,80,37.5,16,238,176,55,82,15.3,6969,None,Omeprazole,Shellfish,2022-05-25,0,6,1,Paleo,Medicaid,2013,1,No,No,No,75
+P0932,22,Other,199,66,16.7,O-,Never,174,69,98,36.7,15,228,168,68,117,13.9,10504,Diabetes,None,None,2024-09-24,6,5,8,Vegetarian,Medicare,13919,1,Yes,No,No,50
+P0933,80,Other,153,79,33.7,AB-,Never,136,117,71,36.9,13,165,153,42,112,15.9,10410,None,Atorvastatin,Nuts,2020-02-16,5,6,2,Vegetarian,Uninsured,6840,0,No,No,No,75
+P0934,56,Other,196,105,27.3,B+,Never,101,69,80,37.1,12,212,179,72,162,16.9,7313,Depression,Atorvastatin; Omeprazole,Nuts,2022-05-09,5,5,8,Keto,Uninsured,9393,2,No,No,Yes,70
+P0935,30,Male,181,80,24.4,A+,Never,173,81,68,36.2,18,291,142,70,181,12.1,8059,Anxiety,None,Pollen,2024-07-27,3,7,1,Omnivore,Uninsured,1417,2,No,No,No,75
+P0936,54,Female,157,75,30.4,AB-,Former,146,94,87,37,13,223,177,61,164,13.2,7229,None,Aspirin,Nuts,2021-04-22,3,8,7,Mediterranean,Medicare,1326,1,No,No,No,70
+P0937,75,Other,164,59,21.9,O+,Never,160,77,70,36.2,14,170,119,72,164,14.7,8370,Depression,Lisinopril,Dairy,2022-01-24,6,9,2,Paleo,Uninsured,12931,3,No,No,Yes,75
+P0938,26,Other,152,100,43.3,AB+,Current,127,71,73,37.3,13,213,161,53,79,16.2,5488,Arthritis,Omeprazole,Penicillin,2024-01-07,2,10,9,Vegetarian,Medicaid,14572,2,No,No,No,45
+P0939,21,Male,166,72,26.1,B+,Former,144,109,69,36.5,12,295,89,73,122,12.5,7369,None,Albuterol,Dairy,2024-12-14,2,6,5,Vegan,Private,1463,0,Yes,No,Yes,75
+P0940,82,Other,171,60,20.5,A-,Never,108,67,74,36.2,12,261,100,74,115,13.4,5111,Asthma,Lisinopril,Eggs,2021-01-03,5,8,1,Mediterranean,Medicare,14808,0,No,No,No,90
+P0941,36,Other,183,52,15.5,B+,Current,165,96,97,37.5,15,299,118,56,80,12.2,6898,Heart Disease,Atorvastatin,None,2024-05-01,1,5,6,Keto,Uninsured,8317,0,No,No,No,30
+P0942,35,Other,177,69,22,O+,Never,163,76,78,36.7,13,297,129,33,93,13,9618,Diabetes,Atorvastatin,Pollen,2023-05-02,6,7,1,Vegetarian,Private,14091,4,Yes,No,No,75
+P0943,49,Male,161,114,44,O-,Current,110,80,78,36.6,15,177,174,65,115,12.7,5085,Heart Disease,None,Eggs,2022-01-02,6,8,1,Mediterranean,Uninsured,9881,2,No,Yes,No,60
+P0944,47,Other,170,83,28.7,B+,Never,144,92,96,36.7,14,290,135,73,194,12.5,6922,Diabetes,Omeprazole,Pollen,2022-08-04,4,7,9,Omnivore,Uninsured,8251,4,No,No,No,60
+P0945,50,Female,184,60,17.7,O+,Current,117,108,97,37.1,15,204,74,40,116,12.3,9877,None,None,Penicillin,2022-05-16,6,7,7,Vegetarian,Uninsured,9770,4,Yes,No,No,55
+P0946,19,Female,167,112,40.2,B+,Former,94,62,76,37.2,12,207,178,59,194,16.3,4603,Diabetes,Ibuprofen; Aspirin,Penicillin,2024-09-30,4,10,2,Vegetarian,Private,13538,3,No,No,No,70
+P0947,78,Other,154,119,50.2,B+,Current,137,68,97,36.7,16,273,112,51,188,12.2,5488,None,Metformin,Pollen,2023-09-30,6,10,8,Vegan,Medicare,8142,3,No,No,Yes,50
+P0948,21,Female,160,99,38.7,AB-,Never,159,108,88,37.6,12,262,104,30,149,11.1,6575,None,Metformin,Eggs,2022-08-18,6,4,2,Paleo,Medicaid,3026,0,Yes,No,No,70
+P0949,21,Female,174,89,29.4,O+,Never,125,83,79,37.2,18,299,136,69,85,14.3,9084,None,None,Dairy,2023-02-05,2,5,5,Mediterranean,Medicaid,12963,3,No,No,No,85
+P0950,35,Male,194,66,17.5,B+,Former,149,112,83,37.1,14,192,143,31,189,11.1,4152,None,Albuterol,Shellfish,2021-04-13,4,5,5,Vegetarian,Medicaid,8880,2,No,No,No,65
+P0951,41,Other,167,73,26.2,A+,Never,137,111,69,37.8,16,294,125,79,110,15.9,10840,Hypertension,Ibuprofen,Eggs,2021-08-04,0,9,5,Keto,Uninsured,7946,1,No,No,No,60
+P0952,35,Other,191,81,22.2,O-,Never,144,107,75,36.4,15,212,169,62,195,11.1,10900,Hypertension,Atorvastatin,Nuts,2022-02-21,3,7,8,Paleo,Medicaid,5570,0,No,No,No,65
+P0953,78,Male,151,73,32,B-,Former,106,97,98,36.6,15,155,161,71,165,12.6,4213,Heart Disease,None,Nuts,2022-09-16,6,5,2,Keto,Medicare,10957,1,No,Yes,No,55
+P0954,23,Other,168,74,26.2,A+,Never,156,94,98,37.2,13,211,89,32,99,11.1,4781,None,None,Dairy,2022-07-29,5,6,2,Paleo,Medicaid,3138,3,No,No,Yes,80
+P0955,49,Female,179,64,20,O-,Former,147,66,78,37.6,12,266,148,76,132,15.4,9754,Diabetes; Hypertension,None,Shellfish,2023-05-07,5,8,5,Vegan,Medicare,12713,0,Yes,No,Yes,60
+P0956,77,Other,198,105,26.8,A+,Never,176,81,80,36.3,19,290,106,55,178,16.8,7051,None,None,Eggs,2021-06-12,2,5,8,Omnivore,Medicaid,13851,0,No,Yes,Yes,65
+P0957,21,Male,193,95,25.5,B-,Never,122,65,74,37.2,19,245,150,37,121,15,7330,Depression,Ibuprofen,Nuts,2022-02-10,6,4,2,Omnivore,Uninsured,14276,1,Yes,No,Yes,80
+P0958,82,Female,175,109,35.6,A+,Current,132,99,64,37.2,18,181,150,32,135,14,9317,Arthritis,Lisinopril; Metformin,Shellfish,2022-10-10,0,10,3,Omnivore,Private,10204,1,No,Yes,Yes,30
+P0959,34,Female,178,69,21.8,AB-,Current,156,80,82,37.1,18,208,163,44,94,14.8,4130,Asthma,Omeprazole,None,2024-12-21,0,8,8,Omnivore,Medicaid,1585,1,No,Yes,No,35
+P0960,53,Male,176,62,20,A-,Never,128,99,99,37.2,13,289,148,34,188,12.8,8115,Asthma,None,Penicillin,2020-10-05,5,5,9,Keto,Private,7677,4,No,No,Yes,60
+P0961,25,Other,183,52,15.5,B-,Current,94,61,75,36.3,14,274,80,56,130,16.6,5867,None,Omeprazole,Dairy,2022-01-06,0,8,3,Vegetarian,Medicare,4366,3,No,No,No,60
+P0962,30,Female,191,76,20.8,B-,Never,163,99,87,37,17,173,135,74,179,11.6,7579,Diabetes,Metformin,Dairy,2020-10-21,0,6,4,Keto,Private,4129,4,Yes,No,Yes,65
+P0963,79,Female,163,101,38,AB+,Never,119,111,71,37.1,15,251,114,66,144,12.4,4042,Heart Disease,None,Nuts,2022-10-16,5,5,2,Vegan,Uninsured,8767,1,Yes,No,No,60
+P0964,76,Other,169,56,19.6,B-,Current,167,104,60,36.5,18,162,118,44,77,11.2,9208,Heart Disease,Metformin,Pollen,2020-02-26,4,7,8,Mediterranean,Medicaid,5249,3,No,No,Yes,45
+P0965,47,Male,174,90,29.7,AB-,Current,163,102,95,37.3,14,197,81,72,77,12.8,7952,None,Omeprazole,Penicillin,2022-01-17,6,4,5,Vegetarian,Medicare,14503,1,No,No,No,55
+P0966,58,Male,151,58,25.4,A-,Current,107,64,75,36.2,17,293,140,32,143,13,6149,None,Omeprazole,Shellfish,2023-07-25,1,5,3,Vegetarian,Medicare,9738,1,No,No,No,60
+P0967,84,Other,199,115,29,AB+,Current,107,99,80,36.5,16,218,126,40,185,15.4,5630,Anxiety,Omeprazole,Eggs,2020-06-06,3,4,4,Mediterranean,Medicare,13085,4,No,Yes,Yes,45
+P0968,24,Male,159,85,33.6,AB+,Former,112,101,81,37.3,13,203,138,68,114,11.1,9352,None,Lisinopril; Albuterol,None,2023-08-13,0,5,2,Mediterranean,Medicare,7620,2,Yes,Yes,Yes,55
+P0969,33,Other,181,116,35.4,O-,Former,117,88,81,36.5,15,264,178,36,185,12.5,5921,None,Ibuprofen,Eggs,2022-03-18,4,4,9,Keto,Uninsured,12485,1,No,No,No,65
+P0970,70,Female,187,71,20.3,O+,Former,178,110,66,37.5,15,195,131,47,152,15.3,8790,Anxiety,None,Nuts,2024-03-01,5,4,7,Keto,Medicare,12493,1,Yes,No,No,65
+P0971,40,Other,195,110,28.9,AB-,Former,132,117,84,36.6,14,235,172,61,92,15.7,10487,None,None,Pollen,2022-08-18,2,9,9,Vegan,Medicaid,6853,0,Yes,No,No,65
+P0972,46,Other,174,91,30.1,B+,Former,113,95,66,36.7,16,193,114,73,70,12.4,8960,Depression,Metformin,Nuts,2024-12-08,4,4,8,Keto,Private,2297,0,No,No,No,45
+P0973,45,Female,165,119,43.7,B-,Former,163,64,88,37,15,250,136,75,123,13.5,7534,None,None,Penicillin,2021-11-29,0,7,8,Vegan,Uninsured,6227,3,Yes,Yes,No,50
+P0974,37,Other,193,89,23.9,O-,Never,131,79,95,36.6,13,241,120,31,84,13.8,10669,None,Metformin,Pollen,2022-06-16,3,5,1,Omnivore,Private,11932,2,Yes,No,Yes,90
+P0975,82,Male,175,85,27.8,B-,Never,109,68,64,37.3,12,274,158,76,103,14.9,9229,Anxiety,None,Shellfish,2020-07-22,3,9,7,Mediterranean,Medicare,1289,2,Yes,No,No,85
+P0976,22,Other,156,73,30,A+,Never,90,88,74,36.7,15,228,72,55,108,17,5209,None,Omeprazole,Pollen,2022-10-22,6,10,9,Paleo,Uninsured,6755,2,No,No,No,75
+P0977,28,Male,196,98,25.5,AB+,Current,109,78,66,37.3,17,235,112,51,120,14.2,4140,None,None,Shellfish,2023-04-15,3,6,5,Paleo,Private,12182,1,No,Yes,Yes,75
+P0978,50,Male,156,111,45.6,O-,Current,131,75,72,37.2,17,207,169,38,175,14.7,5551,None,None,Dairy,2024-09-30,2,10,7,Vegan,Uninsured,2939,2,No,Yes,No,60
+P0979,43,Female,178,102,32.2,B-,Current,171,62,73,36.6,12,291,78,46,180,16.1,4418,Asthma,Metformin,Eggs,2024-07-31,4,8,8,Vegan,Medicaid,1544,0,No,No,Yes,35
+P0980,28,Female,168,101,35.8,O-,Former,157,80,97,37.6,12,232,88,54,151,14.3,4718,Hypertension,Ibuprofen,Pollen,2023-01-14,1,10,1,Omnivore,Medicaid,14994,1,No,No,Yes,45
+P0981,22,Female,171,50,17.1,AB+,Never,97,117,72,36.2,13,296,107,58,129,12.5,8856,None,Ibuprofen; Omeprazole,Penicillin,2020-05-16,4,10,1,Paleo,Uninsured,6110,4,No,No,No,70
+P0982,45,Other,197,107,27.6,B-,Never,163,77,69,37.1,18,248,76,43,126,14.8,9887,Arthritis,None,None,2020-10-15,3,8,7,Mediterranean,Medicare,2656,0,No,Yes,Yes,70
+P0983,27,Female,198,77,19.6,AB-,Never,121,106,63,37,13,199,90,38,147,17,8483,Arthritis,None,Dairy,2023-09-10,6,7,3,Vegan,Uninsured,1678,4,No,No,No,75
+P0984,30,Other,169,112,39.2,AB+,Never,160,102,70,36.1,12,200,70,70,118,14.8,5110,Anxiety,Ibuprofen,Eggs,2023-10-25,5,5,8,Keto,Medicaid,14118,4,No,No,No,50
+P0985,38,Other,154,60,25.3,O+,Current,171,97,77,37.7,17,176,118,74,152,14.9,4450,Arthritis,Atorvastatin,Dairy,2023-09-11,3,4,6,Paleo,Private,939,3,Yes,No,No,45
+P0986,24,Female,177,76,24.3,A-,Former,117,74,71,36.5,17,233,140,62,155,15.9,4142,None,None,Nuts,2020-10-19,3,9,4,Paleo,Private,9373,1,No,No,No,95
+P0987,74,Male,160,82,32,B-,Former,155,73,89,37.5,16,245,102,30,93,15.5,5651,None,Omeprazole,Eggs,2023-09-12,2,6,8,Paleo,Uninsured,8467,2,No,No,No,60
+P0988,58,Other,156,118,48.5,B-,Never,146,63,80,37.4,14,242,182,43,115,12.5,10288,Arthritis,Lisinopril,Penicillin,2024-06-09,4,9,8,Omnivore,Medicaid,11860,0,No,Yes,No,55
+P0989,54,Male,178,115,36.3,A+,Former,150,71,96,37.5,19,157,147,33,148,17,6840,Arthritis,Atorvastatin; Omeprazole,Penicillin,2024-11-30,1,6,8,Keto,Medicare,14229,2,Yes,No,No,40
+P0990,80,Male,171,99,33.9,AB+,Former,98,86,97,36.5,13,274,89,60,126,11.7,8339,None,None,Dairy,2020-03-27,0,4,7,Omnivore,Uninsured,4311,3,No,No,No,65
+P0991,54,Male,176,98,31.6,A-,Never,99,119,88,37.6,18,253,94,36,184,16.1,10890,Depression,Metformin,Nuts,2021-03-02,0,10,7,Omnivore,Uninsured,5801,3,Yes,No,No,50
+P0992,40,Female,150,66,29.3,O-,Former,103,104,65,36.5,12,275,142,35,191,14.4,10050,Depression,Metformin,Nuts,2022-08-18,4,10,2,Vegan,Uninsured,14966,2,No,Yes,No,60
+P0993,59,Female,160,66,25.8,AB-,Never,169,78,92,36.1,16,174,186,52,192,16.2,10947,Depression,Atorvastatin,Shellfish,2024-07-08,0,9,9,Omnivore,Medicaid,8242,3,No,No,No,50
+P0994,64,Female,150,52,23.1,O+,Never,157,63,99,37.6,19,239,176,73,95,16.5,7783,Diabetes,Atorvastatin,Pollen,2021-01-25,4,6,3,Omnivore,Medicare,1957,0,No,No,No,75
+P0995,69,Male,154,58,24.5,AB+,Current,103,103,63,37.4,19,156,119,52,192,11.1,8785,Asthma,Atorvastatin,None,2022-09-07,6,4,4,Paleo,Private,4401,1,No,No,Yes,50
+P0996,26,Female,161,63,24.3,B-,Current,132,76,76,36.5,18,268,143,40,110,12.6,5505,Diabetes,None,Dairy,2022-05-01,4,5,8,Vegan,Medicaid,3643,1,No,Yes,No,50
+P0997,50,Male,196,54,14.1,A-,Former,97,95,79,36.7,13,278,173,75,177,16,8224,Heart Disease,Lisinopril,Nuts,2022-01-10,1,4,6,Omnivore,Medicaid,12066,0,No,No,Yes,45
+P0998,40,Female,183,75,22.4,A-,Former,156,76,73,37.7,12,163,105,68,100,15.1,7446,Arthritis,Metformin,Eggs,2020-12-05,0,4,7,Vegan,Private,14149,2,Yes,No,No,55
+P0999,45,Male,183,56,16.7,O-,Current,165,95,99,36.9,12,196,131,68,90,11.6,7183,None,Ibuprofen,Dairy,2022-05-21,4,7,6,Keto,Medicare,10050,2,No,No,No,55
+P1000,54,Other,197,79,20.4,A-,Current,99,67,93,37.2,17,217,118,71,92,16.6,10503,Anxiety,Ibuprofen,None,2022-10-06,3,5,6,Mediterranean,Medicare,13494,4,Yes,No,Yes,65
