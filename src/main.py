@@ -8,10 +8,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
 
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.metrics import mean_squared_error, r2_score
-
 def project_report(model, X_train_scaled, X_test_scaled, y_train, y_test, feature_names):
     """
     Prints metrics, feature weights, and plots for a regression model.
